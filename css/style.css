@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap');
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+p, li, span{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header{
+  height: 100vh;
+  background: linear-gradient(to bottom right, #152347, #5b1965);
+  position: relative;
+}
+
+.header img{
+  height: 400px;
+}
+
+.header-content{
+  height: 86.5vh;
+  width: 100%;
+  background: linear-gradient(to bottom right, #152347, #5b1965);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 650px){
+  .header img{
+    height: 300px;
+  }
+}
+
+.navbar{
+  background: none;
+}
+
+.navbar a{
+  color: white !important;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.navbar-menu{
+  background: none;
+  box-shadow: none;
+}
+
+a.navbar-item:hover{
+  background-color: #3f2b84;
+}
+
+.btn{
+  color: white;
+  background-color: #152347;
+  border: none;
+  transition: background-color 1s;
+}
+
+.btn:hover{
+  color: white;
+  background-color: #01247e;
+}
+
