@@ -2,13 +2,24 @@
 
 h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
 }
 p, li, span{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
+.mtb{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.ptb{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .header{
-  height: 100vh;
+  min-height: 100vh;
   background: linear-gradient(to bottom right, #152347, #5b1965);
   position: relative;
 }
@@ -20,7 +31,7 @@ p, li, span{
 .header-content{
   height: 86.5vh;
   width: 100%;
-  background: linear-gradient(to bottom right, #152347, #5b1965);
+  /* background: linear-gradient(to bottom right, #152347, #5b1965); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,3 +75,20 @@ a.navbar-item:hover{
   background-color: #01247e;
 }
 
+.block{
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-event{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.column{
+  padding: 1.5rem;
+  letter-spacing: 0.04ch;
+  line-height: 1.5;
+}
