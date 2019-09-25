@@ -59,6 +59,10 @@ p, li, span{
   box-shadow: none;
 }
 
+.navbar-item{
+  font-size: 1rem !important;
+}
+
 a.navbar-item:hover{
   background-color: #3f2b84;
 }
@@ -68,6 +72,7 @@ a.navbar-item:hover{
   background-color: #152347;
   border: none;
   transition: background-color 1s;
+  margin: 0.5rem;
 }
 
 .btn:hover{
@@ -77,7 +82,6 @@ a.navbar-item:hover{
 
 .block{
   margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
 }
 
 .about-event{
@@ -91,4 +95,29 @@ a.navbar-item:hover{
   padding: 1.5rem;
   letter-spacing: 0.04ch;
   line-height: 1.5;
+}
+
+.contribute{
+  background: url('../assets/img/opensource.jpg');
+  height: 55vh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+}
+
+.contribute > .title{
+  margin-bottom: 35px;
+}
+
+.contribute > .subtitle{
+  font-size: 1.3rem;
+}
+
+.contribute > .title, .contribute > .subtitle{
+  color: white;
 }
