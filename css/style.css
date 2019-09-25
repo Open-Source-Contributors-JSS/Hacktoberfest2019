@@ -4,6 +4,10 @@ body{
   margin: 0 !important;
   overflow-x: hidden !important;
 }
+
+.hero{
+  background: linear-gradient(to bottom right, #152347, #5b1965);
+}
 body::-webkit-scrollbar { width: 0 !important }
 h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
@@ -27,7 +31,7 @@ p, li, span{
   min-height: 100vh;
   background: linear-gradient(to bottom right, #152347, #5b1965);
   position: relative;
-  margin: 0 !important;
+  margin-top: 0 !important;
 }
 
 .header img{
