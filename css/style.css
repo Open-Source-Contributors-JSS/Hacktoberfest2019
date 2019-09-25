@@ -68,7 +68,9 @@ a.navbar-item:hover{
 }
 
 .button{
-  
+  background-color: #3f2b84;
+  border: 1px solid #3f2b84;
+  color: white;
   margin: 0.5rem;
 }
 
@@ -76,14 +78,15 @@ a.navbar-item:hover{
   background-color: inherit;
   color: #F901AB;
   transition: color 1s;
-  transition: background-color 0.6s;
+  transition: background-color 0.8s;
+  border: 1px solid #F901AB;
 }
 
 .block{
   margin-top: 1.5rem;
 }
 
-.about-event{
+.about-event, .join-event{
   display: flex;
   justify-content: center;
   align-items: center;
