@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap');
 
+body{
+  margin: 0 !important;
+  overflow-x: hidden !important;
+}
+body::-webkit-scrollbar { width: 0 !important }
 h1, h2, h3, h4, h5, h6{
   font-family: 'Montserrat', sans-serif;
   font-weight: bolder;
@@ -22,6 +27,7 @@ p, li, span{
   min-height: 100vh;
   background: linear-gradient(to bottom right, #152347, #5b1965);
   position: relative;
+  margin: 0 !important;
 }
 
 .header img{
