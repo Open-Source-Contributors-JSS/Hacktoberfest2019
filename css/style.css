@@ -5,7 +5,6 @@
 
 body{
   margin: 0 !important;
-  overflow-x: hidden !important;
 }
 
 .hero{
@@ -26,8 +25,8 @@ p, li, span{
 }
 
 .ptb{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .header{
@@ -38,8 +37,8 @@ p, li, span{
 }
 
 .header img{
-  height: 350px;
-  width: 500px;
+  height: 400px;
+  /* width: 500px; */
   margin: auto;
 }
 
@@ -58,7 +57,6 @@ p, li, span{
 .header-content{
   height: 86.5vh;
   width: 100%;
-  /* background: linear-gradient(to bottom right, #152347, #5b1965); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -66,8 +64,12 @@ p, li, span{
   margin: auto;
 }
 @media screen and (max-width: 650px){
+  body{
+    overflow-x: hidden;
+  }
+
   .header img{
-    height: 300px;
+    height: 280px;
   }
 }
 
@@ -126,7 +128,31 @@ a.navbar-item:hover{
   line-height: 1.5;
 }
 
+.logo-2018{
+  height: 500px;
+}
+
 @media screen and (max-width: 720px){
+  .column{
+    padding: 10px 2.5rem;
+  }
+
+  .join-event{
+    padding: 12px;
+  }
+
+  .header-img{
+    width: 350px;
+  }
+
+  .logo-2018{
+    height: 340px;
+  }
+
+  .block{
+    margin-top: 10px;
+  }
+
   .contribute {
     background: linear-gradient(to bottom left, #152347, #5b1965);
     display: flex;
@@ -139,6 +165,14 @@ a.navbar-item:hover{
     margin-bottom: 100px;
     width: 100% !important;
     height: 100% !important;
+  }
+
+  .stats{
+    margin: 1rem 0;
+  }
+
+  section#counter-stats {
+    margin: 10px 0 !important;
   }
 }
 
@@ -190,6 +224,10 @@ footer i{
 footer i:hover p:hover{
   color: #FFE449;
   margin-top: 1rem;
+}
+
+footer li{
+  margin: 1.2vh;
 }
 
 /*.card{
@@ -251,17 +289,30 @@ footer i:hover p:hover{
     font-size: 2.2rem !important;
     font-weight: 700 !important;
   }
+
   #head{
     font-weight: 700;
     font-size: 2rem;
   }
+
+  /* .countdown .title{
+    
+  } */
+
+  .footer-logo{
+    display: none;
   }
+
+  .footer-container{
+    flex-direction: column;
+  }
+}
 
 section#counter-stats {
 	display: flex;
 	justify-content: center;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 .stats {
@@ -294,14 +345,16 @@ color: #152347;
   text-align: center;
   margin-bottom: 80px;
   margin-top: 80px;
+  font-weight: 700;
 }
 
-.countdown{
-  font-weight: 700;
+.countdown li{
+  color: #c61799;
 }
 
 #head{
   font-weight: 700;
+  color: #3f2b84;
 }
 
 .countdown h1 {
@@ -320,3 +373,10 @@ color: #152347;
   display: block;
   font-size: 4.5rem;
 }
+
+.footer-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
