@@ -245,3 +245,27 @@ color: #152347;
   font-weight: 700;
 }
 /*/ end count stats /*/
+
+.countdown {
+  color: #333;
+  text-align: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+
+.countdown h1 {
+  font-weight: normal;
+}
+
+.countdown li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+.countdown li span {
+  display: block;
+  font-size: 4.5rem;
+}
