@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap');
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
 
@@ -10,9 +9,8 @@ body{
 .hero{
   background: linear-gradient(to bottom right, #152347, #5b1965);
 }
-body::-webkit-scrollbar { width: 0 !important }
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bolder;
 }
 p, li, span{
@@ -153,6 +151,10 @@ a.navbar-item:hover{
     margin-top: 10px;
   }
 
+  .about-hacktoberfest{
+    background: #faf7f7;
+  }
+
   .contribute {
     background: linear-gradient(to bottom left, #152347, #5b1965);
     display: flex;
@@ -201,9 +203,12 @@ a.navbar-item:hover{
   color: white !important;
 }
 
+footer li{
+  color: white;
+}
+
 footer p{
   font-size: 1rem;
-  color: white ;
 }
 
 footer h3{
@@ -217,12 +222,6 @@ footer{
 }
 
 footer i{
-  color: white;
-  margin-top: 1rem;
-}
-
-footer i:hover p:hover{
-  color: #FFE449;
   margin-top: 1rem;
 }
 
@@ -350,6 +349,7 @@ color: #152347;
 
 .countdown li{
   color: #c61799;
+  padding: 20px 12px !important;
 }
 
 #head{
