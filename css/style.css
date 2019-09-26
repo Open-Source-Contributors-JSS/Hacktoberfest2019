@@ -126,6 +126,22 @@ a.navbar-item:hover{
   line-height: 1.5;
 }
 
+@media screen and (max-width: 720px){
+  .contribute {
+    background: linear-gradient(to bottom left, #152347, #5b1965);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
+
 .contribute{
   background: linear-gradient(to bottom left, #152347, #5b1965);
   height: 55vh;
@@ -163,6 +179,7 @@ footer h3{
 
 footer{
  background: linear-gradient(to bottom left, #152347, #5b1965);
+ margin-top: 80px;
 }
 
 footer i{
@@ -214,6 +231,32 @@ footer i:hover p:hover{
 
   /*/ start count stats /*/
 
+@media screen and (max-width: 720px){
+  .stats {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .countdown li {
+    display: inline-block;
+    font-size: 0.9rem !important;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  .countdown li span {
+    display: block;
+    font-size: 2.2rem !important;
+    font-weight: 700 !important;
+  }
+  #head{
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  }
+
 section#counter-stats {
 	display: flex;
 	justify-content: center;
@@ -251,6 +294,14 @@ color: #152347;
   text-align: center;
   margin-bottom: 80px;
   margin-top: 80px;
+}
+
+.countdown{
+  font-weight: 700;
+}
+
+#head{
+  font-weight: 700;
 }
 
 .countdown h1 {
