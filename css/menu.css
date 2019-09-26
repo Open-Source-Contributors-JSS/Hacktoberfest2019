@@ -1,0 +1,221 @@
+
+a{
+  text-decoration: none;
+  color: #fff !important;
+}
+a:hover{
+  text-decoration: none !important;
+}
+.vl {
+  border-left: 3px solid #49A3FF;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  margin-left: 150px;
+  top: 0;
+}
+
+@media screen and (max-width: 480px) {
+.vl{
+  display: none;
+}
+.menu-wrap {
+  font-size: 20px !important;
+}
+.menu-wrap .toggler {
+  width: 30px !important;
+  height: 30px !important;
+}
+.menu-wrap .hamburger {
+  width: 50px !important;
+  height: 50px !important;
+}
+.social i{
+  margin-top: 30px !important;
+  margin-left: 10px !important;
+  margin-right: 30px !important;
+  }
+h2{
+  font-size: 18px !important;
+}
+footer .social i{
+  margin-top: 20px !important;
+  margin-left: 10px !important;
+  margin-right: 30px !important;
+  }
+}
+
+.social{
+  margin: auto;
+}
+
+.list1{
+  margin: auto;
+}
+.social i{
+margin-top: 100px !important;
+margin-left: 40px;
+color: #FED534;
+}
+
+.social i:hover{
+color: #EC3FD2 ;
+}
+
+.menu-wrap {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  font-size: 28px !important;
+}
+
+.menu{
+  font-size: 28px !important;
+  padding: 16px;
+}
+.menu-head{
+  font-size: 30px !important;
+  padding: 18px;
+  font-weight: 700;
+}
+.list1 .list2 .list3{
+  list-style: none;
+}
+
+.menu-head{
+ color: #49A3FF !important;
+}
+.menu-wrap .toggler {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  opacity: 0;
+}
+
+.menu-wrap .hamburger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 70px;
+  height: 70px;
+  padding: 1rem;
+  background:#1A2249;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Hamburger Line */
+.menu-wrap .hamburger > div {
+  position: relative;
+  flex: none;
+  width: 100%;
+  height: 2px;
+  background: #FF02AA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.6s ease;
+}
+
+/* Hamburger Lines - Top & Bottom */
+.menu-wrap .hamburger > div::before,
+.menu-wrap .hamburger > div::after {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  width: 100%;
+  height: 2px;
+  background: inherit;
+}
+
+/* Moves Line Down */
+.menu-wrap .hamburger > div::after {
+  top: 10px;
+}
+
+/* Toggler Animation */
+.menu-wrap .toggler:checked + .hamburger > div {
+  transform: rotate(135deg);
+}
+
+/* Turns Lines Into X */
+.menu-wrap .toggler:checked + .hamburger > div:before,
+.menu-wrap .toggler:checked + .hamburger > div:after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+/* Rotate On Hover When Checked */
+.menu-wrap .toggler:checked:hover + .hamburger > div {
+  transform: rotate(225deg);
+}
+
+/* Show Menu */
+.menu-wrap .toggler:checked ~ .menu {
+  visibility: visible;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div {
+  transform: scale(1);
+  transition-duration: 0.75s;
+}
+
+.menu-wrap .toggler:checked ~ .menu > div > div {
+  opacity: 1;
+  transition:opacity 0.6s ease 0.6s;
+}
+
+.menu-wrap .menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-wrap .menu > div {
+  background: linear-gradient(to bottom right, #152347, #5b1965);
+  border-radius: 50%;
+  width: 400vh !important;
+  height: 400vh !important;
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  transform: scale(0);
+  transition: all 0.6s ease;
+}
+
+.menu-wrap .menu > div > div {
+  max-width: 100vw;
+  max-height: 100vh;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.menu-wrap .menu > div > div > ul > li {
+  list-style: none !important;
+  color: #fff !important;
+  font-size: 2rem !important;
+  padding: 1rem;
+}
+
+.menu-wrap .menu > div > div > ul > li > a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.6s ease;
+}
+

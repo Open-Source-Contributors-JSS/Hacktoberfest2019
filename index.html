@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>GIT-CHEATSHEET</title>
+  <title>GIT-INIT</title>
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/hactoberfest.png" type="image/x-icon">
   <!-- font-awesome -->
@@ -12,11 +12,79 @@
   <!-- bulma -->
   <link rel="stylesheet" href="./libraries/bulma-0.7.5/bulma-0.7.5/css/bulma.min.css">
   <link rel="stylesheet" href="./css/style.css">
+
+
+  <link rel="stylesheet" href="css/menu.css">
+
+  <!--bootstrap-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <!--bootstrap-->
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script src="https://kit.fontawesome.com/22be60108b.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
   
+  <!--navbar-->
+  <div class="menu-wrap">
+      <input type="checkbox" class="toggler">
+      <div class="hamburger"><div></div></div>
+      <div class="menu">
+        <div class="row">
+        <div class="col-md-12">
+          <div class="row text-center" style="margin:auto;">
+          <div class="list1 col-md-4">
+            <ul style="list-style: none;">
+              <h2 class="menu-head">What we do??</h2>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Instructions</a></li>
+              <li><a href="#">Git CheatSheet</a></li>
+              <li><a href="#">Contributors list</a></li>
+            </ul>
+          </div>
+          <!--<div class="list2 col-md-4">
+              <ul style="list-style: none;">
+                  <h2 class="menu-head">Main Events and Speakers</h2>
+                <li><a href="#">E-Summit</a></li>
+                <li><a href="#">Startup Charcha</a></li>
+                <li><a href="#">Ideathon</a></li>
+                <li><a href="#">Past Speakers</a></li>
+               <li><a href="#">Contact</a></li>
+              </ul>
+              <div class="vl"></div>
+            </div>
+            <div class="list3 col-md-4">
+                <ul style="list-style: none;">
+                    <h2 class="menu-head">Zealicon Events</h2>
+                  <li><a href="#">Pitch It</a></li>
+                  <li><a href="#">Brand It</a></li>
+                  <li><a href="#">Marketing Villa</a></li>
+                  <li><a href="#">Virtual Stock Market</a></li>
+                </ul>
+                <div class="vl"></div> 
+              </div>  -->
+              </div>
+
+              <div class="row">
+                <div class="social">
+                  <a href="mailto:pragati.edcjss@gmail.com?Subject=Hacktoberfest%202019"><i class="fas fa-envelope-open-text fa-2x"></i></a>
+                  <a href="https://github.com/Open-Source-Contributors-JSS"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://gitter.im/Open-Source-Contributors-JSS"><i class="fab fa-gitter fa-2x"></i></a>
+                </div>
+              </div>
+
+              
+            </div>
+        </div>
+      </div>
+    </div>
+    <!--navbar-->
+
+<div class="hero">
 <div class="header">
-    <nav class="navbar is-spaced">
+    <!--<nav class="navbar is-spaced">
       <div class="navbar-brand">
         <a class="" href="">
             Home
@@ -43,15 +111,18 @@
             
             </div>
           </div>
-      </nav> 
-    
-    <div class="block header-content">
-        <img src="./assets/img/hactoberfest.png" alt="">
-        <br>
-        <a href=""><button class="button is-outlined is-medium is-rounded">GO TO REPOSITORY&nbsp;<i class="fab fa-github"></i></button></a>
+      </nav> -->
+      <div class="block header-content">
+          <img src="./assets/img/hactoberfest.png" alt="">
+          <br>
+          <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019"><button class="button is-outlined is-medium is-rounded">GO TO REPOSITORY&nbsp;<i class="fab fa-github"></i></button></a>
+      </div>
+  
     </div>
+  
+</div>
 
-  </div>
+
 
   <br><br>
   
@@ -64,12 +135,27 @@
           <p class="subtitle ptb">Hacktoberfest is a month-long celebration of open source software hosted by DigitalOcean, in partnership with Github and Twilio. It is all about encouraging meaningful contributions to the open source ecosystem, for beginners and veterans alike. It provides scope for personal growth, professional opportunities, as well as community building. The best part of it all is, your contributions have a long term impact on the community, so it leads to a great sense of accomplishment!</p>
         </div>
         <div class="column">
-          <img src="https://cdn-media-1.freecodecamp.org/images/1*OsNbZRAL4XOMRC263dUPaw.png" alt="">
+          <div class="block">
+          <video width="500" height="300" autoplay loop>
+              <source src="assets/img/MOSHED-2019-9-25-18-22-20.webm" type="video/webm">
+            </video>
         </div>
+      </div>
         <div class="column is-1"></div>
       </div>
     </div>
   </div>
+
+
+  <div class="container countdown">
+      <h1 id="head">Countdown For Hack To End!!!</h1>
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
 
 
 <div class="contribute">
@@ -82,7 +168,7 @@
           <div class="block">
             <a href="https://hacktoberfest.digitalocean.com/"><button class="button is-outlined is-medium is-rounded">Register Here</button></a>
             <a href="https://gitter.im/Open-Source-Contributors-JSS/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link"><button class="button is-outlined is-medium is-rounded">Discuss on Gitter</button></a>
-            <a href=""><button class="button is-outlined is-medium is-rounded">Contribute Here</button></a>
+            <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019"><button class="button is-outlined is-medium is-rounded">Contribute Here</button></a>
           </div>
         </div>
       </div>
@@ -94,6 +180,49 @@
 </div>
 </div>  
 
+<!-- start count stats -->
+
+<section id="counter-stats" class="wow fadeInRight" data-wow-duration="1.4s">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-lg-3 stats">
+				<i class="fa fa-code fa-2x" aria-hidden="true"></i>
+				<div class="counting" data-count="106582">0</div>
+				<h5>Participating Repositries</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+          <i class="fas fa-globe-africa fa-2x"></i>
+				<div class="counting" data-count="143">0</div>
+				<h5>Participating Countries</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+          <i class="fas fa-code-branch fa-2x"></i>
+				<div class="counting" data-count="412324">0</div>
+				<h5>Pull Requests from all participants</h5>
+			</div>
+
+			<div class="col-lg-3 stats">
+          <i class="fas fa-folder-open fa-2x"></i>
+				<div class="counting" data-count="12090">0</div>
+				<h5>Repo with most PRs</h5>
+			</div>
+
+
+		</div>
+		<!-- end row -->
+	</div>
+	<!-- end container -->
+
+</section>
+
+<!-- end cont stats -->
+<div class="text-center is-centered"  style="margin: auto;">
+<a href=""><button class="button is-outlined is-medium is-rounded">GO TO REPOSITORY&nbsp;<i class="fab fa-github"></i></button></a>
+</div>
+
 <!--footer-->
 <footer>
 
@@ -102,16 +231,20 @@
     <div class="columns">
       <div class="column is-4">
          <h3>About Us</h3>
-         <p>We are the open source enthusiasts' of JSS Academy Of Technical Eduaction,Noida. This event is a small gesture of thanks to the entire open sorce community and a warm welcome to the beginners and contributors who are there to help it grow.</p>
+         <p>We are the open source enthusiasts' of JSS Academy Of Technical Eduaction,Noida. This event is a small gesture of thanks to the entire open source community and a warm welcome to the beginners and contributors who are there to help it grow.</p>
       </div>
-      <div class="column is-4">
+      <div class="column is-4 text-center">
         <div class="block">
           <h3>Contact Us</h3>
           <ul>
-            <li><a href="https://github.com/Open-Source-Contributors-JSS"><i class="fab fa-github fa-3x"></i></a></li>
-            <li><a href="mailto:pragati.edcjss@gmail.com?Subject=Hacktoberfest%202019"><i class="fas fa-envelope-open-text fa-3x"></i></a></li>
+            <li><a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019"><i class="fab fa-github fa-2x">  </i><p>  Star Us on GitHub</p></a></li>
+            <li><a href="mailto:pragati.edcjss@gmail.com?Subject=Hacktoberfest%202019"><i class="fas fa-envelope-open-text fa-2x">  </i><p>  Email Us</p></a></li>
+            <li><a href="https://gitter.im/Open-Source-Contributors-JSS"><i class="fab fa-gitter fa-2x"></i><p>  Chat on Gitter</p></a></li>
           </ul>
           </div>
+      </div>
+      <div class="column is-4">
+        <img src="assets/img/hactoberfest.png" >
       </div>
     </div>
   </div>
@@ -121,8 +254,11 @@
 <!--footer-->
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://kit.fontawesome.com/22be60108b.js" crossorigin="anonymous"></script>
-
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="./js/index.js"></script>
 </body>
 </html>
