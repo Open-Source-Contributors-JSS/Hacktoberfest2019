@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700|Montserrat:400,700);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
+
 
 body{
   margin: 0 !important;
@@ -35,12 +38,12 @@ p, li, span{
 }
 
 .header img{
-  height: 250px;
+  height: 350px;
   width: 500px;
   margin: auto;
 }
 
-.header-content{
+/*.header-content{
   perspective: 1000px;
   transform-style: preserve-3d;
   display: flex;
@@ -50,8 +53,18 @@ p, li, span{
   justify-content: center;
   justify-items: center;
   align-content: center;
-}
+} */
 
+.header-content{
+  height: 86.5vh;
+  width: 100%;
+  /* background: linear-gradient(to bottom right, #152347, #5b1965); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
 @media screen and (max-width: 650px){
   .header img{
     height: 300px;
@@ -157,7 +170,12 @@ footer i{
   margin-top: 1rem;
 }
 
-.card{
+footer i:hover p:hover{
+  color: #FFE449;
+  margin-top: 1rem;
+}
+
+/*.card{
   pointer-events: none;
   transform: translateZ(0);
   padding: 30px;
@@ -192,4 +210,38 @@ footer i{
   
   .card img{
     transform: translateZ(100px);
-  }
+  } */
+
+  /*/ start count stats /*/
+
+section#counter-stats {
+	display: flex;
+	justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.stats {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.stats i{
+  color: #3f2b84;
+}
+
+.stats i:hover{
+color: #152347;
+}
+
+.counting{
+  color: #5b1965;
+}
+
+.stats h5{
+  color: #C20993;
+  font-weight: 700;
+}
+/*/ end count stats /*/
