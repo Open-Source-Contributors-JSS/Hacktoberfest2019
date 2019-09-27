@@ -1,5 +1,0 @@
-label-alias:
-  bug: 'kind/bug','hacktoberfest'
-  feature_request: 'enhancement','hacktoberfest'
-  question: 'question','hacktoberfest'
-  
