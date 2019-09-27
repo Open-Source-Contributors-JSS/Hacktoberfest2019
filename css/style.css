@@ -40,18 +40,6 @@ p, li, span{
   margin: auto;
 }
 
-/*.header-content{
-  perspective: 1000px;
-  transform-style: preserve-3d;
-  display: flex;
-  height: 100vh;
-  margin: auto;
-  flex-direction: row;
-  justify-content: center;
-  justify-items: center;
-  align-content: center;
-} */
-
 .header-content{
   height: 86.5vh;
   width: 100%;
@@ -151,10 +139,6 @@ a.navbar-item:hover{
     margin-top: 10px;
   }
 
-  .about-hacktoberfest{
-    background: #faf7f7;
-  }
-
   .contribute {
     background: linear-gradient(to bottom left, #152347, #5b1965);
     display: flex;
@@ -176,6 +160,10 @@ a.navbar-item:hover{
   section#counter-stats {
     margin: 10px 0 !important;
   }
+}
+
+.about-hacktoberfest, .about-git{
+  background: #f0f0f0;
 }
 
 .contribute{
@@ -294,10 +282,6 @@ footer li{
     font-size: 2rem;
   }
 
-  /* .countdown .title{
-    
-  } */
-
   .footer-logo{
     display: none;
   }
@@ -334,8 +318,13 @@ color: #152347;
 }
 
 .stats h5{
-  color: #C20993;
+  color: #C20993 !important;
   font-weight: 700;
+}
+
+.stats a{
+  color: rgb(63, 43, 132) !important;
+  font-size: 20px;
 }
 /*/ end count stats /*/
 
@@ -380,3 +369,12 @@ color: #152347;
   align-items: center;
 }
 
+/* gitinit.html */
+
+.gitinit-header{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-attachment: fixed;
+}
