@@ -1,5 +1,7 @@
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source-200x33.png?v=103)](https://github.com/ellerbrock/open-source-badges/)
 # Contributing
 
+<br>
 When contributing to this repository, please first discuss the changes you wish to make via issue,
 email, or any other method with the owners of this repository before making a change.
 Explore our chat community on Gitter: https://gitter.im/Open-Source-Contributors-JSS via @gitchat
@@ -9,6 +11,8 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Pull Request Process Resources
 1. <a href="https://github.com/firstcontributions/first-contributions/blob/master/README.md">First Contributions</a>
 2. <a href="https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github">Digital Ocean's GitHub Tutorial</a>
+
+Check your progress at: https://hacktoberfest.digitalocean.com/profile
 
 ## Code of Conduct
 
@@ -77,10 +81,4 @@ Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
 
-### Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at [http://contributor-covenant.org/version/1/4][version]
-
-[homepage]: http://contributor-covenant.org
-[version]: http://contributor-covenant.org/version/1/4/
