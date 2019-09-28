@@ -216,13 +216,12 @@ body {
 overflow-y: hidden !important; }
 
 .main {
-  padding: 40px 0 !important;
+  padding: 60px 0 !important;
   background: #f8f8f8 !important;
-height: 100vh !important; }
+  height: 100vh !important; }
 
 .container {
   width: 90vw !important;
-  height: 80vh !important;
   position: fixed;
   margin: 0 auto !important;
   background: #fff;
@@ -245,6 +244,7 @@ fieldset {
   border: none;
   padding: 0px;
   margin: 0px; }
+
 
 .form-label {
   font-size: 22px;
@@ -292,7 +292,7 @@ fieldset.current {
     color: #fff;
     font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 17px;
+    font-size: 20px;
     align-items: center;
     -moz-align-items: center;
     -webkit-align-items: center;
@@ -324,7 +324,7 @@ fieldset.current {
       position: relative;
       z-index: 99; }
       .step-current .step-current-content .step-number span {
-        font-size: 33px;
+        font-size: 33px !important;
         margin-top: -8px; }
 
 
@@ -433,6 +433,33 @@ fieldset.current {
   .signup-img {
     width: 100%; } }
 @media screen and (max-width: 768px) {
+  body{
+overflow-y: scroll !important;
+  }
+  figure img{
+    display: none !important;
+  }
+  .fieldset-content {
+    width: 90vw; }
+  
+  .content {
+    height: 80vh; 
+  margin-bottom: 90px !important;}
+  .container {
+    width: 90vw !important;
+    position: fixed;
+    margin: 0 auto !important;
+    background: #fff;
+    box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -o-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px; }
   .steps ul, .signup-content {
     flex-direction: column;
     -moz-flex-direction: column;
