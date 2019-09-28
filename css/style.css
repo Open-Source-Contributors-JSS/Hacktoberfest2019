@@ -32,16 +32,15 @@ p, li, span{
   background: linear-gradient(to bottom right, #152347, #5b1965);
   position: relative;
   margin-top: 0 !important;
+  text-align: center;
 }
 
 .header img{
-  height: 400px;
-  /* width: 500px; */
-  margin: auto;
+  height: 420px;
 }
 
 .header-content{
-  height: 86.5vh;
+  height: 96vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -119,7 +118,7 @@ a.navbar-item:hover{
 }
 
 
-.about-hacktoberfest, .about-git{
+.about-hacktoberfest, .about-git, .about-repo-contributions{
   background: #f0f0f0;
 }
 
