@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px)  {
+    .container {
+        width: calc(100% - 40px);
+        max-width: 100%;
+    }
+    .content {
+        height: 650px;
+    }
+    .fieldset-flex {
+        @include flex-direction(column);
+    }
+    figure {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .signup-form {
+        padding: 55px 30px;
+    }
+    .signup-desc {
+        width: 465px;
+    }
+    .signup-img {
+        width: 100%;
+    }
+}
+//end 992px
+@media screen and (max-width: 768px) {
+
+    .steps ul , .signup-content{
+        @include flex-direction(column);
+    }
+    .steps ul li , .signup-desc, .signup-form-conent{
+        width: 100%;
+    }
+}
+
+//end 575px
+@media screen and (max-width: 480px) {
+
+    .actions ul li a {
+        width: 100px;
+    }
+}
+  

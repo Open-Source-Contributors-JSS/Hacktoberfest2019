@@ -118,6 +118,13 @@ a.navbar-item:hover{
   height: 500px;
 }
 
+.head-text{
+  color: #f0f0f0;
+  font-size: 28px;
+  font-weight: 400;
+  margin: auto !important;
+}
+
 @media screen and (max-width: 720px){
   .column{
     padding: 10px 2.5rem;
@@ -139,6 +146,12 @@ a.navbar-item:hover{
     margin-top: 10px;
   }
 
+  .head-text{
+    color: #f0f0f0;
+    font-size: 25px;
+    font-weight: 400;
+    margin: auto !important;
+  }
   .contribute {
     background: linear-gradient(to bottom left, #152347, #5b1965);
     display: flex;
