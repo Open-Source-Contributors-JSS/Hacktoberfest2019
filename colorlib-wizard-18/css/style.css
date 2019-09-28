@@ -411,7 +411,7 @@ fieldset.current {
     max-width: 100%; }
 
   .content {
-    height: 650px; }
+    height: 500px !important; }
 
   .fieldset-flex {
     flex-direction: column;
@@ -425,14 +425,51 @@ fieldset.current {
     margin-bottom: 20px; }
 
   .signup-form {
-    padding: 55px 30px; }
+    padding: 55px 30px;
+  margin-bottom: 20px!important; }
 
   .signup-desc {
     width: 465px; }
 
   .signup-img {
     width: 100%; } }
+
 @media screen and (max-width: 768px) {
+  body{
+    overflow-y: scroll !important;
+  }
+
+  fieldset.current {
+    padding-top: 10px !important; }
+
+  .fieldset-content {
+  width: 90vw !important;
+ }
+ 
+ .actions {
+  padding-bottom: 25px !important; }
+
+  figure img{
+  display: none !important;
+  }
+
+  .container {
+    width: 90vw !important;
+    height: auto !important;
+    position: fixed;
+    margin: 0 auto !important;
+    background: #fff;
+    box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -webkit-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -o-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    -ms-box-shadow: 0px 5px 9.5px 0.5px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px; }
+
   .steps ul, .signup-content {
     flex-direction: column;
     -moz-flex-direction: column;
