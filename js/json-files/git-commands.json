@@ -10,5 +10,9 @@
   {
     "title": "git commit -m '--your message--'",
     "description": "The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to."
+  },
+  {
+    "title": "git log",
+    "description": "The git commit command provides a log of changes made throughout time."
   }
 ]
