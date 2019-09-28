@@ -1,10 +1,23 @@
-# Hacktoberfest2019
-Happy Hacktober! This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR.
 
-# Hacktoberfest
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![Join the chat at https://gitter.im/Open-Source-Contributors-JSS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Open-Source-Contributors-JSS)
+
+# Hacktoberfest2019
+Happy Hacktober! This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt.
+
+If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
+###### `git-commands.json` 
+and that counts as your first PR.
+
+In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our intermediate folder and make contributions as per as your interests.
+
+#### Also, our website is open to contributions from both frontend and designer fellows who want to help us in making it bigger and better. 
+
+# Hacktoberfest2019
 
 # Instructions :
-### 1. Register yourself for Hacktoberfest
+### 1. Register yourself for Hacktoberfest 2019
 ###### Link to register: https://hacktoberfest.digitalocean.com/
 
 ![register](https://user-images.githubusercontent.com/42115530/65821155-7f724600-e24f-11e9-90ed-8a956b0a854a.JPG)
@@ -18,7 +31,7 @@ Happy Hacktober! This is a beginner friendly repository made specifically for Ha
 
 ![start](https://user-images.githubusercontent.com/42115530/65821081-7fbe1180-e24e-11e9-8e98-756ce51d6431.JPG)
 
-#### Read the Instructions and click Done at the end to move to the repository.
+#### Read the Instructions and click Done at the end to move to the repository or <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019">click here</a> to head to the repository.
 
 ![instructions](https://user-images.githubusercontent.com/42115530/65821120-0a067580-e24f-11e9-8f06-bd231a6ab96d.JPG)
 
@@ -59,9 +72,9 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ### 4. Create a New Branch
 
-###### To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest) to change into that directory.
+###### To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest2019) to change into that directory.
 
-#####    ` cd Hacktoberfest`
+#####    ` cd Hacktoberfest2019`
 
 ![git 2](https://user-images.githubusercontent.com/42115530/65821270-07a51b00-e251-11e9-9b0b-5103ef3e7fe6.JPG)
 
@@ -83,7 +96,7 @@ https://github.com/your-username/Hacktoberfest2019.git
  
 ###### At this point, you can now modify existing files or add new files to the project on your own branch.
 
-#### Make Changes Locally. Find the js folder, click on json files and open <pre>git-commands.json</pre> and add your favorite git command alongwith a two-three lines short description in the json file.
+#### Make Changes Locally.For ex. When making your beginner level contribution in this repository, find the js folder, click on json files and open <pre>git-commands.json</pre> and add your favorite git command alongwith a two-three lines short description in the json file.
 ###### Remember, json files follow a certain format, do not forget to add a comma before you start editing your block and it's good if you append a comma after finishing your block.
 
 ![git 4](https://user-images.githubusercontent.com/42115530/65821272-0d026580-e251-11e9-927a-82703f921a74.JPG)
@@ -98,8 +111,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ![git 6](https://user-images.githubusercontent.com/42115530/65821277-125fb000-e251-11e9-898a-42aa9c920416.JPG)
 
-###### The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way.
-Thus, you must ensure that you write a meaningful commit message. If in a confusion, refer to the good contribution guidelines included in the <pre>contributing.md</pre>
+###### The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way.Thus, you must ensure that you write a meaningful commit message. If in a confusion, refer to the good contribution guidelines included in the ##### ` contributing.md `
 
 
 ###### If you have a very short message, you can record that with the -m flag and the message in quotes:
@@ -127,7 +139,7 @@ Thus, you must ensure that you write a meaningful commit message. If in a confus
 
 ###### Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
-##### ` git remote add upstream https://github.com/acmbvp/Hacktoberfest.git `
+##### ` git remote add upstream https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019 `
 
 
 
@@ -155,6 +167,8 @@ Thus, you must ensure that you write a meaningful commit message. If in a confus
 
 ###### Now navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
 
-# Hurray!!! You just got closer to completing your hacktoberfest challenge.
+## Hurray!!! You just got closer to completing your hacktoberfest challenge.
+
+
 
 > Open Source Contributors JSS &copy; 2019
