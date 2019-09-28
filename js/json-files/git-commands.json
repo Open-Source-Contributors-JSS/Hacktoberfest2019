@@ -1,0 +1,42 @@
+[
+  {
+    "title": "git init",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git add .",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git commit -m '--your message--'",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git push",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git pull",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git init",
+    "description": "sa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git init",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Providentsequuntur, optio?"
+  },
+  {
+    "title": "git init",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git init",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  },
+  {
+    "title": "git init",
+    "description": "orem ipsum dolor sit, amet consectetur adipisicing elit. Provident, eius nam id vero, consequatur saepe, repudiandae quaerat ad quia aperiam ipsa nisi odio. Odio temporibus inventore esse velit? Consequuntur, optio?"
+  }
+]

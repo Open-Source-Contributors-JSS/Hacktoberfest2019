@@ -95,3 +95,12 @@ let countDown = new Date('Oct 31, 2019 00:00:00').getTime(),
       }
 
     }, second)
+
+
+// js for commands fetching
+
+let url = './json-files/git-commands.json';
+fetch(url)
+.then(data => data.json())
+.then(jsondata => console.log(jsondata))
+.catch(err => console.log(err));
