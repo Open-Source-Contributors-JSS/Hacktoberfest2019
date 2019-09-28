@@ -318,7 +318,7 @@ color: #152347;
 }
 
 .grid-container .card-body{
-  height: 200px;
+  height: 160px;
 }
 
 .command-container p{
@@ -424,8 +424,7 @@ color: #152347;
   grid-template-columns: 33.33% 33.33% 33.34%;
 }
  
-.contributors-list .contributors-card{
-  width: 30vw;
+.contributors-list .column{
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -435,7 +434,7 @@ color: #152347;
   transition: box-shadow 0.4s;
 }
 
-.contributors-list .contributors-card:hover{
+.contributors-list .column:hover{
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
