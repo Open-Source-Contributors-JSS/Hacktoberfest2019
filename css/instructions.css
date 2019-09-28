@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:300,700,900');
+@import url('https://fonts.googleapis.com/css?family=Palanquin:300');
+@import url('https://afeld.github.io/emoji-css/emoji.css');
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  font-family: 'Palanquin', sans-serif;
+  font-size: 21px;
+  color: #8f959a;
+  line-height: 1.5;
+}
+.container {
+  margin: 4em auto;
+}
+.inner-container {
+  position: relative;
+  max-width: 20%;
+  min-width: 80vw;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto 100px;
+}
+.content {
+  position: absolute;
+  opacity: 0;
+  top: 2em;
+  left: 10%;
+  width: 80%;
+  margin: 0 auto;
+}
+.active {
+  display: block !important;
+  margin: 0 auto;
+  opacity: 1;
+  transition: ease-in-out 1s;
+}
+.card {
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  padding: 2em 0;
+  height: 300px;
+  box-sizing: border-box;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 10px -2px rgba(0, 0, 0, 0.35);
+}
+.card:first-child, .card:nth-child(2) {
+  background: #00c4c7;
+  height: 8px;
+  border-radius: 5px 5px 0 0;
+  padding: 0;
+  box-shadow: none;
+}
+.card:first-child {
+  margin: 0 20px;
+  background: #00b0b2;
+}
+.card:nth-child(2) {
+  margin: 0 10px;
+}
+.card .progress-container {
+  background: rgba(37, 117, 252, 0.2);
+  height: 6px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: 0 0 5px 5px;
+}
+.card .progress-container .step {
+  background-color: #2575fc;
+  height: 6px;
+  width: 33%;
+  border-radius: 0 0 0 5px;
+}
+h1 {
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 700;
+  font-size: 3rem;
+  color: #00bfc2;
+  margin: 0;
+}
+p {
+  margin-top: 0;
+}
+p > a {
+  color: black !important;
+  text-decoration: none;
+  position: relative;
+}
+
+.next a:hover{
+  color: black !important;
+}
+
+
