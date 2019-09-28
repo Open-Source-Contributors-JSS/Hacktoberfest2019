@@ -63,7 +63,7 @@
 
 <div class="hero">
   <div class="gitinit-header">
-    <h1 class="title text-white is-1 text-center">Contributors</h1>
+    <h1 class="title text-white is-1 text-center page-heading">CONTRIBUTORS</h1>
   </div>
 </div>
 
@@ -255,9 +255,9 @@
       data.then(json => htmldata(json))
       function htmldata(jsondata){
         let output = '';
-        jsondata.forEach(item => {
+        jsondata.forEach((item, index) => {
           output += `
-          <div class="column is-3 card">
+          <div class="card">
               <img class="profile-image" src=${item.avatar_url} alt="" />
               <div>
                   <a href=${item.html_url}><h4 class="title is-4">${item.login}</h4></a>

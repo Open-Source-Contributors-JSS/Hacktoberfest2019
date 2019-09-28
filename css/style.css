@@ -411,10 +411,13 @@ color: #152347;
 }
 
 .contributors-list{
-  margin: 0 8vh;
+  margin: 0 4vh !important;
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
 }
  
-.contributors-list .column{
+.contributors-list .card{
+  width: 30vw;
   padding: 5px;
   display: flex;
   justify-content: center;
@@ -424,15 +427,15 @@ color: #152347;
   transition: box-shadow 0.4s;
 }
 
-.contributors-list .column:hover{
+.contributors-list .card:hover{
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
-.contributors-list .column h4{
+.contributors-list .card h4{
   margin-bottom: 0;
 }
 
-.contributors-list .column p{
+.contributors-list .card p{
   margin-bottom: 0;
 }
 
@@ -449,6 +452,16 @@ hr {
   background-position: 50%;
   box-sizing: border-box;
 }
+
+.page-heading{
+  letter-spacing: 0.13ch !important;
+}
+
+/* @media screen and (max-width: 1200px){
+  .contributors-list{
+    grid-template-columns: 33.33% 33.33% 33.34% !important;
+  }
+} */
 
 @media (min-width: 600px) {
   .card {
@@ -590,9 +603,14 @@ hr {
 
   .contributors-list{
     margin: 0 2vh;
+    grid-template-columns: 100%;
   }
 
-  .contributors-list .column{
-    justify-content: flex-start
+  .contributors-list .card{
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
   }
 }
