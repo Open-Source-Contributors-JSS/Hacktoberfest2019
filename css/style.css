@@ -307,8 +307,13 @@ color: #152347;
   margin: 16px;
 }
 
+.grid-container .card-header{
+  background: linear-gradient(to bottom right, #152347, #5b1965);
+}
+
 .grid-container .card-header > h3{
   margin: 0 auto;
+  color: white;
 }
 
 .grid-container .card-body{
