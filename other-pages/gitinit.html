@@ -63,7 +63,7 @@
 
 <div class="hero">
   <div class="gitinit-header">
-    <h1 class="title text-white is-1">GITHUB AND GIT COMMANDS</h1>
+    <h1 class="title text-white is-1 text-center">GITHUB AND GIT COMMANDS</h1>
   </div>
 </div>
 
@@ -87,12 +87,14 @@
   </div>
 </div>
 
-<div class="container pt-3">
+<div class="command-container pt-3">
   <div class="block git-commands">
-    <h1 class="is-2 title text-center">Git Commands</h1>
+    <h1 class="is-2 title text-center pb-1" style="color: #322054;">Git Commands</h1>
+
+    <div class="grid-container"></div>
+
   </div>
 </div>
-
 
 
 <!--footer-->
@@ -124,6 +126,38 @@
   
   </footer>
   <!--footer-->
+
+
+    <script>
+      let data = getcommandsData();
+      function getcommandsData(){
+        let url = '../js/json-files/git-commands.json';
+        return new Promise((resolve, reject) => {
+          fetch(url)
+          .then(data => data.json())
+          .then(jsondata => resolve(jsondata))
+          .catch(err => reject(err));
+        })
+      }
+      data.then(json => htmldata(json))
+      function htmldata(jsondata){
+        let output = '';
+        jsondata.forEach(item => {
+          output += `
+          <div class="">
+          <div class="card">
+              <div class="card-header">
+                <h3 class="title text-center is-4">${item.title}</h3>
+              </div>
+              <div class="card-body">
+                <p>${item.description}</p>
+              </div>
+            </div>
+      </div>`
+        })
+        document.getElementsByClassName("grid-container")[0].innerHTML = output;
+      }
+    </script>
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
@@ -131,6 +165,5 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="./js/index.js"></script>
   </body>
   </html>
