@@ -1,7 +1,17 @@
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Join the chat at https://gitter.im/Open-Source-Contributors-JSS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Open-Source-Contributors-JSS)
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)&nbsp;
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)&nbsp;
+[![Join the chat at https://gitter.im/Open-Source-Contributors-JSS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Open-Source-Contributors-JSS)&nbsp;
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)&nbsp;
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)&nbsp;
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
+
+[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/issues?q=is%3Aissue+is%3Aclosed)&nbsp;
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/pull/)&nbsp;
+[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/pull/)&nbsp;
+[![HitCount](http://hits.dwyl.io/Naereen/badges.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
+
 
 # Hacktoberfest2019
 Happy Hacktober! This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt.
@@ -169,6 +179,12 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ## Hurray!!! You just got closer to completing your hacktoberfest challenge.
 
-
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
 
 > Open Source Contributors JSS &copy; 2019
+<br><br>
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://GitHub.com/Naereen/)
+[![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://GitHub.com/Naereen/)
