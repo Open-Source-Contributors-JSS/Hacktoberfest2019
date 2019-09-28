@@ -212,13 +212,13 @@ body {
   font-weight: 500;
   font-family: 'Poppins';
   margin: auto !important;
-  background: #f8f8f8; 
-overflow: hidden !important;}
+  background: #f8f8f8;
+overflow-y: hidden !important; }
 
 .main {
-  padding: 60px 0 !important; }
-
-body::-webkit-scrollbar { width: 0 !important; }
+  padding: 40px 0 !important;
+  background: #f8f8f8 !important;
+height: 100vh !important; }
 
 .container {
   width: 90vw !important;

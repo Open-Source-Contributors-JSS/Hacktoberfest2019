@@ -4,7 +4,6 @@
     form.steps({
         headerTag: "h3",
         bodyTag: "fieldset",
-        transitionEffect: "fade",
         labels: {
             previous: 'Prev',
             next: 'Next',
