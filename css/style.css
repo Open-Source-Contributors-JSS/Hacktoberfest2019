@@ -413,7 +413,7 @@ color: #152347;
 .contributors-list{
   margin: 0 4vh !important;
   display: grid;
-  grid-template-columns: 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
 }
  
 .contributors-list .card{
@@ -423,7 +423,7 @@ color: #152347;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  margin: 14px;
+  margin: 12px;
   transition: box-shadow 0.4s;
 }
 
@@ -457,11 +457,11 @@ hr {
   letter-spacing: 0.13ch !important;
 }
 
-/* @media screen and (max-width: 1200px){
+@media only screen and (max-width: 1200px) and (min-width: 800px){
   .contributors-list{
-    grid-template-columns: 33.33% 33.33% 33.34% !important;
+    grid-template-columns: 33.33% 33.33% 33.34%;
   }
-} */
+}
 
 @media (min-width: 600px) {
   .card {
