@@ -14,15 +14,15 @@
 
 
 # Hacktoberfest2019
-Happy Hacktober! This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt.
+Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt 👕.
 
-If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
-###### `git-commands.json` 
+🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
+###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
 and that counts as your first PR.
 
-In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our intermediate folder and make contributions as per as your interests.
+🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our intermediate folder and make contributions as per as your interests.
 
-#### Also, our website is open to contributions from both frontend and designer fellows who want to help us in making it bigger and better. 
+#### 💻 Also, our website is open to contributions from both frontend and designer fellows who want to help us in making it bigger and better. 
 ### Check our Website: <a href="https://hacktoberfest.netlify.com/">https://hacktoberfest.netlify.com/</a>
 
 # Hacktoberfest2019
@@ -50,7 +50,7 @@ Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/
 ![instructions 2](https://user-images.githubusercontent.com/42115530/65821196-ec85db80-e24f-11e9-8178-7ebbed1abd73.JPG)
 
 ### 3. Star and Fork this Repository
-###### You can star and fork this repository on GitHub by navigating at the top of this repository.
+###### You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
 
 ![fork](https://user-images.githubusercontent.com/42115530/65821168-aaf53080-e24f-11e9-8046-61bdf586d969.jpeg)
 
@@ -180,7 +180,9 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ###### Now navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
 
-## Hurray!!! You just got closer to completing your hacktoberfest challenge.
+## Hurray!!! You just got closer to completing your hacktoberfest challenge. 😃
+
+## Happy?? Star ⭐ this Repo. 🤩
 
 ## Check your Hacktoberfest Contribution status at:
 <a href="https://hacktoberfest.digitalocean.com/profile">https://hacktoberfest.digitalocean.com/profile</a>
@@ -190,6 +192,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 [![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://hacktoberfest.netlify.com/)
 [![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://hacktoberfest.netlify.com/)
 
+> Made By Open Source Contributors JSS with ❤️
 > Open Source Contributors JSS &copy; 2019
 <br><br>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/Open-Source-Contributors-JSS)
