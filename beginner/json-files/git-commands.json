@@ -14,5 +14,9 @@
   {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git merge '--your branch--'",
+    "description": "The git merge command merges the changes from the specified branch into the branch you have checked out. "
   }
 ]
