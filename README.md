@@ -1,11 +1,11 @@
 
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)&nbsp;
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)&nbsp;
+[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://hacktoberfest.netlify.com/)&nbsp;
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
 [![Join the chat at https://gitter.im/Open-Source-Contributors-JSS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Open-Source-Contributors-JSS)&nbsp;
-[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)&nbsp;
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](http://ansicolortags.readthedocs.io/?badge=latest)&nbsp;
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://hacktoberfest.netlify.com/)&nbsp;
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/README.md)&nbsp;
+[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/graphs/contributors)&nbsp;
+[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/issues)&nbsp;
 
 [![GitHub issues-closed](https://img.shields.io/github/issues-closed/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/issues?q=is%3Aissue+is%3Aclosed)&nbsp;
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/pull/)&nbsp;
@@ -14,17 +14,19 @@
 
 
 # Hacktoberfest2019
-Happy Hacktober! This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt.
+Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt 👕.
 
-If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
-###### `git-commands.json` 
-and that counts as your first PR.
+🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
+###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
+and that counts as your first PR.Also, add your github username in the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/contributers_list.md" target="blank">contributors_list.md</a>
 
-In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our intermediate folder and make contributions as per as your interests.
+🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/Intermediate" target="blank"> intermediate folder</a> and make contributions as per as your interests.
 
-#### Also, our website is open to contributions from both frontend and designer fellows who want to help us in making it bigger and better. 
+#### 💻 Also, our website is open to contributions from both frontend and designer fellows who want to help us in making it bigger and better. 
+### Check our Website: <a href="https://hacktoberfest.netlify.com/" target="blank"> https://hacktoberfest.netlify.com/ </a>
 
 # Hacktoberfest2019
+#### Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="blank">  https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide </a> for more.
 
 # Instructions :
 ### 1. Register yourself for Hacktoberfest 2019
@@ -48,7 +50,7 @@ In case you are an intermediate or advanced level programmer or developer, we ha
 ![instructions 2](https://user-images.githubusercontent.com/42115530/65821196-ec85db80-e24f-11e9-8178-7ebbed1abd73.JPG)
 
 ### 3. Star and Fork this Repository
-###### You can star and fork this repository on GitHub by navigating at the top of this repository.
+###### You can star ⭐ and fork 🍽️ this repository on GitHub by navigating at the top of this repository.
 
 ![fork](https://user-images.githubusercontent.com/42115530/65821168-aaf53080-e24f-11e9-8046-61bdf586d969.jpeg)
 
@@ -56,7 +58,7 @@ In case you are an intermediate or advanced level programmer or developer, we ha
 
 ###### GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, Open-Source-Contributors-JSS is the owner of the hacktoberfest repository, so the GitHub URL for this project is: 
 
-<a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019</a>
+<a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019</a>
 
 ###### When you’re on the main page for the repository, you’ll see a button to "Star" and “Fork” the repository on your upper right-hand side of the page, underneath your user icon.
 
@@ -105,6 +107,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
  
 ###### At this point, you can now modify existing files or add new files to the project on your own branch.
+###### Make sure you have read the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and aesily acceptable PRs.
 
 #### Make Changes Locally.For ex. When making your beginner level contribution in this repository, find the js folder, click on json files and open <pre>git-commands.json</pre> and add your favorite git command alongwith a two-three lines short description in the json file.
 ###### Remember, json files follow a certain format, do not forget to add a comma before you start editing your block and it's good if you append a comma after finishing your block.
@@ -177,16 +180,19 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ###### Now navigate to your forked repository, and press the “New pull request” button on your left-hand side of the page.
 
-## Hurray!!! You just got closer to completing your hacktoberfest challenge.
+## Hurray!!! You just got closer to completing your hacktoberfest challenge. 😃
+
+## Happy?? Star ⭐ this Repo. 🤩
 
 ## Check your Hacktoberfest Contribution status at:
-<a href="https://hacktoberfest.digitalocean.com/profile">https://hacktoberfest.digitalocean.com/profile</a>
+<a href="https://hacktoberfest.digitalocean.com/profile" target="blank">https://hacktoberfest.digitalocean.com/profile</a>
 
-[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://GitHub.com/)
-[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](http://ForTheBadge.com)
-[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
-[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](http://ForTheBadge.com)
+[![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://hacktoberfest.netlify.com/)
+[![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://hacktoberfest.netlify.com/)
+[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](https://hacktoberfest.netlify.com/)
+[![ForTheBadge uses-js](http://ForTheBadge.com/images/badges/uses-js.svg)](https://hacktoberfest.netlify.com/)
 
+> Made By Open Source Contributors JSS with ❤️
 > Open Source Contributors JSS &copy; 2019
 <br><br>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/Open-Source-Contributors-JSS)
