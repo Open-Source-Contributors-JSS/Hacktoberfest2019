@@ -17,16 +17,16 @@
 Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt 👕.
 
 🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
-###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
-and that counts as your first PR.
+###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
+and that counts as your first PR.Also, add your github username in the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/contributers_list.md" target="blank">contributors_list.md</a>
 
-🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our intermediate folder and make contributions as per as your interests.
+🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/Intermediate" target="blank"> intermediate folder</a> and make contributions as per as your interests.
 
 #### 💻 Also, our website is open to contributions from both frontend and designer fellows who want to help us in making it bigger and better. 
-### Check our Website: <a href="https://hacktoberfest.netlify.com/">https://hacktoberfest.netlify.com/</a>
+### Check our Website: <a href="https://hacktoberfest.netlify.com/"target="blank">https://hacktoberfest.netlify.com/</a>
 
 # Hacktoberfest2019
-Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide">https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide</a> for more.
+Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide"target="blank">https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide</a> for more.
 
 # Instructions :
 ### 1. Register yourself for Hacktoberfest 2019
@@ -58,7 +58,7 @@ Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/
 
 ###### GitHub repository URLs will reference both the username associated with the owner of the repository, as well as the repository name. For example, Open-Source-Contributors-JSS is the owner of the hacktoberfest repository, so the GitHub URL for this project is: 
 
-<a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019</a>
+<a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019</a>
 
 ###### When you’re on the main page for the repository, you’ll see a button to "Star" and “Fork” the repository on your upper right-hand side of the page, underneath your user icon.
 
@@ -185,7 +185,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 ## Happy?? Star ⭐ this Repo. 🤩
 
 ## Check your Hacktoberfest Contribution status at:
-<a href="https://hacktoberfest.digitalocean.com/profile">https://hacktoberfest.digitalocean.com/profile</a>
+<a href="https://hacktoberfest.digitalocean.com/profile" target="blank">https://hacktoberfest.digitalocean.com/profile</a>
 
 [![ForTheBadge uses-git](http://ForTheBadge.com/images/badges/uses-git.svg)](https://hacktoberfest.netlify.com/)
 [![ForTheBadge uses-html](http://ForTheBadge.com/images/badges/uses-html.svg)](https://hacktoberfest.netlify.com/)
