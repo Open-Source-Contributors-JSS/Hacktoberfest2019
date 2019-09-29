@@ -219,4 +219,12 @@ color: #EC3FD2 ;
   transition: color 0.6s ease;
 }
 
+@media screen and (max-width: 800px){
+  .menu-wrap li{
+    font-size: 1.5rem;
+  }
 
+  .social i{
+    margin-top: 50px !important;
+  }
+}

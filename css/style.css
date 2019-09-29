@@ -495,6 +495,10 @@ hr {
 
 
 @media screen and (max-width: 800px){
+  .header .title{
+    font-size: 1.5rem !important;
+  }
+
   .column{
     padding: 10px 2.5rem;
   }
@@ -504,7 +508,7 @@ hr {
   }
 
   .header-img{
-    width: 350px;
+    width: 320px;
   }
 
   .logo-2018{
@@ -568,6 +572,10 @@ hr {
 
   .footer-container{
     flex-direction: column;
+  }
+
+  .page-heading{
+    letter-spacing: 0.10ch !important;
   }
 
   .command-container{
