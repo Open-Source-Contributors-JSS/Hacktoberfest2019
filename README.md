@@ -18,7 +18,10 @@ Happy Hacktober! :octocat: This is a beginner friendly repository made specifica
 
 🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
 ###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
-and that counts as your first PR.Also, add your github username in the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/contributers_list.md" target="blank">contributors_list.md</a>
+and that counts as your first PR.
+#### CAUTION: The description must be under 60 words at max. 
+
+Also, add your github username in the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/contributers_list.md" target="blank">contributors_list.md</a>
 
 🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/Intermediate" target="blank"> intermediate folder</a> and make contributions as per as your interests.
 
@@ -109,8 +112,11 @@ https://github.com/your-username/Hacktoberfest2019.git
 ###### At this point, you can now modify existing files or add new files to the project on your own branch.
 ###### Make sure you have read the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and aesily acceptable PRs.
 
-#### Make Changes Locally.For ex. When making your beginner level contribution in this repository, find the js folder, click on json files and open <pre>git-commands.json</pre> and add your favorite git command alongwith a two-three lines short description in the json file.
-###### Remember, json files follow a certain format, do not forget to add a comma before you start editing your block and it's good if you append a comma after finishing your block.
+#### Make Changes Locally.For ex- When making your beginner level contribution in this repository,find <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favorite git command alongwith a two-three lines short description in the json file.
+
+###### CAUTION: JSON files follow a certain format, do not forget to add a comma before you start editing your block and it's good if you append a comma after finishing your block.
+
+#### Also, if you are interested in making intermediate or advanced level contributions, head to our <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/Intermediate">intermediate section</a> and make your mark.
 
 ![git 4](https://user-images.githubusercontent.com/42115530/65821272-0d026580-e251-11e9-927a-82703f921a74.JPG)
 

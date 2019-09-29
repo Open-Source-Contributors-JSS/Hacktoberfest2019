@@ -9,7 +9,7 @@
   },
   {
     "title": "git commit -m '--your message--'",
-    "description": "The git commit command captures a snapshot of the project's currently staged changes. Committed snapshots can be thought of as “safe” versions of a project—Git will never change them unless you explicitly ask it to."
+    "description": "The git commit command captures a snapshot of the project's currently staged changes."
   },
   {
     "title": "git log",
