@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap');
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 
+:root {
+  --primary-color: #005e9b;;
+  --secondary-color: #5bcbf0;
+  --shadow-box: rgba(65, 75, 84 , .35);
+  --text-color: white;
+}
 
 body{
   margin: 0 !important;
@@ -265,6 +271,15 @@ color: #152347;
   margin: 0 10vh;
 }
 
+.command-container h4 a{
+  color: #007bff !important;
+}
+
+.command-container pre{
+  padding: 12px;
+  margin: auto;
+}
+
 .command-container .card{
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
   border-radius: 12px;
@@ -337,13 +352,6 @@ color: #152347;
   font-size: 50%;
   display: grid;
   grid-template-columns: 16.67% 33.33% 33.33% 16.67%;
-}
-
-:root {
-  --primary-color: #005e9b;;
-  --secondary-color: #5bcbf0;
-  --shadow-box: rgba(65, 75, 84 , .35);
-  --text-color: white;
 }
 
 .member-card {
@@ -573,6 +581,10 @@ hr {
   .grid-container{
     display: grid;
     grid-template-columns: 100%;
+  }
+
+  .grid-container .card-body{
+    height: 180px;
   }
 
   .grid-container > div{
