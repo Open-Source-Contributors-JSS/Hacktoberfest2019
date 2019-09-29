@@ -257,6 +257,10 @@ color: #152347;
   align-items: center;
 }
 
+.goodies{
+  height: 360px;
+}
+
 /* gitinit.html */
 
 .gitinit-header{
@@ -495,8 +499,20 @@ hr {
 
 
 @media screen and (max-width: 800px){
+  .header{
+    padding: 12px;
+  }
+
   .header .title{
     font-size: 1.5rem !important;
+  }
+
+  .header-content{
+    line-height: 1.5;
+  }
+
+  .header-content img{
+    margin-top: 2.5rem !important;
   }
 
   .column{
@@ -566,6 +582,10 @@ hr {
     font-size: 2rem;
   }
 
+  .code-logo{
+    display: none;
+  }
+
   .footer-logo{
     display: none;
   }
@@ -576,6 +596,7 @@ hr {
 
   .page-heading{
     letter-spacing: 0.10ch !important;
+    font-size: 35px !important;
   }
 
   .command-container{
@@ -614,17 +635,22 @@ hr {
   .member-card{
     margin: 14px auto;
     padding: 24px;
-    
+    flex-direction: column; 
+  }
+
+  .profile-image{
+    height: 120px;
   }
 
   .profile-name{
     font-size: 22px !important;
+    margin-top: 10px;
   }
 
   .profile-body{
     text-align: left;
-    margin-left: 15px;
-    font-size: 13px;
+    font-size: 15px;
+    display: none;
   }
 
   .contributors-list{
@@ -638,5 +664,15 @@ hr {
     margin-top: 10px;
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .logo-2018{
+    height: 300px;
+  }
+
+  .goodies{
+    height: 280px;
   }
 }
