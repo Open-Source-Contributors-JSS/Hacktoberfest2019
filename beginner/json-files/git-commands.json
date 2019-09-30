@@ -14,5 +14,9 @@
   {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git push",
+    "description": "The git push command is used to upload local repository content to a remote repository."
   }
 ]
