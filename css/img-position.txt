@@ -1,0 +1,11 @@
+
+    p {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 180px;
+        height: 128px;
+        background: url(./img/body.png) no-repeat center center;
+        background-size: contain;
+        z-index: 10;
+    }
