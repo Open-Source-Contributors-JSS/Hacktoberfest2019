@@ -15,7 +15,6 @@
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
   },
-`{
     "title": "git show",
     "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
   },
@@ -23,8 +22,20 @@
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
   },
- {
+
+=======
+   {
+    "title": "git status",
+    "description": "The git commit command provides a status of changes made throughout time."
+  },
+  
+   {
     "title": "git reset",
     "description": "The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard. The three arguments each correspond to Git's three internal state management mechanism's, The Commit Tree (HEAD), The Staging Index, and The Working Directory."
-  }
+  },
+{
+{
+>>
 ]
+=======
+
