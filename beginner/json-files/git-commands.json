@@ -14,5 +14,9 @@
   {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
-  }
+  },
+{
+ "title": "git status",
+    "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
+}
 ]
