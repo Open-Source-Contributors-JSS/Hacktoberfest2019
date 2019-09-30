@@ -18,6 +18,9 @@
 {
     "title": "git show",
     "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
-  }
-
+  },
+ {
+    "title": "git merge",
+    "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
+  },
 ]
