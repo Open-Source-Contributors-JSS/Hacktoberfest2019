@@ -82,7 +82,7 @@
     <div class="members-container">
         <div class="member-card">
             <div class="profile-sidebar">
-                    <img class="profile-image" src="https://avatars2.githubusercontent.com/u/42200276?v=4" alt="" style="filter: brightness(150%);" />
+                    <img class="profile-image" src="https://avatars2.githubusercontent.com/u/42200276?v=4" alt=""/>
                 <ul class="social-list">
                     <li class="social-item">
                         <a aria-label="github" href="https://www.linkedin.com/in/rajat-verma-39458317b/" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
@@ -258,8 +258,10 @@
         let output = '';
         jsondata.forEach((item, index) => {
           output += `
-          <div class="column card">
+          <div class="column card"><<<<<<< name
               <img class="" src=${item.avatar_url} alt="" />
+              <img src=${item.avatar_url} alt="" />
+
               <div>
                   <a href=${item.html_url} target="_blank"><h4 class="title is-4">${item.login}</h4></a>
                   <p><small>Contributions: ${item.contributions}</small></p>
