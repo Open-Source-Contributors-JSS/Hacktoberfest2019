@@ -19,5 +19,5 @@
 19. Rohit Agnihotri (Ryuk07) 
 20. Shristi Singh (shristisingh29)
 21. Alex Alvarado (Xeluh)
-22. Gilang Anyra(baskaragilbas)
-
+22. Marcelo Santos(marcelosantos89)
+23. Gilang Anyra(baskaragilbas)
