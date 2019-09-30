@@ -28,7 +28,11 @@
     "description": "The git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols."
   },
   {
-    "remote": "git remote",
+    "title": "git remote",
     "description": "A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server."
+  },
+  {
+    "title": "git stash",
+    "description": "The git stash command ammends a dirty working directory"
   }
 ]
