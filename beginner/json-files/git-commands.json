@@ -14,5 +14,9 @@
   {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git pull",
+    "description": "This git command fetch all the updated data from gitHub and updates files in your local machine"
   }
 ]
