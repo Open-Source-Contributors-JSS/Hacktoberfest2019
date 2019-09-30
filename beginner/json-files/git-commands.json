@@ -18,5 +18,9 @@
   {
     "title": "git checkout --branch_name--",
     "description": "The git checkout command switch the working branch by pointing the HEAD to the branch to choose for."
+  },
+  {
+    "title": "git clone",
+    "description": "The git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols."
   }
 ]
