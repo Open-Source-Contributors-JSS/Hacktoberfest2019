@@ -17,6 +17,6 @@
   },
   {
     "title": "git branch",
-    "description": "The git commit command is used to make a new branch."
+    "description": "The git commit command is used to make a new branch of your repository."
   }
 ]
