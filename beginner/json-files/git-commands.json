@@ -15,6 +15,10 @@
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
   },
+   {
+    "title": "git status",
+    "description": "The git commit command provides a status of changes made throughout time."
+  },
 {
     "title": "git show",
     "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
@@ -24,3 +28,4 @@
     "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
   },
 ]
+
