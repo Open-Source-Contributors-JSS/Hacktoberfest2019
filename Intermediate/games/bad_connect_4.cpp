@@ -1,4 +1,3 @@
-#include "pch.h"
 #include <iostream>
 using namespace std;
 #define row 6
