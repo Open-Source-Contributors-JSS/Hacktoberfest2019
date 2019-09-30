@@ -14,5 +14,9 @@
   {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git branch Your_Branch_Name",
+    "description": "The git branch command creates a new branch. "
   }
 ]
