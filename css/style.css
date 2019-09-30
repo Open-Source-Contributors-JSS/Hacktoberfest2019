@@ -436,9 +436,8 @@ color: #152347;
 }
  
 .contributors-list .column{
-  padding: 5px;
+  padding: 5px 10px;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: row;
   margin: 12px;
