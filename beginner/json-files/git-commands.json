@@ -63,5 +63,9 @@
    "title": "git send-email",
    "description": "This command sends a collection of patches as emails."
   }
+  {
+  "title":"git log",
+  "description":"show the commit history for the currently active branch"
+  }
 ]
 
