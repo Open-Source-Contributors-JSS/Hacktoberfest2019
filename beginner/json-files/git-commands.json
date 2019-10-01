@@ -66,6 +66,10 @@
   {
     "title": "git rebase",
     "description": "This command moves or combines a sequence of commits to a new base commit"
+  },
+ {
+  "title":"git reset [file]",
+  "description":"unstage a file while retaining the changes in working directory."
   }
 ]
 
