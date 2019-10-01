@@ -46,7 +46,11 @@
   },
   { 
     "title": "git config",
-    "description": "This command is used to set the author name and email address respectively which is to be used with your commits."
+    "description": "This command sets the author name and email address respectively to be used with your commits."
+  },
+  {
+    "title":"git push (git push [variable name] [branch])",
+    "description":"This command sends the branch commits to your remote repository."
   },
   { 
     "title": "git pull",
@@ -87,6 +91,6 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
-  }
+  },
 ]
 
