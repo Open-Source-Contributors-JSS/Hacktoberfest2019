@@ -59,6 +59,10 @@
   { 
     "title": "git --version",
     "description": "This command checks your git version"
+  },
+  { 
+    "title": "git log",
+    "description": "This command is used to list a version history of current branch."
   }
 ]
 
