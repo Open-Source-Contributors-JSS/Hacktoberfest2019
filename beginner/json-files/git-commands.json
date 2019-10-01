@@ -47,5 +47,10 @@
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   }
+  ,
+  { 
+    "title": "git --version",
+    "description": "This command checks your git version"
+  }
 ]
 
