@@ -79,5 +79,9 @@
   "title":"git reset [file]",
   "description":"unstage a file while retaining the changes in working directory."
   }
+  {
+    "title": "git rm",
+    "description": "This command deletes the file from your working directory and stages the deletion."
+  }
 ]
 
