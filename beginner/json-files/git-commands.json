@@ -48,7 +48,7 @@
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
   {
-    "title":"git push",
+    "title":"git push (git push [variable name] [branch])",
     "description":"This command sends the branch commits to your remote repository."
   },
   { 
@@ -90,6 +90,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git cherry-pick",
+    "description": "Lets you cherry pick certain commits from one branch to another."
   }
 ]
 
