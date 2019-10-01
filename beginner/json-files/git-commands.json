@@ -43,6 +43,10 @@
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
   },
+  {
+    "title": "git commit -am '--your message--'",
+    "description": "The git commit -am passes in an extra argument, -a, to add all tracked files before performing the commit."
+  },
   { 
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
@@ -50,6 +54,14 @@
   { 
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
+  },
+  {
+    "title": "git diff",
+    "description": "This command shows file differences which are not yet staged."
+  },
+  { 
+    "title": "git --version",
+    "description": "This command checks your git version"
   }
 ]
 
