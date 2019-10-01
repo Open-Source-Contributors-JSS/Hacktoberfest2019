@@ -5,7 +5,7 @@
   },
   {
     "title": "git add",
-    "description": "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
+    "description": "The git add command adds a change int the working directory to a staging area. It tells Gi that you want to include updates to a particular file in the next commit"
   },
   {
     "title": "git commit",
