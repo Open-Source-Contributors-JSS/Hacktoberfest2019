@@ -62,10 +62,18 @@
   { 
     "title": "git --version",
     "description": "This command checks your git version"
-  }
+  },
   {
     "title": " git checkout -b [name_of_your_new_branch]",
     "description": "Create the branch on your local machine and switch to that branch"
+  },
+  {
+    "title": "git status",
+    "description": "The git status command displays the state of the working directory and the staging area." 
+  },
+  {
+   "title": "git reset [commit]",
+   "description": "This command undoes all the commits after the specified commit and preserves the changes locally."
   }
 ]
 
