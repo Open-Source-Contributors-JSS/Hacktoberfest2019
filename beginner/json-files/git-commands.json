@@ -90,6 +90,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git stash list",
+    "description": "Enlists the stashes made with the recent one in the top."
   }
 ]
 
