@@ -76,12 +76,16 @@
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
   {
-  "title":"git reset [file]",
-  "description":"unstage a file while retaining the changes in working directory."
+    "title":"git reset [file]",
+    "description":"unstage a file while retaining the changes in working directory."
   },
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
-  }
+  },
+  {
+    "title": "git branch -a",
+    "description": "This command show all branches in project and highlight which one you are on"
+  },
 ]
 
