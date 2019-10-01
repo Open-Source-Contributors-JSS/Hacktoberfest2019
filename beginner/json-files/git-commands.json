@@ -4,38 +4,19 @@
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
   },
   {
-    "title": "git add",
     "description": "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
   },
   {
-    "title": "git commit",
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
   },
   {
     "title": "git log",
-    "description": "The git commit command provides a log of changes or commits made with details like author,date,time and commit message."
   },
   {
-    "title": "git branch",
-    "description": "The git branch command is used to make a new branch. It can also be used to delete or list the existing branches of your repository."
-  },
-  {
-    "title": "git checkout",
-    "description": "The git checkout command is used to switch the working branch by pointing the HEAD to the branch you choose for."
-  },
-  {
-    "title": "git clone",
-    "description": "The git clone is used to make a clone or copy of the repo in a new directory,or at another location. The original repository can be located on the local filesystem or on remote."
-  },
-  {
+    "title": "git show",
+    "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
     "title": "git remote",
     "description": "A remote in Git is a common repository that all team members use to exchange their changes. In most cases, it is stored on a code hosting service like GitHub or on an internal server."
-  },
-  {
-    "title": "git stash",
-    "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
-  },
- {
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
   },
@@ -48,6 +29,19 @@
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   },
   {
+    "title": "git status",
+    "description": "The git commit command provides a status of changes made throughout time."
+  },
+  {
+    "title": "git reset",
+    "description": "The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard. The three arguments each correspond to Git's three internal state management mechanism's, The Commit Tree (HEAD), The Staging Index, and The Working Directory."
+  },
+  {
+  "title": "git status",
+  "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
+  }
+{
+
     "title": "git diff",
     "description": "This command shows how one branch (or even a specific revision) differs from another one."
   },
