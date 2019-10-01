@@ -90,6 +90,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+  "title":"git show [commit-id]",
+  "description":"This command shows the metadata and changes of a specific commit"
   }
 ]
 
