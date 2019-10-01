@@ -27,4 +27,6 @@
 27. Joshua Abad (yeyoan)
 28. Wisnu Febriadi (wfebriad)
 29. Sonal Agrawal (sonalagrawal11)
-30. Alexander (alexaoh)
+30. AJEET KUMAR RAI (ajeetrai707)
+31. Naveen Bandarage (thebanterage)
+32. Alexander (alexaoh)
