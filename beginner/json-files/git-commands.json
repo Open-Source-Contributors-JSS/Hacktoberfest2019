@@ -57,6 +57,6 @@
   },
   {
     "title": "git cherry-pick ",
-    "description": "This command allows you to apply the changes introduced by some existing commits. When given one or more existing commits, apply the change each one introduces, recording a new commit for each."
+    "description": "This command allows you to apply the changes introduced by some existing commits. When given one or more existing commits, apply the change each one introduces, recording a new commit for each commit."
   }
 ]
