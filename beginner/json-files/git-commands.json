@@ -56,8 +56,8 @@
     "description": "This command checks your git version"
   },
   { 
-    "title": "git reset --soft HEAD~1",
-    "description": "This command lets you undo your last commit, placing differences in stash."
+    "title": "git reset",
+    "description": "This command lets you undo your commits, placing differences in stash."
   }
 ]
 
