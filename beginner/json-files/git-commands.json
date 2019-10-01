@@ -63,5 +63,9 @@
    "title": "git send-email",
    "description": "This command sends a collection of patches as emails."
   }
+  {
+  "title":"git rebase [branch]",
+  "description":"apply any commits of current branch ahead of specified one."
+  }
 ]
 
