@@ -1,6 +1,3 @@
-
-
-
 1. Rajat Verma (rajat2502)
 2. Nihal Pandey (stark019)
 3. Shashikant Mishra (frantic32211)
@@ -30,5 +27,4 @@
 27. Joshua Abad (yeyoan)
 28. Wisnu Febriadi (wfebriad)
 29. Sonal Agrawal (sonalagrawal11)
-
-
+30. Alexander (alexaoh)

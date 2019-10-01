@@ -16,6 +16,7 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
+<<<<<<< HEAD
     "title": "git branch",
     "description": "The git commit command is used to make a new branch of your repository."
   },
@@ -61,4 +62,7 @@
     "description": "This command checks your git version"
   }
 ]
-
+    "title": "git reset '--commitHASH--'",
+    "description": "The git reset command resets your local repo to the supplied commit HASH "
+  }
+]
