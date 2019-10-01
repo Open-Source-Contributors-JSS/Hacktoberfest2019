@@ -13,8 +13,13 @@
   },
   {
     "title": "git log",
-    "description": "The git commit command provides a log of changes or commits made with details like author,date,time and commit message."
+    "description": "The git commit command provides a log of changes made throughout time."
   },
+{
+    "title": "git tag",
+    "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
+  },
+
   {
     "title": "git branch",
     "description": "The git branch command is used to make a new branch. It can also be used to delete or list the existing branches of your repository."
