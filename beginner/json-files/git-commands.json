@@ -47,5 +47,9 @@
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   }
+  {
+    "title": "git help",
+    "description": "This command provides a helpful manual on the GitHub system and commands."
+  }
 ]
 
