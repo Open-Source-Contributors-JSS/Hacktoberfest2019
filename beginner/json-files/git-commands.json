@@ -49,7 +49,7 @@
   },
   {
     "title": "git push",
-    "description": "This command updates remote refs using local refs, while sending objects necessary to complete the given refs."
+    "description": "This command is used to upload local repository content to a remote repository."
   }
 ]
 
