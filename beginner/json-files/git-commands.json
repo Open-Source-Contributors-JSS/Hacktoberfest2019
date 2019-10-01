@@ -92,5 +92,8 @@
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
   },
+  {
+    "title":"git commit",
+    "description": "This command records the file permanently in the version history. "
 ]
 
