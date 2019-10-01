@@ -53,7 +53,7 @@
   },
   { 
     "title": "git --version",
-    "description": "This command checks your git version"
+    "description": "Prints the Git suite version that the git program came from."
   },
   { 
     "title": "git reset",
