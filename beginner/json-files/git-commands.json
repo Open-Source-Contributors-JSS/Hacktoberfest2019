@@ -82,6 +82,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git reflog",
+    "description": "You will see a list of every thing you've done in git, across all branches! each one has an index HEAD@{index} find the one before you broke everything"
   }
 ]
 
