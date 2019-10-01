@@ -78,6 +78,10 @@
   {
   "title":"git reset [file]",
   "description":"unstage a file while retaining the changes in working directory."
+  },
+  {
+    "title": "git  show [commit]",
+    "description": "The git show command Outputs metadata and content changes of the specified commit."
   }
 ]
 
