@@ -55,5 +55,10 @@
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
   }
+  ,
+  {
+    "title": "git show"
+    "description": "Shows the changes in the most recent commit, along with the current tag, if any"
+  }
 ]
 
