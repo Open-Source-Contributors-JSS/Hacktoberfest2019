@@ -63,5 +63,9 @@
     "title": "git --version",
     "description": "This command checks your git version"
   }
+  {
+    "title": " git checkout -b [name_of_your_new_branch]",
+    "description": "Create the branch on your local machine and switch to that branch"
+  }
 ]
 
