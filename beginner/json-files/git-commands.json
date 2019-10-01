@@ -39,6 +39,10 @@
     "title": "git stash",
     "description": "The git stash command ammends a dirty working directory"
   },
+  {
+    "title": "git status",
+    "description": "Shows the working tree status"
+  },
  {
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
