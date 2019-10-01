@@ -83,5 +83,11 @@
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
   }
+  {
+    "title": "git mv[file-original][file-renamed]",
+    "description": "Changes the file name and prepares it for commit."
+  }
+  
+  
 ]
 
