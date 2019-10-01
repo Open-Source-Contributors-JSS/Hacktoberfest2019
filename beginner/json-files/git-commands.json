@@ -58,6 +58,10 @@
   {
     "title" : "git reset",
     "description" : " git reset is a powerful command that is used to undo local changes to the state of a Git repo."
+  },
+  {
+    "title" :"git rm",
+    "description" : "This command deletes the file from your working directory and stages the deletion."
   }
 ]
 
