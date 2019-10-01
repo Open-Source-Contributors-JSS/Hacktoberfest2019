@@ -14,5 +14,9 @@
   {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git stash",
+    "description": "The git stash command stash the changes in a dirty working directory away"
   }
 ]
