@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main (void) {
+    int i,X,N,controle,cont=0;
+
+	scanf("%d",&N);
+
+	for(i=0; i<N; i++)
+	{
+	scanf("%d",&X);
+
+		for(controle=1; controle<=X; controle++)
+		{
+		 if (X%controle==0)
+             cont++; 
+		}
+	if(cont>2 || cont==0 || cont==1)
+			printf("%d no prime\n",X);
+	else
+			printf("%d prime\n",X);
+	
+	cont=0;
+	
+	}
+	
+	return(0);
+}
