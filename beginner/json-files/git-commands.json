@@ -39,7 +39,7 @@
     "title": "git stash",
     "description": "The git stash command ammends a dirty working directory"
   },
- {
+  {
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
   },
@@ -54,11 +54,14 @@
   { 
     "title": "git diff",
     "description": "This command shows file differences which are not yet staged."
-  }
-  ,
+  },
   { 
     "title": "git --version",
     "description": "This command checks your git version"
+  },
+  {
+    "title": "git status",
+    "description": "This command lists the files you've changed and those you still need to add or commit."
   }
 ]
 
