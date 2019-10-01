@@ -111,7 +111,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
  
 ###### At this point, you can now modify existing files or add new files to the project on your own branch.
-###### Make sure you have read the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and aesily acceptable PRs.
+###### Make sure you have read the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and easily acceptable PRs.
 
 #### Make Changes Locally.For ex- When making your beginner level contribution in this repository,find <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favorite git command alongwith a two-three lines short description in the json file.
 
