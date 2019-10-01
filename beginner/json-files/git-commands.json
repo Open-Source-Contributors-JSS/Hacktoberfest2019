@@ -1,7 +1,14 @@
-[
+[  {
+    "title": "git config",
+    "description": "The git config command configures the author name and email address to be used with your commits."
+  },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
+  },
+ {
+    "title": "git clone",
+    "description": "The git clone command creates a working copy of a local repository."
   },
   {
     "title": "git add .",
