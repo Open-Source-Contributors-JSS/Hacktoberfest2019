@@ -52,10 +52,13 @@
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
   { 
+    "title": "git pull",
+    "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
+  },
+  {
     "title": "git diff",
     "description": "This command shows file differences which are not yet staged."
-  }
-  ,
+  },
   { 
     "title": "git --version",
     "description": "This command checks your git version"
