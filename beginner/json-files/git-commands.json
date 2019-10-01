@@ -82,6 +82,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git fetch",
+    "description": "The git fetch command downloads commits, files, and refs from a remote repository into your local repo."
   }
 ]
 
