@@ -70,6 +70,10 @@
  {
   "title":"git reset [file]",
   "description":"unstage a file while retaining the changes in working directory."
+  },
+ {
+  "title":"git cherrypick",
+  "description":"This command is designed to apply some commit from one branch into another branch. It can be done if you eg. made a mistake and committed a change into wrong branch, but do not want to merge the whole branch."
   }
 ]
 
