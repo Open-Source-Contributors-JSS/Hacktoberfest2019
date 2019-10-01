@@ -82,6 +82,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+    {
+    "title": "git revert --no-commit #commithash..HEAD",
+    "description": "Allows you to revert a repository to a previous commit."
   }
 ]
 
