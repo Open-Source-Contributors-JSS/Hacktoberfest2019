@@ -46,6 +46,10 @@
   { 
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
+  },
+  {
+    "title": "git push",
+    "description": "This command updates remote refs using local refs, while sending objects necessary to complete the given refs."
   }
 ]
 
