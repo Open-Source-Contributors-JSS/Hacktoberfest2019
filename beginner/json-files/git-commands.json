@@ -54,6 +54,10 @@
   { 
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
+  },
+  {
+    "title" : "git reset",
+    "description" : " git reset is a powerful command that is used to undo local changes to the state of a Git repo."
   }
 ]
 
