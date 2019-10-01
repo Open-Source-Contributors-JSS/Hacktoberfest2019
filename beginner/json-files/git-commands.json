@@ -63,5 +63,9 @@
    "title": "git send-email",
    "description": "This command sends a collection of patches as emails."
   }
+  {
+  "title":"git checkout",
+  "description":"switch to another branch and check it out into your working directory."
+  }
 ]
 
