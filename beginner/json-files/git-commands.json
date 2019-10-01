@@ -14,5 +14,9 @@
   {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git blame",
+    "description": "The git blame command show what revision and author last modified each line of a file, it’s very usefull when you want to know who did specific changes in the code. For example: you found a line of code that doesn’t make sense or harms the entire code, so you use git blame to find who wrote that and, sometimes, you can discover that the guilted it’s yourself."
   }
 ]
