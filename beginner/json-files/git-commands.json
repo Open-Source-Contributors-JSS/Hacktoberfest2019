@@ -39,11 +39,11 @@
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
   },
-  { 
+  {
     "title": "git config",
     "description": "This command is used to set the author name and email address respectively which is to be used with your commits."
   },
-  { 
+  {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   },
@@ -51,7 +51,7 @@
     "title": "git diff",
     "description": "This command shows how one branch (or even a specific revision) differs from another one."
   },
-  { 
+  {
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
   },
@@ -78,6 +78,18 @@
   {
   "title":"git reset [file]",
   "description":"unstage a file while retaining the changes in working directory."
-  }
-]
+},
 
+  {
+    "title":"git commit"
+    "description":"this command saves all the applied changes and proceed to push section."
+  },
+  {
+    "title": "git push",
+    "description": "This command lets you push changes from your local repository to the remote repository."
+  },
+  {
+    "title": "git config",
+    "description": "This command is used to set the author name and email address respectively which is to be used with your commits."
+  },
+]
