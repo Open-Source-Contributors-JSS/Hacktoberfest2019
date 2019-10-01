@@ -33,5 +33,3 @@
 33. Nitin Patel (nit00)
 34. Shubham Verma (shubhamvrm)
 35. José M. Martínez (Toolson12)
-
-
