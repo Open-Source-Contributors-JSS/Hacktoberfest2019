@@ -55,5 +55,13 @@
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
   }
+  {
+   "title": "git rm",
+   "description": "This command deletes the file from your working directory and stages the deletion."
+  }
+   {
+   "title": "git send-email",
+   "description": "This command sends a collection of patches as emails."
+  }
 ]
 
