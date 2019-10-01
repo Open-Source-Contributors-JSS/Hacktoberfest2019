@@ -35,15 +35,15 @@
     "title": "git stash",
     "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
   },
- {
+  {
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
   },
-  { 
+  {
     "title": "git config",
     "description": "This command is used to set the author name and email address respectively which is to be used with your commits."
   },
-  { 
+  {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   },
@@ -51,37 +51,40 @@
     "title": "git diff",
     "description": "This command shows how one branch (or even a specific revision) differs from another one."
   },
-  { 
+  {
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
   },
   {
-   "title": "git rm",
-   "description": "This command deletes the file from your working directory and stages the deletion."
+    "title": "git rm",
+    "description": "This command deletes the file from your working directory and stages the deletion."
   },
   {
-   "title": "git send-email",
-   "description": "This command sends a collection of patches as emails."
+    "title": "git send-email",
+    "description": "This command sends a collection of patches as emails."
   },
   {
     "title": "git push",
     "description": "This command lets you push changes from your local repository to the remote repository."
   },
   {
-   "title": "git send-email",
-   "description": "This command sends a collection of patches as emails."
+    "title": "git send-email",
+    "description": "This command sends a collection of patches as emails."
   },
   {
     "title": "git rebase",
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
   {
-  "title":"git reset [file]",
-  "description":"unstage a file while retaining the changes in working directory."
+    "title": "git reset [file]",
+    "description": "unstage a file while retaining the changes in working directory."
   },
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git cherry-pick",
+    "description": "Apply changes from one or more given commits from one or more origins, recording a new commit for each change"
   }
 ]
-
