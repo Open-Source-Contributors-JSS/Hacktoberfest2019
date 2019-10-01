@@ -63,5 +63,10 @@
    "title": "git send-email",
    "description": "This command sends a collection of patches as emails."
   }
+
+  {
+    "title": "git reset --hard",
+    "description": "Hard reset function that let's user to go back to the last commit version"
+  }
 ]
 
