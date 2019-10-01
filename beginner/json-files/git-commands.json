@@ -95,5 +95,6 @@
   {
     "title":"git commit",
     "description": "This command records the file permanently in the version history. "
+  }
 ]
 
