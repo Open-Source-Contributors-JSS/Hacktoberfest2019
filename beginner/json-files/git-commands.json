@@ -60,5 +60,10 @@
     "title": "git --version",
     "description": "This command checks your git version"
   }
+  ,
+  {
+    "title": "git show"
+    "description": "Shows the changes in the most recent commit, along with the current tag, if any"
+  }
 ]
 
