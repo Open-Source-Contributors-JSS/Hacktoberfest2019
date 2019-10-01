@@ -16,7 +16,51 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
+    "title": "git branch",
+    "description": "The git commit command is used to make a new branch of your repository."
+  },
+  {
+    "title": "git branch Your_Branch_Name",
+    "description": "The git branch command creates a new branch. "
+  },
+  {
+    "title": "git checkout --branch_name--",
+    "description": "The git checkout command switch the working branch by pointing the HEAD to the branch to choose for."
+  },
+  {
+    "title": "git clone",
+    "description": "The git clone is primarily used to point to an existing repo and make a clone or copy of that repo at in a new directory, at another location. The original repository can be located on the local filesystem or on remote machine accessible supported protocols."
+  },
+  {
+    "title": "git remote",
+    "description": "A remote in Git is a common repository that all team members use to exchange their changes. In most cases, such a remote repository is stored on a code hosting service like GitHub or on an internal server."
+  },
+  {
     "title": "git stash",
-    "description": "The git stash command stash the changes in a dirty working directory away"
+    "description": "The git stash command ammends a dirty working directory"
+  },
+ {
+    "title": "git merge",
+    "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
+  },
+  {
+    "title": "git commit -am '--your message--'",
+    "description": "The git commit -am passes in an extra argument, -a, to add all tracked files before performing the commit."
+  },
+  { 
+    "title": "git config",
+    "description": "This command sets the author name and email address respectively to be used with your commits."
+  },
+  { 
+    "title": "git diff",
+    "description": "This command shows file differences which are not yet staged."
+  },
+  { 
+    "title": "git --version",
+    "description": "This command checks your git version"
+  },
+  {
+    "title": "git stash apply",
+    "description": "This command try to reapply the staged changes"
   }
 ]
