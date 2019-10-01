@@ -43,9 +43,12 @@
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of development created by git branch and integrate them into a single branch."
   },
-  { 
+  {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
+  },
+  {
+    "title": "git diff",
+    "description": "This command shows file differences not yet staged."
   }
 ]
-
