@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+
+int main () {
+    double A,B,C,form;
+    scanf("%lf%lf%lf",&A,&B,&C);
+    form=(B*B)-(4*A*C);
+    if (form<0 || A==0 )
+        printf("Impossible calculation\n");
+    else
+    printf("R1 = %0.5lf\nR2 = %0.5lf\n",(-B+sqrt(form))/(2*A),(-B-sqrt(form))/(2*A));
+
+    return(0);
+
+}
