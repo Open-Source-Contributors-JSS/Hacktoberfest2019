@@ -54,6 +54,10 @@
   { 
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
+  },
+  {
+    "title": "git pull --rebase",
+    "description": "This git command is used to apply any commits of current branch ahead of specified one."
   }
 ]
 
