@@ -78,6 +78,10 @@
   {
   "title":"git reset [file]",
   "description":"unstage a file while retaining the changes in working directory."
+  },
+  {
+    "title": "git status",
+    "description": "The git status command lists all new or modified files to be committed."
   }
 ]
 
