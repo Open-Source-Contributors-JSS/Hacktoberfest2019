@@ -8,7 +8,7 @@ def bubble_sort(array):
 	for i in range(len(array)):
 		if swap is True:
 			runs +=1
-		sawp = False
+		swap = False
 		#  Prints each step of array
 		print(array)
 		for j in range(len(array) -1):
