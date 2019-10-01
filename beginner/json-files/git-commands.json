@@ -35,7 +35,11 @@
     "title": "git stash",
     "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
   },
- {
+  {
+    "title": "git fetch",
+    "description": "This command is used to download files and commits from the remote repository to your local repository. Note that this is different from a pull because it will not perform a merge."
+  },
+  {
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
   },
