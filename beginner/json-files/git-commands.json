@@ -63,6 +63,10 @@
   { 
     "title": "git log",
     "description": "This command is used to list a version history of current branch."
+  },
+  { 
+    "title": "git reset",
+    "description": "This command unstages the file but preserve its contents."
   }
 ]
 
