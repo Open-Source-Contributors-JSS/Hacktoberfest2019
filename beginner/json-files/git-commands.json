@@ -16,10 +16,6 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
-    "title": "git rm",
-    "description": "This command deletes the file from your working directory and stages the deletion."
-  },
-  {
     "title": "git tag",
     "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
@@ -52,10 +48,6 @@
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
   {
-    "title": "git push",
-    "description": "This command sends the branch commits to your remote repository."
-  },
-  {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   },
@@ -78,10 +70,6 @@
   {
     "title": "git push",
     "description": "This command lets you push changes from your local repository to the remote repository."
-  },
-  {
-    "title": "git send-email",
-    "description": "This command sends a collection of patches as emails."
   },
   {
     "title": "git rebase",
