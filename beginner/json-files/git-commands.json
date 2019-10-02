@@ -95,4 +95,8 @@
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
   }
+  {
+    "title":"git grep",
+    "description":"Used to search your entire codebase for a phrase from the command line"
+  }
 ]
