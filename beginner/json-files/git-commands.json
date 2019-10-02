@@ -94,6 +94,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git branch -D <branch name>",
+    "description": "This command deletes a local branch"
   }
 ]
 
