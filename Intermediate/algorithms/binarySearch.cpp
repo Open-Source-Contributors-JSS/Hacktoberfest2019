@@ -20,9 +20,16 @@ int binary_search(int arr[],int arr_length,int key){
 
 int main(){
     //requires arr to be sorted
-    int arr[] = {1,2,3,4,6};
-    int arr_length = 5;
-    int num_to_search = 2;
+    int arr_length,num_to_search;
+    cout<<"enter the number of elements"<<endl;
+    cin>>arr_length;
+    int arr[arr_length];
+    cout<<"enter the elements in ascending order"<<endl;
+    for(int i=0;i<arr_length;i++){
+        cin>>arr[i];
+    }
+    cout<<"enter the number to search"<<endl;
+    cin>>num_to_search;
     int result = binary_search(arr,arr_length,num_to_search);
     if(result==-1){
         cout<<"key not found"<<endl;
