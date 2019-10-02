@@ -94,6 +94,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
-  }
+  },
+  {
+    "title": "git archive",
+    "description": "Creates a tar or zip file including the contents of a single tree from your repository."
+  },
 ]
 
