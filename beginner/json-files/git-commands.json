@@ -96,6 +96,10 @@
     "description": "This command is used to cancel an interactive rebase."
   },
   {
+    "title": "git worktree list",
+    "description": "Manage multiple working trees attached to the same repository."
+  },
+  {
     "title": "git shortlog",
     "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."=======
   },
