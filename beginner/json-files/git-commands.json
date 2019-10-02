@@ -98,6 +98,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title":"git diff <source-branch> <target-branch>",
+    "description": "This command is used to display conflicts between branches to merge before effectively merging them."
   }
 ]
 
