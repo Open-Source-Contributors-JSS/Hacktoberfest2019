@@ -100,8 +100,8 @@
     "description": "Enlists the stashes made with the recent one in the top."
   },
   {
-    "title": "git cherry-pick",
-    "description": "Pick one or more existing commits from a branch and apply it to another branch."
+    "title": "git bisect",
+    "description": "Use a binary search algorithm to find the commit that introduced a defect."
   }
 ]
 
