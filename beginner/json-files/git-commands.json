@@ -106,5 +106,9 @@
   {
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
+  },
+  {
+    "title": "git worktree move",
+    "description": "This command moves a working tree to a new path."
   }
 ]
