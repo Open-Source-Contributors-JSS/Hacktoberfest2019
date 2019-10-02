@@ -50,5 +50,7 @@
 50. Pierre Lacaud (Arkistos)
 51. David Zammit (dzammit)
 52. Saksham Raghuvanshi (sraghuvanshi)
-53.Prajwal Shirur (prajwal2100)
-54. Rathesh Prabakar (Ratheshprabakar)
+53. Prajwal Shirur (prajwal2100)
+54. Alberto Sobrinho (a-skz)
+55. Rathesh Prabakar (Ratheshprabakar)
+
