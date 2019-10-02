@@ -94,6 +94,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git diff --ignore-all-space",
+    "description": "This option lets diffs ignore any whitespace change inside or on the edge of lines, including going from no whitespace to some, and vice-versa."
   }
 ]
 
