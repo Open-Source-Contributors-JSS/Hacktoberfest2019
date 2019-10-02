@@ -13,7 +13,11 @@
   },
   {
     "title": "git log",
-    "description": "The git commit command provides a log of changes or commits made with details like author,date,time and commit message."
+    "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git tag",
+    "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
   {
     "title": "git branch",
@@ -35,13 +39,17 @@
     "title": "git stash",
     "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
   },
- {
+  {
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
   },
   { 
     "title": "git config",
-    "description": "This command is used to set the author name and email address respectively which is to be used with your commits."
+    "description": "This command sets the author name and email address respectively to be used with your commits."
+  },
+  {
+    "title":"git push",
+    "description":"This command sends the branch commits to your remote repository."
   },
   { 
     "title": "git pull",
@@ -82,6 +90,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git stash list",
+    "description": "Enlists the stashes made with the recent one in the top."
   }
 ]
 
