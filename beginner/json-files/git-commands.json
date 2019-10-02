@@ -94,5 +94,9 @@
   {
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
+  },
+  {
+    "title": "git grep [pattern]",
+    "description": "This command print lines matching a pattern."
   }
 ]
