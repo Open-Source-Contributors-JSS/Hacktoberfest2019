@@ -96,7 +96,7 @@
     "description": "This command is used to cancel an interactive rebase."
   }
   {
-    "title": "git cherry-pick 5720fdf",
+    "title": "git cherry-pick",
     "description": "Copy the commit to the current branch."
   }
 ]
