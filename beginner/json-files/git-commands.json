@@ -98,6 +98,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git show",
+    "description": "This command shows the metadata and content changes of the specified commit."
   }
 ]
 
