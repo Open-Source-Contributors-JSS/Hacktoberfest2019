@@ -244,7 +244,7 @@
       function getcontributorsData(){
         let client_id = '45ebb6d8e84478c05bec';
         let client_secret = '11ffca05704f88d486072382012903f147489b8c'; 
-        let url1 = `https://api.github.com/repos/Open-Source-Contributors-JSS/Hacktoberfest2019/contributors?client_id=${this.client_id}&client_secret=${this.client_secret}`;
+        let url1 = `https://api.github.com/repos/Open-Source-Contributors-JSS/Hacktoberfest2019/contributors?per_page=500&client_id=${this.client_id}&client_secret=${this.client_secret}`;
         return new Promise((resolve, reject) => {
           fetch(url1)
           .then(data => data.json())
