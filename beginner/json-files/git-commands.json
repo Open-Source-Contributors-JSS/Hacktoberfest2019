@@ -47,7 +47,7 @@
     "title": "git merge",
     "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
   },
-  { 
+  {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
@@ -55,7 +55,7 @@
     "title":"git push",
     "description":"This command sends the branch commits to your remote repository."
   },
-  { 
+  {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   },
@@ -63,7 +63,7 @@
     "title": "git diff",
     "description": "This command shows how one branch (or even a specific revision) differs from another one."
   },
-  { 
+  {
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
   },
@@ -98,6 +98,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git cherry-pick",
+    "description": "Pick one or more existing commits from a branch and apply it to another branch."
   }
 ]
 
