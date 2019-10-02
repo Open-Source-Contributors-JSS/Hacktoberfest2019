@@ -94,5 +94,13 @@
   {
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
+  },
+  {
+    "title": "git shortlog",
+    "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."=======
+  },
+    {
+    "title": "git grep [pattern]",
+    "description": "This command print lines matching a pattern."
   }
 ]
