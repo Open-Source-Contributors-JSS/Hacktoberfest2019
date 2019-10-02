@@ -1,0 +1,43 @@
+[
+  {
+    "title": "pwd",
+    "description": "Tells you the patrh to the current directory you are in"
+  },
+  {
+    "title": "ls [file]",
+    "description": "Lists files within file or if file is ommited lists files within current directory"
+  },
+  {
+    "title": "cd [file]",
+    "description": "Navigates to a new file, if file is empty or ~ this command will take you back to your home folder. file paths are relative unless an absaloute path is given (eg cd /home/username/documents or cd ~/documents)"
+  },
+  {
+    "title": "mv [file1] [file2]",
+    "description": "Move file1 to file2, this is also used to rename a file"
+  },
+  {
+    "title": "cp [file1] [file2]"
+    "description": "Copies file1 to file2"
+  },
+  {
+    "title": "mkdir [file]",
+    "description": "Makes a new directory"
+  },
+  {
+    "title": "rm [file]",
+    "description": "deletes a file (NOTE: the file will be deleted and not go to a recycle bin)"
+  },
+  {
+    "title": "rm -r [file]",
+    "description": "Recursively deletes a folder and everything inside it (NOTE: the file will be deleted and not go to a recycle bin)"
+  },
+  {
+    "title": "cat [file]",
+    "description": "Prints the contents of the file to console"
+  },
+  {
+    "title": "man [command]",
+    "description": "Shows a manual page for a given command"
+  },
+]
+
