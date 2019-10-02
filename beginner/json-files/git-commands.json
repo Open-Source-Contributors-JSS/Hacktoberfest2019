@@ -100,11 +100,11 @@
     "description": "Enlists the stashes made with the recent one in the top."
   },
   {
-    "title": "git checkout branchname",
-    "description": "Switch to any other branch by using git checkout branchname"
+    "title": "git show",
+    "description": "This command shows the metadata and content changes of the specified commit."
   },
   {
     "title": "git rebase --abort",
-    "description": "Cancel an interactive rebase"
+    "description": "This command is used to cancel an interactive rebase."
   }
 ]
