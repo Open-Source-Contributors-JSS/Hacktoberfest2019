@@ -98,5 +98,13 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git checkout branchname",
+    "description": "Switch to any other branch by using git checkout branchname"
+  },
+  {
+    "title": "git rebase --abort",
+    "description": "Cancel an interactive rebase"
   }
 ]
