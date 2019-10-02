@@ -108,7 +108,7 @@
     "description": "This command print lines matching a pattern."
   },
   {
-    "title": "git bisect start [--term-{old,good}=<term> --term-{new,bad}=<term>] [--no-checkout] [<bad> [<good>...]] [--] [<paths>...]",
+    "title": "git bisect",
     "description": "This command uses a binary search algorithm to find which commit in your project’s history introduced a bug."
   }
 ]
