@@ -33,5 +33,8 @@
 33. Nitin Patel (nit00)
 34. Shubham Verma (shubhamvrm)
 35. Harshith Reddy (scorpiocodes)
-36. Sahil Bondre (godcrampy)
-
+36. Salem Qemlas (saqemlas)
+37. Arman Singh (armansingh7982)
+38. Priya vaidyanathan (priyavaidy)
+39. Emmanuel Ezenwigbo (SkyC0der)
+40. Gillian Shanks (GillianShanks)
