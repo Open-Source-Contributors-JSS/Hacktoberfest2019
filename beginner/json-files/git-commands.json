@@ -115,4 +115,10 @@
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
   },
+  {
+    "title": "git pull origin [branch name]",
+    "description": "Pull changes from remote repository."
+  }
 ]
+
+	
