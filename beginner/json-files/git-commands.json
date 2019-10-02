@@ -98,6 +98,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git fetch",
+    "description": "Download objects and refs from another repository."
   }
 ]
 
