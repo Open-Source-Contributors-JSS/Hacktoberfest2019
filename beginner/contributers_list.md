@@ -37,4 +37,5 @@
 37. Arman Singh (armansingh7982)
 38. Priya vaidyanathan (priyavaidy)
 39. Emmanuel Ezenwigbo (SkyC0der)
-40. John Kennedy Bicbic (jkbicbic)
+40. Gillian Shanks (GillianShanks)
+41. John Kennedy Bicbic (jkbicbic)
