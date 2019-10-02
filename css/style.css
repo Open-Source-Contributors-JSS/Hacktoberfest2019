@@ -112,6 +112,7 @@ a.navbar-item:hover {
   transition: color 1s;
   transition: background-color 0.8s;
   border: 1px solid #F901AB;
+  transform: scale(1.1);
 }
 
 .block {
