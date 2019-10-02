@@ -19,6 +19,7 @@ Happy Hacktober! :octocat: This is a beginner friendly repository made specifica
 
 🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
 ###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
+###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/linux-commands.json" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/linux-commands.json</a> 
 and that counts as your first PR.
 #### CAUTION: The description must be under 60 words at max. 
 
@@ -113,7 +114,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 ###### At this point, you can now modify existing files or add new files to the project on your own branch.
 ###### Make sure you have read the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and easily acceptable PRs.
 
-#### Make Changes Locally.For ex- When making your beginner level contribution in this repository,find <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favorite git command alongwith a two-three lines short description in the json file.
+#### Make Changes Locally.For ex- When making your beginner level contribution in this repository, find <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favorite git command along with a two-three lines short description in the json file. Alternatively you can do the same with your favourite linux commands in <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/beginner/json-files">linux-commands.json</a>
 
 ###### CAUTION: JSON files follow a certain format, do not forget to add a comma before you start editing your block and it's good if you append a comma after finishing your block.
 
