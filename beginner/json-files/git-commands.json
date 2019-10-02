@@ -98,6 +98,6 @@
   {
     "title": "git show [commit]",
     "description": "This command shows the metadata and content changes of the specified commit."
-  },
+  }
 ]
 
