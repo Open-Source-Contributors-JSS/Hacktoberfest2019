@@ -15,10 +15,6 @@
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
   },
- {
-    "title": "git rm",
-    "description": "This command deletes the file from your working directory and stages the deletion."
-  },
   {
     "title": "git tag",
     "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
@@ -68,28 +64,24 @@
     "description": "Prints the Git suite version that the git program came from."
   },
   {
-   "title": "git rm",
-   "description": "This command deletes the file from your working directory and stages the deletion."
+    "title": "git rm",
+    "description": "This command deletes the file from your working directory and stages the deletion."
   },
   {
-   "title": "git send-email",
-   "description": "This command sends a collection of patches as emails."
+    "title": "git send-email",
+    "description": "This command sends a collection of patches as emails."
   },
   {
     "title": "git push",
     "description": "This command lets you push changes from your local repository to the remote repository."
   },
   {
-   "title": "git send-email",
-   "description": "This command sends a collection of patches as emails."
-  },
-  {
     "title": "git rebase",
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
   {
-  "title":"git reset [file]",
-  "description":"unstage a file while retaining the changes in working directory."
+    "title": "git reset [file]",
+    "description": "unstage a file while retaining the changes in working directory."
   },
   {
     "title": "git status",
@@ -100,8 +92,27 @@
     "description": "Enlists the stashes made with the recent one in the top."
   },
   {
+    "title": "git show",
+    "description": "This command shows the metadata and content changes of the specified commit."  
+  },
+  {
+    "title": "git rebase --abort",
+    "description": "This command is used to cancel an interactive rebase."
+  },
+  {
+    "title": "git worktree list",
+    "description": "Manage multiple working trees attached to the same repository."
+  },
+  {
+    "title": "git shortlog",
+    "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."
+  },
+  {
+    "title": "git grep [pattern]",
+    "description": "This command print lines matching a pattern."
+  },
+  {
     "title": "git bisect",
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
   }
 ]
-
