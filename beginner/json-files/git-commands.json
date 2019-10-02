@@ -102,5 +102,13 @@
   {
     "title": "git stash drop",
     "description": "discard the changes from top of stash stack"
+  },
+  {
+    "title": "git show",
+    "description": "This command shows the metadata and content changes of the specified commit."  
+  },
+  {
+    "title": "git rebase --abort",
+    "description": "This command is used to cancel an interactive rebase."
   }
 ]
