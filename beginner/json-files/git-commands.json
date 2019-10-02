@@ -114,5 +114,9 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+	"title": "git please",
+    "description": "tells git to check whether the remote repo is the same as the one you’re trying to push up. If it isn’t, git will throw an error instead of blindly overwriting the remote repo. "
   }
 ]
