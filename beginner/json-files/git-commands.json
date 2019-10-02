@@ -103,8 +103,12 @@
     "title": "git shortlog",
     "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."=======
   },
-    {
+  {
     "title": "git grep [pattern]",
     "description": "This command print lines matching a pattern."
+  },
+  {
+    "title": "git bisect start [--term-{old,good}=<term> --term-{new,bad}=<term>] [--no-checkout] [<bad> [<good>...]] [--] [<paths>...]",
+    "description": "This command uses a binary search algorithm to find which commit in your project’s history introduced a bug."
   }
 ]
