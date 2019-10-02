@@ -106,5 +106,9 @@
   {
     "title": "git rebase --abort",
     "description": "Cancel an interactive rebase"
+  },
+  {
+    "title": "git staaash",
+    "description": "stash ignored, untracked, and tracked files "
   }
 ]
