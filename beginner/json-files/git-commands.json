@@ -98,6 +98,10 @@
   {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+      "title": "git checkout [branchname] [file]",
+      "description": "This allows you to checkout a specific file from a branch that you aren't currently on"
   }
 ]
 
