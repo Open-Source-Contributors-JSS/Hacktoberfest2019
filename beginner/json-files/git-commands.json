@@ -80,6 +80,11 @@
   "description":"unstage a file while retaining the changes in working directory."
   },
   {
+    "title": "git push origin --delete [branch name]",
+    "description": "Delete a remote branch"
+  },
+
+  {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
   }
