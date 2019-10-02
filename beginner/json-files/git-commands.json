@@ -101,7 +101,7 @@
   },
   {
     "title": "git show",
-    "description": "This command shows the metadata and content changes of the specified commit."
+    "description": "This command shows the metadata and content changes of the specified commit."  
   },
   {
     "title": "git rebase --abort",
