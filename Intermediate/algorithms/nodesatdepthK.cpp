@@ -1,10 +1,10 @@
-#include <iostream>
-#include <vector>
-#include <queue>
+//Using STL here
+#include<iostream>
+#include<vector>
+#include<queue>
 using namespace std;
-// Following is the given TreeNode structure.
-
-template <typename T>
+// Following is the given TreeNode structure
+template<typename T>
 class TreeNode {
 public:
     T data;
@@ -22,18 +22,18 @@ public:
     
 };
 
-
 void printNodesAtDepthK(TreeNode<int>* root, int k) {
     
   if(k==0)
-  { cout<<root->data<<" ";
-   return;
+  {
+      cout<<root->data<<" ";
+      return;
   }
   for(int i=0;i<root->children.size();i++)
   {     
    TreeNode<int>* t=root->children[i];
       printNodesAtDepthK(t,k-1);
-}
+  }
 }
 
 
