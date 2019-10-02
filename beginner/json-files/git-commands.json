@@ -94,5 +94,9 @@
   {
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
+  },
+  {
+    "title": "git worktree list",
+    "description": "Manage multiple working trees attached to the same repository."
   }
 ]
