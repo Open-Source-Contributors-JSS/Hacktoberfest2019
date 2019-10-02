@@ -47,6 +47,7 @@
 47. Stefan Bakurdzhiev (sbakurdzhiev)
 48. aravind (aravind1078)
 49. Michael Narehood (Narehood)
-50. David Zammit (dzammit)
-51. Saksham Raghuvanshi (sraghuvanshi)
+50. Pierre Lacaud (Arkistos)
+51. David Zammit (dzammit)
+52. Saksham Raghuvanshi (sraghuvanshi)
 
