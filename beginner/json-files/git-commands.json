@@ -134,6 +134,10 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git bundle",
+    "description": "Move objects and refs by archive."
   }, 
   {
     "title": "git fetch [bookmark]",
