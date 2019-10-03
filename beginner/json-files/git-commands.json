@@ -152,7 +152,7 @@
     "description": "Move objects and refs by archive."
   }, 
   {
-    "title": "git fetch [bookmark]",
+    "title": "git fetch",
     "description": "Downloads all history from the repository bookmark."
   },
   {
@@ -191,7 +191,11 @@
     "description": "Cleanup unnecessary files and optimize the local repository."
   },
   {
-    "title": "git switch [branch_name]",
+      "title": "git rev-parse",
+     "description":"Shows the hash of current commit you're on."
+  },
+  {
+    "title": "git switch",
     "description": "Switch to branch."
   }
 ]
