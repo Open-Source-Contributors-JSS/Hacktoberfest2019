@@ -179,7 +179,7 @@
     "description": "Cleanup unnecessary files and optimize the local repository."
   },
   {
-      "title": "git rev-parse HEAD"
+      "title": "git rev-parse HEAD",
      "description":"Shows the hash of current commit you're on."
   }
 ]
