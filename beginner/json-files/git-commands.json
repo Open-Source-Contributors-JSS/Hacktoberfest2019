@@ -12,6 +12,10 @@
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
   },
   {
+    "title": "git merge",
+    "description": "The git commit command joins two or more development histories together."
+  },
+  {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
   },
@@ -40,8 +44,20 @@
     "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
   },
   {
-    "title": "git merge",
-    "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
+    "title": "git stash apply",
+    "description": "This command try to reapply the staged changes"
+  },
+  {
+    "title": "git stash pop",
+    "description": "This command applies the changes to the local workspace in the latest stash."
+  },
+  {
+    "title": "git stash drop",
+    "description": "This command remove a stash entry from the list of stash entries."
+  },
+  {
+    "title": "git stash list",
+    "description": "Enlists the stashes made with the recent one in the top."
   },
   {
     "title": "git config",
@@ -80,16 +96,16 @@
     "description": "unstage a file while retaining the changes in working directory."
   },
   {
+    "title": "git reset --hard",
+    "description": "unstage all files while retaining the changes in working directory."
+  },
+  {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
-    "title": "git stash list",
-    "description": "Enlists the stashes made with the recent one in the top."
-  },
-  {
     "title": "git show",
-    "description": "This command shows the metadata and content changes of the specified commit."  
+    "description": "This command shows the metadata and content changes of the specified commit."
   },
   {
     "title": "git rebase --abort",
@@ -98,5 +114,45 @@
   { 
     "title": "git cherry-pick",
     "description": "This command copies the commit to the current branch."
+  },
+  {
+    "title": "git worktree list",
+    "description": "Manage multiple working trees attached to the same repository."
+  },
+  {
+    "title": "git shortlog",
+    "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."
+  },
+  {
+    "title": "git grep [pattern]",
+    "description": "This command print lines matching a pattern."
+  },
+  {
+    "title": "git archive",
+    "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git fetch",
+    "description": "Fetch/download changes from a remote repository to the local repository without merging them with the current branch."
+  },
+  {
+    "title": "git diff",
+    "description": "This command shows the file differences which are not yet staged."
+  },
+  {
+    "title": "git mv",
+    "description": "Move or rename a file, a directory, or a symlink."
+  },
+  {
+    "title": "git log --oneline",
+    "description": "Provides a summary/log of changes made in the repository in oneline."
+  },
+  {
+    "title": "git bisect",
+    "description": "Use a binary search algorithm to find the commit that introduced a defect."
+  },
+  {
+    "title": "git gc",
+    "description": "Cleanup unnecessary files and optimize the local repository."
   }
 ]
