@@ -1,4 +1,8 @@
 [
+   {
+    "title": "git reflog",
+    "description": "This command allows you to list all the commands that were executed and then recover particular commits."
+  },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
@@ -10,6 +14,10 @@
   {
     "title": "git commit",
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
+  },
+  {
+    "title": "git merge",
+    "description": "The git commit command joins two or more development histories together."
   },
   {
     "title": "git log",
@@ -48,6 +56,10 @@
     "description": "This command applies the changes to the local workspace in the latest stash."
   },
   {
+    "title": "git stash drop",
+    "description": "This command remove a stash entry from the list of stash entries."
+  },
+  {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
   },
@@ -63,7 +75,7 @@
     "title": "git diff",
     "description": "This command shows how one branch (or even a specific revision) differs from another one."
   },
-  { 
+  {
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
   },
@@ -88,16 +100,24 @@
     "description": "unstage a file while retaining the changes in working directory."
   },
   {
+    "title": "git reset --hard",
+    "description": "unstage all files while retaining the changes in working directory."
+  },
+  {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
     "title": "git show",
-    "description": "This command shows the metadata and content changes of the specified commit."  
+    "description": "This command shows the metadata and content changes of the specified commit."
   },
   {
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
+  },
+  { 
+    "title": "git cherry-pick",
+    "description": "This command copies the commit to the current branch."
   },
   {
     "title": "git worktree list",
@@ -107,7 +127,7 @@
     "title": "git shortlog",
     "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."
   },
-    {
+  {
     "title": "git grep [pattern]",
     "description": "This command print lines matching a pattern."
   },
@@ -118,5 +138,36 @@
   {
     "title": "git merge",
     "description": "Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches."
+  },
+  {
+    "title": "git fetch",
+    "description": "Fetch/download changes from a remote repository to the local repository without merging them with the current branch."
+  },
+  {
+    "title": "git diff",
+    "description": "This command shows the file differences which are not yet staged."
+  },
+  {
+    "title": "git mv",
+    "description": "Move or rename a file, a directory, or a symlink."
+  },
+  {
+    "title": "git log --oneline",
+    "description": "Provides a summary/log of changes made in the repository in oneline."
+  },
+  {
+    "title": "git bisect",
+    "description": "Use a binary search algorithm to find the commit that introduced a defect."
+  },
+  {
+    "title": "git reflog",
+    "description": "This command manages the information recorded in the reflogs."
+  },
+  {
+    "title": "git fetch",
+    "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
+  },
+  { "title": "git gc",
+    "description": "Cleanup unnecessary files and optimize the local repository."
   }
 ]
