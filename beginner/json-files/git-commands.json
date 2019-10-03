@@ -127,7 +127,7 @@
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
   },
-  { 
+  {
     "title": "git cherry-pick",
     "description": "This command copies the commit to the current branch."
   },
@@ -154,7 +154,7 @@
   {
     "title": "git bundle",
     "description": "Move objects and refs by archive."
-  }, 
+  },
   {
     "title": "git fetch",
     "description": "Downloads all history from the repository bookmark."
@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  }
+  {
+    "title": "git log --stat -M",
+    "description": "show all commit logs with indication of any paths that moved."
   }
 ]
