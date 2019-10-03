@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Pin kode husker</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+
+<body>
+  
+  <style>
+    html {
+    padding: 10%;
+    font-family: sans-serif;
+}
+
+#pinkodeHuskerKort {
+    border-style: dashed;
+    border: dashed 2px;
+    height: 350px;
+    width: 650px;
+    border-radius: 10px;
+    margin: auto;
+    position: relative;
+}
+
+#pinkodeHuskerKort-left {
+    float: left;
+    width: 150px;
+    height: 350px;
+}
+
+#pinkodeHuskerText {
+    transform: rotate(-90deg);
+    position: absolute;
+    font-size: 2em;
+    left: -110px;
+    top: 150px;
+}
+
+#pinkodeHuskerKort-right {
+    float: right;
+    width: 500px;
+    height: 350px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#pinkodeHuskerKort-right input {
+    width: 410px;
+    height: 25px;
+    text-align: center;
+    font-size: 20px;
+    border: solid 1px;
+}
+
+#talrække {
+    width: 90%;
+    height: 75%;
+    margin: 10px auto 20px auto;
+}
+
+#talrække input {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 2em;
+}
+    </style>
+
+    <div id="pinkodeHuskerKort">
+        <div id="pinkodeHuskerKort-left">
+            <div id="pinkodeHuskerText">
+                PIN-KODE-HUSKER
+            </div>
+        </div>
+        <div id="pinkodeHuskerKort-right">
+            <div id="kortNavn">
+                <input placeholder="DANKORT"></input>
+            </div>
+
+            <div id="talrække">
+
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+
+
+  <script>var talrække = [];
+var talrækkeShuffel = [];
+var farver = ["red", "green", "yellow", "lightskyblue"];
+var farverArray = [];
+var farverArrayShuffel = [];
+
+
+
+document.addEventListener('DOMContentLoaded', function() {
+
+    /* Her bygger jeg hele talrækken via to for loops så tallene fra 0-9 opstår fire gange i min talrække array */
+
+    for (let række = 0; række < 4; række++) {
+
+        for (let kolonner = 0; kolonner < 10; kolonner++) {
+
+            talrække.push(kolonner)
+        }
+
+    }
+
+        for (let farve = 0; farve < 10; farve++) {
+
+            for (let farverække = 0; farverække < 4; farverække++) {
+
+                farverArray.push(farver[farverække])
+            }
+        }
+
+        console.log(farverArray);
+  
+    shuffle();
+
+    
+
+    for (let talFelter = 0; talFelter < talrækkeShuffel.length; talFelter++) {
+        document.getElementById('talrække').innerHTML += "<input style=\"background-color:" + farverArrayShuffel[talFelter] + ";\"" + "value = \"" + talrækkeShuffel[talFelter] + "\"></input>";
+
+    }
+
+
+    
+
+    console.log(talrækkeShuffel);
+    console.log(farverArrayShuffel);
+
+
+    
+
+
+
+
+});
+
+function shuffle()
+{
+/* Første del af denne funktion blander mit talrække Array */
+
+    var elementNr;
+   
+            while (talrække.length > 0)
+            {  
+   
+                elementNr = Math.floor(Math.random() * talrække.length); 
+        
+ 
+                talrækkeShuffel.push(talrække[elementNr]);
+        
+
+                talrække.splice(elementNr,1);
+          
+        }
+
+/* Første del af denne funktion blander mit farve Array */
+        var farveElementNr;
+
+            while (farverArray.length > 0)
+            {  
+  
+                farveElementNr = Math.floor(Math.random() * farverArray.length); 
+        
+  
+                farverArrayShuffel.push(farverArray[farveElementNr]);
+        
+
+                farverArray.splice(farveElementNr,1);
+          
+        }
+    }</script>
+  
+</body>
+
+</html>
