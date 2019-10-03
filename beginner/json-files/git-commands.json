@@ -1,4 +1,8 @@
 [
+  {
+    "title": "code .",
+    "description": "This command allows you to open up your text editor from the command line."
+  },
    {
     "title": "git reflog",
     "description": "This command allows you to list all the commands that were executed and then recover particular commits."
