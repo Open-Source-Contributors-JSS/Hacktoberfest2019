@@ -117,6 +117,6 @@
   },
   {
     "title": "git cherry-pick [string]",
-    "description": "Merges a particular commit identify by [string] as a reference."
+    "description": "Merges a particular commit identified by [string] as a reference."
   }
 ]
