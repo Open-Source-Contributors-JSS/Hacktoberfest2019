@@ -1,0 +1,7 @@
+#Python 3 function for exponentiation
+num = float(input('What is the base number? '))
+exp = float(input('What is the exponent? '))
+
+res = num ** exp
+
+print (res)
