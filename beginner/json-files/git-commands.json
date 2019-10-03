@@ -120,6 +120,10 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git mv",
+    "description": "Move or rename a file, a directory, or a symlink."
+  },
+  {
     "title": "git log --oneline",
     "description": "Provides a summary/log of changes made in the repository in oneline."
   }
