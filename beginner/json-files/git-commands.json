@@ -108,6 +108,18 @@
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
+    "title" : "git clean",
+    "description" : "Removes untracked files from the working tree"
+  },
+  {
+    "title": "git stash list",
+    "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git cherry-pick",
+    "description": "Apply the changes introduced by some existing commits."
+  },
+  {
     "title": "git show",
     "description": "This command shows the metadata and content changes of the specified commit."
   },
@@ -140,7 +152,7 @@
     "description": "Move objects and refs by archive."
   }, 
   {
-    "title": "git fetch [bookmark]",
+    "title": "git fetch",
     "description": "Downloads all history from the repository bookmark."
   },
   {
@@ -179,7 +191,11 @@
     "description": "Cleanup unnecessary files and optimize the local repository."
   },
   {
-      "title": "git rev-parse HEAD",
+      "title": "git rev-parse",
      "description":"Shows the hash of current commit you're on."
+  },
+  {
+    "title": "git switch",
+    "description": "Switch to branch."
   }
 ]
