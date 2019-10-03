@@ -189,5 +189,9 @@
   },
   { "title": "git gc",
     "description": "Cleanup unnecessary files and optimize the local repository."
+  },
+  {
+    "title": "git switch [branch_name]",
+    "description": "Switch to branch."
   }
 ]
