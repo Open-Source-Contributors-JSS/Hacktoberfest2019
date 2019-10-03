@@ -2,5 +2,9 @@
   {
     "title": "git push",
     "description": "The git push command is used to upload local repository content to a remote repository. Pushing is how you transfer commits from your local repository to a remote repo."
+  },
+  {
+    "title": "git fetch",
+    "description": "Fetch branches and/or tags (collectively, refs) from one or more other repositories, along with the objects necessary to complete their histories. Remote-tracking branches are updated see the description of <refspec> below for ways to control this behavior."
   }
 ]
