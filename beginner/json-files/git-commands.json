@@ -114,5 +114,9 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+    {
+    "title": "git bisect",
+    "description":" Use binary search to find the commit that introduced a bug"
   }
 ]
