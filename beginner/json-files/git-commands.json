@@ -93,7 +93,7 @@
   },
   {
     "title": "git show",
-    "description": "This command shows the metadata and content changes of the specified commit."  
+    "description": "This command shows the metadata and content changes of the specified commit."
   },
   {
     "title": "git rebase --abort",
@@ -107,12 +107,16 @@
     "title": "git shortlog",
     "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."
   },
-    {
+  {
     "title": "git grep [pattern]",
     "description": "This command print lines matching a pattern."
   },
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git diff",
+    "description": "This command shows the file differences which are not yet staged."
   }
 ]
