@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+    "title": "git commend",
+    "description": "git commend quietly tacks any staged files onto the last commit you created, re-using your existing commit message."
   }
 ]
