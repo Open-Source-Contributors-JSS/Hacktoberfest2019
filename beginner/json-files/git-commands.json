@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+    "title": "git diff",
+    "description": "Show changes between the working tree and the index or a tree, changes between the index and a tree, changes between two trees."
   }
 ]
