@@ -111,6 +111,10 @@
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
   },
+  { 
+    "title": "git cherry-pick",
+    "description": "This command copies the commit to the current branch."
+  },
   {
     "title": "git worktree list",
     "description": "Manage multiple working trees attached to the same repository."
