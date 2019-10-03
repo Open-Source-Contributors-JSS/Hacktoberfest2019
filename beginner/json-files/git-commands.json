@@ -82,6 +82,10 @@
   {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git clone",
+    "description": "Git clone saves repositories on our local machine."
   }
 ]
 
