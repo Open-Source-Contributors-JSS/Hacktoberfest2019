@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+    "title": "git bisect",
+    "description": "Look for the commit that caused the issue using dichotomy method (binary search algorithm)."
   }
 ]
