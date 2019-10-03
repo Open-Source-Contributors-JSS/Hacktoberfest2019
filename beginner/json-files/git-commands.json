@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
-  }
+  },
+  {
+    "title": "git push heroku master",
+    "description": "This command deploys the latest committed version of your code to Heroku."
+  },
 ]
