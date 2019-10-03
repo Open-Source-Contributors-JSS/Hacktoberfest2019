@@ -118,9 +118,5 @@
   {
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
-  },
-  {
-    "title": "git init",
-    "description": "This command is used to start a new repository."
   }
 ]
