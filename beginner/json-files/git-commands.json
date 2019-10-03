@@ -115,10 +115,4 @@
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
   }
-},
-  {
-    “tittle”: “git reset [file]”
-    “description”: “This command unstages the file but it preserves the file contents.”
-  }
-
-
+]
