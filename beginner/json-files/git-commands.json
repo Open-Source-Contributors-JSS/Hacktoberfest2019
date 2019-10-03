@@ -144,6 +144,10 @@
     "description": "This command print lines matching a pattern."
   },
   {
+    "title": "git reset hard",
+    "description": "Go back to the last commit."
+  },
+  {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
   },
