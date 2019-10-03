@@ -114,5 +114,9 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git push origin --delete [branch name]",
+    "description": "Delete a remote branch"
   }
 ]
