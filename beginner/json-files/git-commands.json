@@ -128,6 +128,10 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git fetch",
+    "description": "Fetch/download changes from a remote repository to the local repository without merging them with the current branch."
+  },
+  {
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
   },
