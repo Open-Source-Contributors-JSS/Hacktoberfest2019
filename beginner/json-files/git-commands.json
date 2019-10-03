@@ -1,4 +1,8 @@
 [
+   {
+    "title": "git reflog",
+    "description": "This command allows you to list all the commands that were executed and then recover particular commits."
+  },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
@@ -104,12 +108,28 @@
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
+    "title" : "git clean",
+    "description" : "Removes untracked files from the working tree"
+  },
+  {
+    "title": "git stash list",
+    "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
+    "title": "git cherry-pick",
+    "description": "Apply the changes introduced by some existing commits."
+  },
+  {
     "title": "git show",
     "description": "This command shows the metadata and content changes of the specified commit."
   },
   {
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
+  },
+  { 
+    "title": "git cherry-pick",
+    "description": "This command copies the commit to the current branch."
   },
   {
     "title": "git worktree list",
@@ -124,8 +144,24 @@
     "description": "This command print lines matching a pattern."
   },
   {
+    "title": "git reset hard",
+    "description": "Go back to the last commit."
+  },
+  {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git bundle",
+    "description": "Move objects and refs by archive."
+  }, 
+  {
+    "title": "git fetch",
+    "description": "Downloads all history from the repository bookmark."
+  },
+  {
+    "title": "git merge",
+    "description": "Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches."
   },
   {
     "title": "git fetch",
@@ -146,5 +182,24 @@
   {
     "title": "git bisect",
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
+  },
+  {
+    "title": "git reflog",
+    "description": "This command manages the information recorded in the reflogs."
+  },
+  {
+    "title": "git fetch",
+    "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
+  },
+  { "title": "git gc",
+    "description": "Cleanup unnecessary files and optimize the local repository."
+  },
+  {
+      "title": "git rev-parse",
+     "description":"Shows the hash of current commit you're on."
+  },
+  {
+    "title": "git switch",
+    "description": "Switch to branch."
   }
 ]
