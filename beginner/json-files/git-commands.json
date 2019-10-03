@@ -146,5 +146,9 @@
   {
     "title": "git bisect",
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
+  },
+  {
+    "title": "git reflog",
+    "description": "This command manages the information recorded in the reflogs."
   }
 ]
