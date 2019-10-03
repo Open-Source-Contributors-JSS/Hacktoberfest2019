@@ -117,8 +117,12 @@
   }
 },
   {
-    “tittle”: “git reset [file]”
-    “description”: “This command unstages the file but it preserves the file contents.”
-  }
+    â€œtittleâ€: â€œgit reset [file]â€
+    â€œdescriptionâ€: â€œThis command unstages the file but it preserves the file contents.â€
+  },
+{
+  "title":"git notes",
+  "description": "Adds, removes, or reads notes attached to objects, without touching the objects themselves."
+}
 
 
