@@ -111,6 +111,10 @@
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
   },
+  { 
+    "title": "git cherry-pick",
+    "description": "This command copies the commit to the current branch."
+  },
   {
     "title": "git worktree list",
     "description": "Manage multiple working trees attached to the same repository."
@@ -150,5 +154,12 @@
   {
     "title": "git reflog",
     "description": "This command manages the information recorded in the reflogs."
+  },
+  {
+    "title": "git fetch",
+    "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
+  },
+  { "title": "git gc",
+    "description": "Cleanup unnecessary files and optimize the local repository."
   }
 ]

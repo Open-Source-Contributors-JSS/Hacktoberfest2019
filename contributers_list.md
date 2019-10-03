@@ -69,3 +69,5 @@
 69. Elora B (Elora-Beazley)
 70. Rahmat Hidayat (rahmat31)
 71. Deddy (Busterz)
+72. Nivin Mathew (nivingmathew)
+73. Jimmy Aa Pedersen (Xraycat)
