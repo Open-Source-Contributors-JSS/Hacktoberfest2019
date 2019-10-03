@@ -120,6 +120,10 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git log --oneline",
+    "description": "Provides a summary/log of changes made in the repository in oneline."
+  },
+  {
     "title": "git bisect",
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
   }
