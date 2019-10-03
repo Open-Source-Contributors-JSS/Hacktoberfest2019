@@ -63,7 +63,7 @@
     "title": "git diff",
     "description": "This command shows how one branch (or even a specific revision) differs from another one."
   },
-  { 
+  {
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
   },
@@ -118,11 +118,9 @@
   {
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
-  }
-},
+  },
   {
-    “tittle”: “git reset [file]”
-    “description”: “This command unstages the file but it preserves the file contents.”
+    "title": "git init",
+    "description": "This command is used to start a new repository."
   }
-
-
+]
