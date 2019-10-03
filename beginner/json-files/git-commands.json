@@ -109,6 +109,6 @@
   },
   {
     "title": "git staaash",
-    "description": "stash ignored, untracked, and tracked files "
+    "description": "git stash command takes any changes to tracked files in your work tree and stashes them away for later use. git staash is used to stash untracked and tracked files. Whereas git staash stashes changes made in ignored, untracked, and tracked files.When in doubt, use git staaash as it will always restore your worktree to what looks like a fresh clone of your repository"
   }
 ]
