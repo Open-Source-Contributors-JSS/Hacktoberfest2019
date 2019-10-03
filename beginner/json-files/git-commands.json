@@ -88,6 +88,10 @@
     "description": "unstage a file while retaining the changes in working directory."
   },
   {
+    "title": "git reset --hard",
+    "description": "unstage all files while retaining the changes in working directory."
+  },
+  {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
   },
@@ -114,5 +118,9 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git log --oneline",
+    "description": "Provides a summary/log of changes made in the repository in oneline."
   }
 ]
