@@ -114,5 +114,9 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git cherry-pick [string]",
+    "description": "Merges a particular commit identify by [string] as a reference."
   }
 ]
