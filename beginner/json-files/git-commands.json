@@ -136,6 +136,10 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git merge",
+    "description": "Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches."
+  },
+  {
     "title": "git fetch",
     "description": "Fetch/download changes from a remote repository to the local repository without merging them with the current branch."
   },
