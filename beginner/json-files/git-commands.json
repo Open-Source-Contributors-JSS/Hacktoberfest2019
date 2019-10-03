@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
-  }
+  },
+   {
+      "title": "git commit --amend",
+      "description": "To modify the most recent commit."
+   }
 ]
