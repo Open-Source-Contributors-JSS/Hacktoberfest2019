@@ -71,6 +71,7 @@
 71. Deddy (Busterz)
 72. Nivin Mathew (nivingmathew)
 73. Jimmy Aa Pedersen (Xraycat)
+<<<<<<< HEAD
 74. Shashwat M. Das(ShashwatMDas)
 75. Harshit Bhalla (harshitsan)
 76. Adrian (yetanotherwebdeveloper)
@@ -79,3 +80,10 @@
 79. Ragini Soni (Ragini-ss)
 80. Recalibrated (Recalibrated)
 
+=======
+75. Shashwat M. Das(ShashwatMDas)
+76. [Harshit Bhalla](https://github.com/harshitsan)
+77. Adrian (yetanotherwebdeveloper)
+78. Franco Sanllehi (DmACK)
+79. Chokri Khalifa (chokri)
+>>>>>>> Adding rerere command and TreeSet Java Algorithm
