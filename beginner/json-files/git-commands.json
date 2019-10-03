@@ -118,5 +118,9 @@
   {
     "title": "git push origin --delete [branch name]",
     "description": "Delete a remote branch"
+  },
+  {
+    "title": "git log --summary",
+    "description": "View changes in detail"
   }
 ]
