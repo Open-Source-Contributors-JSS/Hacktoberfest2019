@@ -1,0 +1,36 @@
+
+
+import java.util.Scanner;
+
+public class fibonacci {
+	public static void fib(int f[]) 
+    {
+       f[0] = 0; f[1] = 1;  
+        for (int i = 2; i <= 59; i++) 
+        {
+            f[i] = (f[i - 1] + f[i - 2]) % 10; 
+        }
+    } 
+  
+    public static int findLastDigit(long n) 
+    { 
+      int f[] = new int[60]; 
+      fib(f); 
+      int index = (int)(n % 60L);  
+       return f[index]; 
+    } 
+
+    public static void main(String[] args)  
+    { 
+      Scanner s=new Scanner(System.in);
+		  int t=s.nextInt();
+		  while(t!=0) {
+		    	double n=s.nextInt();
+			    int x=(int)(Math.log(n)/Math.log(2));
+			    int y=(int) Math.pow(2,x);
+			    System.out.println(findLastDigit(y-1));
+			t--;
+		}
+    }
+
+}
