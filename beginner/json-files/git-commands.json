@@ -152,7 +152,10 @@
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
   },
   {
-
+    "title": "git reflog",
+    "description": "This command manages the information recorded in the reflogs."
+  },
+  {
     "title": "git fetch",
     "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
   },
