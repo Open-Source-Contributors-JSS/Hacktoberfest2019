@@ -21,7 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
       });
     });
   }
-
 });
 
 $(document).ready(function() {
@@ -29,24 +28,21 @@ $(document).ready(function() {
   // Check for click events on the navbar burger icon
   $(".navbar-burger").click(function() {
 
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      $(".navbar-burger").toggleClass("is-active");
-      $(".navbar-menu").toggleClass("is-active");
+    // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+    $(".navbar-burger").toggleClass("is-active");
+    $(".navbar-menu").toggleClass("is-active");
 
   });
 });
 
 // number count for stats, using jQuery animate
-
-$('.counting').each(function() {
+$('.counting').each(function() {  
   var $this = $(this),
       countTo = $this.attr('data-count');
   
   $({ countNum: $this.text()}).animate({
     countNum: countTo
-  },
-
-  {
+  }, {
 
     duration: 3000,
     easing:'linear',
@@ -56,12 +52,8 @@ $('.counting').each(function() {
     complete: function() {
       $this.text(this.countNum);
     }
-
-  });  
-  
-
+  });   
 });
-
 
 const second = 1000,
       minute = second * 60,
@@ -83,14 +75,11 @@ let countDown = new Date('Oct 31, 2019 00:00:00').getTime(),
       clearInterval(x);
       
       }
-
     }, second)
 
-
 // js for commands fetching
-
 let url = './json-files/git-commands.json';
 fetch(url)
-.then(data => data.json())
-.then(jsondata => console.log(jsondata))
-.catch(err => console.log(err));
+  .then(data => data.json())
+  .then(jsondata => console.log(jsondata))
+  .catch(err => console.log(err));
