@@ -12,6 +12,10 @@
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
   },
   {
+    "title": "git merge",
+    "description": "The git commit command joins two or more development histories together."
+  },
+  {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
   },
@@ -122,6 +126,10 @@
   {
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
+  },
+  {
+    "title": "git mv",
+    "description": "Move or rename a file, a directory, or a symlink."
   },
   {
     "title": "git log --oneline",
