@@ -13,7 +13,11 @@
   },
   {
     "title": "git log",
-    "description": "The git commit command provides a log of changes or commits made with details like author,date,time and commit message."
+    "description": "The git commit command provides a log of changes made throughout time."
+  },
+  {
+    "title": "git tag",
+    "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
   {
     "title": "git branch",
@@ -35,15 +39,23 @@
     "title": "git stash",
     "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
   },
- {
-    "title": "git merge",
-    "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
+  {
+    "title": "git stash apply",
+    "description": "This command try to reapply the staged changes"
   },
-  { 
+  {
+    "title": "git stash pop",
+    "description": "This command applies the changes to the local workspace in the latest stash."
+  },
+  {
+    "title": "git stash list",
+    "description": "Enlists the stashes made with the recent one in the top."
+  },
+  {
     "title": "git config",
-    "description": "This command is used to set the author name and email address respectively which is to be used with your commits."
+    "description": "This command sets the author name and email address respectively to be used with your commits."
   },
-  { 
+  {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   },
@@ -54,14 +66,54 @@
   { 
     "title": "git --version",
     "description": "Prints the Git suite version that the git program came from."
-  }
+  },
   {
-   "title": "git rm",
-   "description": "This command deletes the file from your working directory and stages the deletion."
-  }
-   {
-   "title": "git send-email",
-   "description": "This command sends a collection of patches as emails."
+    "title": "git rm",
+    "description": "This command deletes the file from your working directory and stages the deletion."
+  },
+  {
+    "title": "git send-email",
+    "description": "This command sends a collection of patches as emails."
+  },
+  {
+    "title": "git push",
+    "description": "This command lets you push changes from your local repository to the remote repository."
+  },
+  {
+    "title": "git rebase",
+    "description": "This command moves or combines a sequence of commits to a new base commit"
+  },
+  {
+    "title": "git reset [file]",
+    "description": "unstage a file while retaining the changes in working directory."
+  },
+  {
+    "title": "git status",
+    "description": "The git status command lists all new or modified files to be committed."
+  },
+  {
+    "title": "git show",
+    "description": "This command shows the metadata and content changes of the specified commit."  
+  },
+  {
+    "title": "git rebase --abort",
+    "description": "This command is used to cancel an interactive rebase."
+  },
+  {
+    "title": "git worktree list",
+    "description": "Manage multiple working trees attached to the same repository."
+  },
+  {
+    "title": "git shortlog",
+    "description": "Summarizes git log output in a format suitable for inclusion in release announcements. Each commit will be grouped by author and title."
+  },
+    {
+    "title": "git grep [pattern]",
+    "description": "This command print lines matching a pattern."
+  },
+  {
+    "title": "git archive",
+    "description": "Create an archive of files from a named tree."
   }
 
   {
@@ -69,4 +121,3 @@
     "description": "Hard reset function that let's user to go back to the last commit version"
   }
 ]
-
