@@ -134,14 +134,6 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
-  }, 
-  {
-    "title": "git fetch [bookmark]",
-    "description": "Downloads all history from the repository bookmark."
-  },
-  {
-    "title": "git merge",
-    "description": "Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches."
   },
   {
     "title": "git fetch",
@@ -173,5 +165,8 @@
   },
   { "title": "git gc",
     "description": "Cleanup unnecessary files and optimize the local repository."
+  },
+  { "title": "git push –all",
+    "description": "This command pushes all branches to your remote repository."
   }
 ]
