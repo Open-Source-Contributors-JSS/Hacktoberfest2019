@@ -44,10 +44,6 @@
     "description": "This command applies the changes to the local workspace in the latest stash."
   },
   {
-    "title": "git merge",
-    "description": "The git merge command lets you take the independent lines of code created by any git branch and integrate them into a single branch."
-  },
-  {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
