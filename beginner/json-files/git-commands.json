@@ -152,7 +152,13 @@
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
   },
   {
-    "title": "git gc",
+
+    "title": "git fetch",
+    "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
+=======
+  },
+  { "title": "git gc",
     "description": "Cleanup unnecessary files and optimize the local repository."
+
   }
 ]
