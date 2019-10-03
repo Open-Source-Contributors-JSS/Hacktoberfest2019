@@ -114,5 +114,10 @@
   {
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
+  },
+  {
+    "title": "git Revert",
+    "description": "git revert is used to record some new commits to reverse."
   }
+  
 ]
