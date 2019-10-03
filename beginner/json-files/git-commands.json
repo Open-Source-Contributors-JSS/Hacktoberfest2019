@@ -52,6 +52,10 @@
     "description": "This command applies the changes to the local workspace in the latest stash."
   },
   {
+    "title": "git stash drop",
+    "description": "This command remove a stash entry from the list of stash entries."
+  },
+  {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
   },
