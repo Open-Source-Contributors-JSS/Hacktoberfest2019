@@ -108,6 +108,10 @@
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
+    "title" : "git clean",
+    "description" : "Removes untracked files from the working tree"
+  },
+  {
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
   },
