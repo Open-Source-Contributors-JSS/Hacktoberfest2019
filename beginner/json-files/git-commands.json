@@ -16,6 +16,10 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
+    "title": "git log --pretty=oneline",
+    "description": "The git log --pretty=oneline command provides a concise log of changes made over time, where each commit is one line."
+  },
+  {
     "title": "git tag",
     "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
