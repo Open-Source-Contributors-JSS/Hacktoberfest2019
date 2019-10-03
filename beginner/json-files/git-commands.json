@@ -115,4 +115,14 @@
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
   }
+  
+  {
+    "title": "git fetch origin",
+    "description": "Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this:"
+  }
+  
+  
+  
+  
+  
 ]
