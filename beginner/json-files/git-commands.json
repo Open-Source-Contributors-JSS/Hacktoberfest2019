@@ -115,4 +115,8 @@
     "title": "git archive",
     "description": "Create an archive of files from a named tree."
   }
+  {
+    "title": "git stash drop",
+    "description": "Discards the most recently stashed changeset"
+  }
 ]
