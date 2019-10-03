@@ -136,7 +136,6 @@ a.navbar-item:hover {
   height: 500px;
 }
 
-
 .about-hacktoberfest,
 .about-git,
 .about-repo-contributions {
@@ -515,8 +514,6 @@ hr {
 
 }
 
-
-
 @media screen and (max-width: 800px) {
 
   .header {
@@ -696,7 +693,8 @@ hr {
 }
 
 @media screen and (max-width: 800px)
-{.logo-2018 {
+{
+  .logo-2018 {
     height: 300px;
-}
+  }
 } 
