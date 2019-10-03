@@ -12,6 +12,10 @@
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
   },
   {
+    "title": "git merge",
+    "description": "The git commit command joins two or more development histories together."
+  },
+  {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
   },
