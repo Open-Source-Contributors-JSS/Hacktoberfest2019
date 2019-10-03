@@ -147,4 +147,8 @@
     "title": "git bisect",
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
   }
+  {
+    "title": "git --version"
+    "description": "Know about the version of git on your local pc/laptop"
+  }
 ]
