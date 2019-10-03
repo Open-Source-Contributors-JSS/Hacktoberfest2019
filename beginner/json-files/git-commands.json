@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
-  }
+  },
+   {
+     "title": "git branch -d [branch-name]",
+     "description": "Deletes the specified branch."
+   }
 ]
