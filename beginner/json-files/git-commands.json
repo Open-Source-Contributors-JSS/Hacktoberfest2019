@@ -213,5 +213,10 @@
   {
     "title": "git blame",
     "description": "Show what revision and author last modified each line of a file."
+  },
+  {
+  	"title": "git apply",
+  	"description": "This command reads the supplied diff output and applies that patch to files."
+  }
   }
 ]
