@@ -1,0 +1,20 @@
+td, input {
+height:25px;
+width:25px;
+}
+
+.highlight {
+background:red;
+}
+
+.odd {
+background:lightblue;
+}
+
+.even {
+background: navajowhite;
+}
+
+body {
+text-align: center;
+}
