@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+  	"title": "git blame",
+  	"description": "This command is used to know which commit is responsible for the latest changes made to the file."
   }
 ]
