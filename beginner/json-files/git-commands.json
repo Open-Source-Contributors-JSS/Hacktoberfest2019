@@ -67,6 +67,10 @@
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
+   {
+    "title":"git push –all [variable name]",
+    "description":"This command pushes all branches to your remote repository."
+  },
   {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
@@ -94,6 +98,10 @@
   {
     "title": "git rebase",
     "description": "This command moves or combines a sequence of commits to a new base commit"
+  },
+  {
+    "title": "git cherrypick [commithash]",
+    "description": "Cherry picking in Git is designed to apply some commit from one branch into another branch. It can be done if you eg. made a mistake and committed a change into wrong branch, but do not want to merge the whole branch. You can just eg. revert the commit and cherry-pick it on another branch."
   },
   {
     "title": "git reset [file]",
@@ -201,5 +209,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+  	"title": "git apply",
+  	"description": "This command reads the supplied diff output and applies that patch to files."
   }
 ]
