@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+  	"title": "git config credential.https://example.com.username myusername",
+  	"description": "Set Username for authenticating at websites/services such as GitHub."
   }
 ]
