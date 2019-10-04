@@ -66,10 +66,10 @@ let countDown = new Date('Oct 31, 2019 00:00:00').getTime(),
       let now = new Date().getTime(),
           distance = countDown - now;
 
-      document.getElementById('days').innerText = Math.floor(distance / (day))+' : ',
-        document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour))+' : ',
-        document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute))+' : ',
-        document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+      document.getElementById('days').innerText = padWith(Math.floor(distance / (day)).toFixed(0)) + ' : ';
+      document.getElementById('hours').innerText = padWith((Math.floor((distance % (day))) / (hour)).toFixed(0))+' : ';
+      document.getElementById('minutes').innerText = padWith((Math.floor((distance % (hour))) / (minute)).toFixed(0))+' : ';
+      document.getElementById('seconds').innerText = padWith((Math.floor((distance % (minute))) / second).toFixed(0));
 
       if (distance < 0) {
       clearInterval(x);
@@ -83,3 +83,14 @@ fetch(url)
   .then(data => data.json())
   .then(jsondata => console.log(jsondata))
   .catch(err => console.log(err));
+
+/**
+ * params
+ * @initialValue  Object  The value that will be padded
+ * @length        Number  Basically this method is used for padding datetime to 2 digits format, so given default value is 2
+ * @padChar       String  '0' as the default value
+ * @
+ */
+function padWith(initialValue, length = 2, padChar = '0') {
+  return initialValue.toString().padStart(length, padChar);
+}
