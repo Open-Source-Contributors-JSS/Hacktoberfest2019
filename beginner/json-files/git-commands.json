@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
-  }
+  },
+   {
+      "title": "git commit -am",
+      "description": "Commits ALL the changed files in the git repository, and adds a message to the commit as well.
+   }
 ]
