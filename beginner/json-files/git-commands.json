@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+    "title": "git init",
+    "description": "This command is used for creating new repository."
   }
 ]
