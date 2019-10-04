@@ -214,4 +214,7 @@
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
   }
-]
+  {
+	"title": "git cherry-pick",
+  	"description": "This command helps to add a single commit to the original repo."
+  }
