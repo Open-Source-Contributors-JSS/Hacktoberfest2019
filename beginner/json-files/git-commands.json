@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
-  }
+  },
+   {
+      "title": "git revert -m 1 <merge-commit-id>",
+      "description" : "This command reverts merge by commit id. Example : git revert -m 1 524d123"
+   }
 ]
