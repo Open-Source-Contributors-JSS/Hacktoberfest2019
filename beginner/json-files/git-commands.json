@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+    "title": "git rebase -i",
+    "description": "Starts an rebase (which moves current commits to a new starting commit) on interactive mode"
   }
 ]
