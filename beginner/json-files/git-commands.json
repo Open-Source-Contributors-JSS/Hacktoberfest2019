@@ -209,5 +209,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+    "title": "git blame",
+    "description": "Show what revision and author last modified each line of a file."
   }
 ]
