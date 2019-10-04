@@ -39,5 +39,7 @@
             input.attr("type", "password");
         }
     });
+    
+    $(".actions.clearfix").prepend("<br>");
 
 })(jQuery);

@@ -5,14 +5,6 @@
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://hacktoberfest.netlify.com/)&nbsp;
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://hacktoberfest.netlify.com/)&nbsp;
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/README.md)&nbsp;
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/graphs/contributors)&nbsp;
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/issues)&nbsp;
-
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/issues?q=is%3Aissue+is%3Aclosed)&nbsp;
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/pull/)&nbsp;
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/pull/)&nbsp;
-[![HitCount](http://hits.dwyl.io/Naereen/badges.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
-
 
 # Hacktoberfest2019
 Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt 👕.
