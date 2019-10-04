@@ -67,10 +67,6 @@
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
-   {
-    "title":"git push –all [variable name]",
-    "description":"This command pushes all branches to your remote repository."
-  },
   {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
@@ -205,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+      "title: "git rm -f",
+      "description": :force delete a file"
   }
 ]
