@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+{
+    "title": "git help",
+    "description": "Gives help in general, it explains the commands you're having trouble."
   }
 ]
