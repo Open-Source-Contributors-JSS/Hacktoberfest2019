@@ -201,5 +201,9 @@
   {
     "title": "git switch",
     "description": "Switch to branch."
+  },
+  {
+    "title": "git update-index --skip-worktree",
+    "description": "Have git pretend it doesn't see local changes made to a file and act as though the working directory version is up to date."
   }
 ]
