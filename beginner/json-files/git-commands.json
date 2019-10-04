@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 [
    {
     "title": "git reflog",
     "description": "This command allows you to list all the commands that were executed and then recover particular commits."
+=======
+[  {
+    "title": "git config",
+    "description": "The git config command configures the author name and email address to be used with your commits."
+>>>>>>> new-branch
   },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
+  },
+ {
+    "title": "git clone",
+    "description": "The git clone command creates a working copy of a local repository."
   },
   {
     "title": "git add",
@@ -24,6 +34,7 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
+<<<<<<< HEAD
     "title": "git tag",
     "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
@@ -166,6 +177,10 @@
   {
     "title": "git fetch",
     "description": "Downloads all history from the repository bookmark."
+=======
+    "title": "git show",
+    "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
+>>>>>>> new-branch
   },
   {
     "title": "git merge",
@@ -184,6 +199,7 @@
     "description": "Move or rename a file, a directory, or a symlink."
   },
   {
+<<<<<<< HEAD
     "title": "git log --oneline",
     "description": "Provides a summary/log of changes made in the repository in oneline."
   },
@@ -215,3 +231,18 @@
   	"description": "This command reads the supplied diff output and applies that patch to files."
   }
 ]
+=======
+    "title": "git status",
+    "description": "The git commit command provides a status of changes made throughout time."
+  },
+  {
+    "title": "git reset",
+    "description": "The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard. The three arguments each correspond to Git's three internal state management mechanism's, The Commit Tree (HEAD), The Staging Index, and The Working Directory."
+  },
+  {
+  "title": "git status",
+  "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
+  }
+{
+
+>>>>>>> new-branch

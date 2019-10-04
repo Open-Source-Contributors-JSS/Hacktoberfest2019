@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1. Rajat Verma (rajat2502)
 2. Nihal Pandey (stark019)
 3. Shashikant Mishra (frantic32211)
@@ -77,3 +78,6 @@
 77. Erfan Alimohammadi (Erfaniaa)
 78. Jason Lim (dreamcatcher12)
 79. Aayush Jain (jain-aayush)
+=======
+1. Aman Kumar Soni[https://github.com/computerwala]
+>>>>>>> new-branch
