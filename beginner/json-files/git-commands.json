@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+    "title": "git reset --soft HEAD~<number>",
+    "description": "uncommits(use --hard for reverting the changes) your last <number> of commits, changed files are in the staging area"
   }
 ]
