@@ -1,5 +1,5 @@
 [
-   {
+  {
     "title": "git reflog",
     "description": "This command allows you to list all the commands that were executed and then recover particular commits."
   },
@@ -67,9 +67,9 @@
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
-   {
-    "title":"git push –all [variable name]",
-    "description":"This command pushes all branches to your remote repository."
+  {
+    "title": "git push –all [variable name]",
+    "description": "This command pushes all branches to your remote repository."
   },
   {
     "title": "git pull",
@@ -116,8 +116,8 @@
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
-    "title" : "git clean",
-    "description" : "Removes untracked files from the working tree"
+    "title": "git clean",
+    "description": "Removes untracked files from the working tree"
   },
   {
     "title": "git stash list",
@@ -135,7 +135,7 @@
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
   },
-  { 
+  {
     "title": "git cherry-pick",
     "description": "This command copies the commit to the current branch."
   },
@@ -162,7 +162,7 @@
   {
     "title": "git bundle",
     "description": "Move objects and refs by archive."
-  }, 
+  },
   {
     "title": "git fetch",
     "description": "Downloads all history from the repository bookmark."
@@ -199,19 +199,24 @@
     "title": "git fetch",
     "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
   },
-  { "title": "git gc",
+  {
+    "title": "git gc",
     "description": "Cleanup unnecessary files and optimize the local repository."
   },
   {
-      "title": "git rev-parse",
-     "description":"Shows the hash of current commit you're on."
+    "title": "git rev-parse",
+    "description": "Shows the hash of current commit you're on."
   },
   {
     "title": "git switch",
     "description": "Switch to branch."
   },
   {
-  	"title": "git apply",
-  	"description": "This command reads the supplied diff output and applies that patch to files."
+    "title": "git apply",
+    "description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+    "title": "git clone",
+    "description": "This command clone a repository to local directory"
   }
 ]
