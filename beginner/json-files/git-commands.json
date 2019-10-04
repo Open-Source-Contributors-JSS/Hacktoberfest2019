@@ -213,5 +213,10 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+    "title":"git checkout",
+    "description":"This command allows me to switch between branches"
   }
 ]
+
