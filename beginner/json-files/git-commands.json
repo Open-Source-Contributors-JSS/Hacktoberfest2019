@@ -219,7 +219,7 @@
   },
    { 
       "title":"git log --summary"
-      "decription":"View detailed description changes occurred to the repository."
+      "decription":"Provide a more detailed description of changes occurred to the repository."
    },   
    
 ]
