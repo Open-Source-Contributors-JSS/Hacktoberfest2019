@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+    "title": "git log -p <path>",
+    "description": "This command will provide a log of the changes for a specific file specified at <path>."
   }
 ]
