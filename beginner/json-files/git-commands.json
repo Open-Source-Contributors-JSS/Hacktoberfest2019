@@ -237,7 +237,7 @@
   },
    { 
       "title":"git log --summary"
-      "decription":"Provide a more detailed description of changes occurred to the repository."
+      "description":"Provide a more detailed description of changes occurred to the repository."
    },   
   {
     "title": "git commit --amend",
