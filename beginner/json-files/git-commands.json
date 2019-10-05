@@ -216,5 +216,9 @@
   },
   { "title": "git rebase -i HEAD~4",
     "description": "Starts an editor for the last 4 commits in your terminal."
+  },
+  {
+     "title": "git commit --amend",
+     "description": "Change the message of the last commit."
   }
 ]
