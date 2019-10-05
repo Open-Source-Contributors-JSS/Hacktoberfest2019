@@ -1,11 +1,11 @@
-[
-   {
-    "title": "git reflog",
-    "description": "This command allows you to list all the commands that were executed and then recover particular commits."
-  },
-  {
+  [
+    {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
+  },
+ {
+    "title": "git clone",
+    "description": "The git clone command creates a working copy of a local repository."
   },
   {
     "title": "git add",
@@ -24,8 +24,12 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
+    "title": "git show",
+    "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
+  },
+{
     "title": "git tag",
-    "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
+    "description": "The git commit command provides Tags are ref's that point to specific points in git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
   {
     "title": "git branch",
@@ -68,7 +72,7 @@
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
    {
-    "title":"git push –all [variable name]",
+    "title":"git push –all",
     "description":"This command pushes all branches to your remote repository."
   },
   {
@@ -100,11 +104,7 @@
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
   {
-    "title": "git cherrypick [commithash]",
-    "description": "Cherry picking in Git is designed to apply some commit from one branch into another branch. It can be done if you eg. made a mistake and committed a change into wrong branch, but do not want to merge the whole branch. You can just eg. revert the commit and cherry-pick it on another branch."
-  },
-  {
-    "title": "git reset [file]",
+    "title": "git reset",
     "description": "unstage a file while retaining the changes in working directory."
   },
   {
@@ -176,6 +176,18 @@
     "description": "Fetch/download changes from a remote repository to the local repository without merging them with the current branch."
   },
   {
+    "title": "git status",
+    "description": "The git commit command provides a status of changes made throughout time."
+  },
+  {
+    "title": "git reset",
+    "description": "The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard. The three arguments each correspond to Git's three internal state management mechanism's, The Commit Tree (HEAD), The Staging Index, and The Working Directory."
+  },
+  {
+  "title": "git status",
+  "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
+  },
+{
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
   },
@@ -219,7 +231,27 @@
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
   {
+    "title": "git checkout -b",
+    "description": "The git checkout command is used create a branch and s switch the working branch by pointing the HEAD to the branch you choose for."
+  },
+  {
+    "title": "git squash",
+    "description": "Squashing a commit means, to move the changes introduced in said commit into its parent so that you end up with one commit instead of two (or more)."
+  },
+  {
+    "title": "git log --graph",
+    "description": "This command can be used to show the commit log in graph format"
+  },
+  {
+    "title": "git config",
+    "description": "The git config command configures the author name and email address to be used with your commits."
+  },
+  {
+    "title": "git reflog",
+    "description": "This command allows you to list all the commands that were executed and then recover particular commits."
+  },
+  {
     "title": "git config --global commit.gpgsign true",
-    "description": "Allos all commits to be signed by GPG. Security!"
+    "description": "Allos all commits to be signed by GPG. Security!"    
   }
 ]
