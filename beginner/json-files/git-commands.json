@@ -236,7 +236,7 @@
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
    { 
-      "title":"git log --summary"
+      "title":"git log --summary",
       "description":"Provide a more detailed description of changes occurred to the repository."
    },   
   {
