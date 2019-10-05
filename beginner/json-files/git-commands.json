@@ -224,5 +224,10 @@
   {
     "title": "git squash",
     "description": "Squashing a commit means, to move the changes introduced in said commit into its parent so that you end up with one commit instead of two (or more)."
+  },
+  {
+    "title": "git log --graph",
+    "description": "This command can be used to show the commit log in graph format"
   }
+
 ]
