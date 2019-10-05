@@ -235,6 +235,10 @@
     "title": "git rebase -i HEAD~4",
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
+   { 
+      "title":"git log --summary"
+      "decription":"Provide a more detailed description of changes occurred to the repository."
+   },   
   {
     "title": "git commit --amend",
     "description": "This command is a convenient way to modify the most recent commit. It can also be used to simply edit the previous commit message without changing its snapshot"
@@ -274,6 +278,5 @@
    { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
   }
-
 ]
 
