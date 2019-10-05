@@ -220,5 +220,9 @@
   {
     "title": "git checkout -b",
     "description": "The git checkout command is used create a branch and s switch the working branch by pointing the HEAD to the branch you choose for."
+  },
+  {
+    "title": "git squash",
+    "description": "Squashing a commit means, to move the changes introduced in said commit into its parent so that you end up with one commit instead of two (or more)."
   }
 ]
