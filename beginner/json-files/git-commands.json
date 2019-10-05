@@ -235,6 +235,10 @@
     "title": "git rebase -i HEAD~4",
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
+  {
+    "title": "git checkout -b new-branch",
+  "description": "creates a new branch called 'new-branch' and then switch to the newly created branch."
+  },
    { 
       "title":"git log --summary",
       "description":"Provide a more detailed description of changes occurred to the repository."
