@@ -217,5 +217,9 @@
   {
     "title": "git fork",
     "description": " Forking a repository allows you to freely experiment with changes without affecting the original project. "
-  }
+  },
+  {
+    "title": "git fetch",
+    "description": "Fetch/download changes from a remote repository to the local repository without merging them with the current branch."
+  },
 ]
