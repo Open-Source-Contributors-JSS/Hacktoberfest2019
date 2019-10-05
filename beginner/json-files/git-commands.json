@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
-  }
+  },
+  {
+    "title": "git blossom",
+    "description":"This command clones all related repos at one shot according to the keyword input by user"
+    }
 ]
