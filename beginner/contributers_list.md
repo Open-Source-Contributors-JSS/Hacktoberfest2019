@@ -77,4 +77,5 @@
 77. Erfan Alimohammadi (Erfaniaa)
 78. Jason Lim (dreamcatcher12)
 79. Aayush Jain (jain-aayush)
-Mitasha Dongre (Mitasha98)
+80. John Cardarella (Pandaradox)
+81. Mitasha Dongre (Mitasha98)

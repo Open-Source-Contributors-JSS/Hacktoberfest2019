@@ -213,5 +213,8 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  { "title": "git rebase -i HEAD~4",
+    "description": "Starts an editor for the last 4 commits in your terminal."
   }
 ]
