@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Sudoku</title>
+        <style>
+            td, input {
+                height:25px;
+                width:25px;
+            }
+
+            .highlight {
+                background:red;
+            }
+
+            .odd {
+                background:lightblue;
+            }
+
+            .even {
+                background: navajowhite;
+            }
+
+            body {
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <button onclick="checkWin()" >Check Win</button>
+        <button onclick="getHint()" >Hint</button>
+        <div id='tableHolder' >
+            Waiting to Start the game
+        </div>
+        <select id='difficulty'>
+            <option value='0' >Select Difficulty</option>
+            <option value="30">Easy</option>
+            <option value="45">Medium</option>
+            <option value="55">Hard</option>
+        </select>
+        <button onclick="restart()" >Start Game</button>
+        <script src="sudoku.js"></script>
+    </body>
+</html>
