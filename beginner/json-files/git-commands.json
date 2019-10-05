@@ -214,4 +214,8 @@
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
   }
+  {
+   "title": "git init",
+   "description": "Creates new local repository"
+  },
 ]
