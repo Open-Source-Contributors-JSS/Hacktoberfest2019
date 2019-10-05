@@ -216,5 +216,10 @@
   },
   { "title": "git rebase -i HEAD~4",
     "description": "Starts an editor for the last 4 commits in your terminal."
-  }
+  },
+   { 
+      "title":"git log --summary"
+      "decription":"View detailed description changes occurred to the repository."
+   },   
+   
 ]
