@@ -29,7 +29,7 @@
   },
 {
     "title": "git tag",
-    "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
+    "description": "The git commit command provides Tags are ref's that point to specific points in git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
   {
     "title": "git branch",
@@ -186,7 +186,7 @@
   {
   "title": "git status",
   "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
-  }
+  },
 {
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
