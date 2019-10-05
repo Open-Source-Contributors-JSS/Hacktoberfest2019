@@ -8,6 +8,10 @@
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
   },
   {
+    "title": "git clone",
+    "description": "git clone is a Git command line utility which is used to target an existing repository and create a clone, or copy of the target repository"
+  },
+  {
     "title": "git add",
     "description": "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
   },
