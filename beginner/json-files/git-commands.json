@@ -230,6 +230,10 @@
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
   {
+     "title": "git commit --amend",
+     "description": "Change the message of the last commit."
+  },
+    {
   	"title": "git please",
   	"description": "This is an alias for command- $ git config --global alias.please 'push --force-with-lease' "
   },
