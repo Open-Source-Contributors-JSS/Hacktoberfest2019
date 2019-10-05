@@ -71,7 +71,7 @@
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
    {
-    "title":"git push –all [variable name]",
+    "title":"git push –all",
     "description":"This command pushes all branches to your remote repository."
   },
   {
@@ -103,11 +103,7 @@
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
   {
-    "title": "git cherrypick [commithash]",
-    "description": "Cherry picking in Git is designed to apply some commit from one branch into another branch. It can be done if you eg. made a mistake and committed a change into wrong branch, but do not want to merge the whole branch. You can just eg. revert the commit and cherry-pick it on another branch."
-  },
-  {
-    "title": "git reset [file]",
+    "title": "git reset",
     "description": "unstage a file while retaining the changes in working directory."
   },
   {
@@ -191,8 +187,6 @@
   "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
   }
 {
-
-=======
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
   },
