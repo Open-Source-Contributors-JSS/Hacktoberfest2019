@@ -230,6 +230,10 @@
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
   {
+  	"title": "git please",
+  	"description": "This is an alias for command- $ git config --global alias.please 'push --force-with-lease' "
+  },
+    {
     "title": "git checkout -b",
     "description": "The git checkout command is used create a branch and s switch the working branch by pointing the HEAD to the branch you choose for."
   },
