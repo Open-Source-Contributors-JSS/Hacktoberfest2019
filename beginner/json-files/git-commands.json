@@ -213,5 +213,9 @@
   {
   	"title": "git apply",
   	"description": "This command reads the supplied diff output and applies that patch to files."
+  },
+    {
+  	"title": "git fork",
+  	"description": "Forking a repository allows you to freely experiment with changes without affecting the original project."
   }
 ]
