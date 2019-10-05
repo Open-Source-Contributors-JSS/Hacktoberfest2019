@@ -256,6 +256,9 @@
 {
     "title": "git reflog",
     "description": "This command allows you to list all the commands that were executed and then recover particular commits."
+  },
+   { "title": "git fetch --all --prune",
+    "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
   }
 
 ]
