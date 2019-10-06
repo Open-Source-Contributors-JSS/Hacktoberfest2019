@@ -284,6 +284,10 @@
   },
    { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
+  },
+  {
+    "title": "git log --graph",
+    "description": "This command gives you the graphed version of each branch within your repository."
   }
 ]
 
