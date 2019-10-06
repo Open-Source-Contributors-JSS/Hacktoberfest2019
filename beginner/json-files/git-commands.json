@@ -164,6 +164,10 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git cherry-pick [string]",
+    "description": "Merges a particular commit identified by [string] as a reference."
+  },
+  {
     "title": "git bundle",
     "description": "Move objects and refs by archive."
   },
@@ -184,14 +188,10 @@
     "description": "The git commit command provides a status of changes made throughout time."
   },
   {
-    "title": "git reset",
-    "description": "The git reset command is a complex and versatile tool for undoing changes."
+    "title": "git status",
+    "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
   },
   {
-  "title": "git status",
-  "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged."
-  },
-{
     "title": "git diff",
     "description": "This command shows the file differences which are not yet staged."
   },
@@ -240,7 +240,7 @@
     },
   {
     "title": "git checkout -b new-branch",
-  "description": "creates a new branch called 'new-branch' and then switch to the newly created branch."
+    "description": "creates a new branch called 'new-branch' and then switch to the newly created branch."
   },
    {
       "title":"git log --summary",
@@ -274,16 +274,22 @@
     "title": "git log --graph",
     "description": "This command can be used to show the commit log in graph format"
   },
- {
+  {
     "title": "git config",
     "description": "The git config command configures the author name and email address to be used with your commits."
- },
-{
+  },
+  {
     "title": "git reflog",
     "description": "This command allows you to list all the commands that were executed and then recover particular commits."
   },
-   { "title": "git fetch --all --prune",
+  { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
+  },
+  { "title": "git log --follow [file]",
+    "description": "Lists version history for a file, including renames"
+  },
+  { "title": "git cherry",
+    "description": "Let you check whether your branch changes are present in some other branch or not"
   },
   { "title": "git commit -m '[Descriptive Message]'",
     "description": "This command creates a message that is added to your commit.  This message should be short ideally less than 50 characters"
