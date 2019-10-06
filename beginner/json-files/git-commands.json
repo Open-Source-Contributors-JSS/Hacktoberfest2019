@@ -290,6 +290,9 @@
   },
    { "title": "git ls-files --other --ignored --exclude-standard",
     "description": "Lists all ignored files in this project"
+  },
+    { "title": "git cherry",
+    "description": "Let you check whether your branch changes are present in some other branch or not"
   }
 ]
 
