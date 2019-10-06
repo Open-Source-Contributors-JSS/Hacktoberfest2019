@@ -284,6 +284,12 @@
   },
    { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
+  },
+   { "title": "git log --follow [file]",
+    "description": "Lists version history for a file, including renames"
+  },
+   { "title": "git ls-files --other --ignored --exclude-standard",
+    "description": "Lists all ignored files in this project"
   }
 ]
 
