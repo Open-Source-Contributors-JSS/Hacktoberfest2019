@@ -125,7 +125,7 @@ function render(jsondata, req_per_page, page_no) {
   for (let i = startRange; i < endRange; i++) {
     let item = jsondata[i];
     output += `<div class="column card">
-            <img class="" src=${item.avatar_url} alt="" />
+            <img src=${item.avatar_url} alt="" />
             <div>
                 <a href=${item.html_url} target="_blank"><h4 class="title is-4">${item.login}</h4></a>
                 <p><small>Contributions: ${item.contributions}</small></p>
