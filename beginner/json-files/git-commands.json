@@ -291,6 +291,7 @@
   { "title": "git cherry",
     "description": "Let you check whether your branch changes are present in some other branch or not"
   },
+
   { 
   "title": "git stash",
   "description":"it takes any changes to tracked files in your work tree and stashes them away for later use, leaving you with a clean work tree to start hacking on something else.."
@@ -298,6 +299,37 @@
   {
     "title": "git stash clear",
     "description": "This will clear all your stash files that you have added into git via git stash"
+  },
+  {
+    "title": "git show",
+    "description": "This command shows the metadata and content changes of the specified commit."
+  },
+  { "title": "git remote",
+    "description": "This command is used to connect your local repository to the remote server."
+  },
+  {
+    "title": "git blame",
+    "description": "Show what revision and author last modified each line of a file"
+  },
+  {
+    "title": "git add .",
+    "description": "This git command adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit"
+  },
+  {
+    "title": "git clean -n",
+    "description": "Shows which files would be removed from working directory. Use the -f flag in place of the -n flag to execute the clean."
+  },
+  {
+    "title": "git stash",
+    "description": "It takes any changes to tracked files in your work tree and stashes them away for later use, leaving you with a clean work tree to start hacking on something else.."
+  },
+  {
+    "title": "git commit -m [message]",
+    "description": "This command to used to commit any changes to the local repository and the -m flag is used to provide a short description of the changes that are being committed."
+  },
+  {
+    "title": "git rev-list --count master",
+    "description": "count the number of commits on a branch"
   }
 ]
 
