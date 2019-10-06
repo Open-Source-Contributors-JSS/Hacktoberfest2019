@@ -105,7 +105,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 ###### At this point, you can now modify existing files or add new files to the project on your own branch.
 ###### Make sure you have read the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/.github/ISSUE_TEMPLATE/contributing.md">contributing.md</a> before you start contributing such that you make remarkable and easily acceptable PRs.
 
-#### Make Changes Locally.For ex- When making your beginner level contribution in this repository,find <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favorite git command alongwith a two-three lines short description in the json file.
+#### Make Changes Locally. For ex- When making your beginner level contribution in this repository,find <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/beginner/json-files">git-commands.json</a> and add your favorite git command along with a two-three lines short description in the json file.
 
 ###### CAUTION: JSON files follow a certain format, do not forget to add a comma before you start editing your block and it's good if you append a comma after finishing your block.
 
@@ -123,7 +123,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ![git 6](https://user-images.githubusercontent.com/42115530/65821277-125fb000-e251-11e9-898a-42aa9c920416.JPG)
 
-###### The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way.Thus, you must ensure that you write a meaningful commit message. If in a confusion, refer to the good contribution guidelines included in the ##### ` contributing.md `
+###### The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way. Thus, you must ensure that you write a meaningful commit message. If in a confusion, refer to the good contribution guidelines included in the ##### ` contributing.md `
 
 
 ###### If you have a very short message, you can record that with the -m flag and the message in quotes:
