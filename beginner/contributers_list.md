@@ -97,6 +97,6 @@
 97. Gunish Jain (gunishjain)
 98. Santatra (nirinarisantatra)
 99. Zaytsev Dmitry (dzaytsev91)
-100. Dayitva Goel (Dayitva)
-101. Mitasha Dongre (Mitasha98)
+100. Mitasha Dongre (Mitasha98)
+101. Dayitva Goel (Dayitva)
 
