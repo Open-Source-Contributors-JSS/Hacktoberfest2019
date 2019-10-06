@@ -294,6 +294,10 @@
   {
     "title": "git add .",
     "description": "This git command adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit"
+  },
+  {
+    "title": "git clean -n",
+    "description": "Shows which files would be removed from working directory. Use the -f flag in place of the -n flag to execute the clean."
   }
 ]
 
