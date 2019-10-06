@@ -71,6 +71,10 @@
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
+  {
+    "title": "git push –all [variable name]",
+    "description": "This command pushes all branches to your remote repository."
+    },
    {
     "title":"git push –all",
     "description":"This command pushes all branches to your remote repository."
@@ -116,8 +120,8 @@
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
-    "title" : "git clean",
-    "description" : "Removes untracked files from the working tree"
+    "title": "git clean",
+    "description": "Removes untracked files from the working tree"
   },
   {
     "title": "git stash list",
@@ -135,7 +139,7 @@
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
   },
-  { 
+  {
     "title": "git cherry-pick",
     "description": "This command copies the commit to the current branch."
   },
@@ -160,9 +164,13 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git cherry-pick [string]",
+    "description": "Merges a particular commit identified by [string] as a reference."
+  },
+  {
     "title": "git bundle",
     "description": "Move objects and refs by archive."
-  }, 
+  },
   {
     "title": "git fetch",
     "description": "Downloads all history from the repository bookmark."
@@ -181,7 +189,7 @@
   },
   {
     "title": "git reset",
-    "description": "The git reset command is a complex and versatile tool for undoing changes. It has three primary forms of invocation. These forms correspond to command line arguments --soft, --mixed, --hard. The three arguments each correspond to Git's three internal state management mechanism's, The Commit Tree (HEAD), The Staging Index, and The Working Directory."
+    "description": "The git reset command is a complex and versatile tool for undoing changes."
   },
   {
   "title": "git status",
@@ -211,25 +219,42 @@
     "title": "git fetch",
     "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
   },
-  { "title": "git gc",
+  {
+    "title": "git gc",
     "description": "Cleanup unnecessary files and optimize the local repository."
   },
   {
-      "title": "git rev-parse",
-     "description":"Shows the hash of current commit you're on."
+    "title": "git rev-parse",
+    "description": "Shows the hash of current commit you're on."
   },
   {
     "title": "git switch",
     "description": "Switch to branch."
   },
   {
-  	"title": "git apply",
-  	"description": "This command reads the supplied diff output and applies that patch to files."
-  },
-  { "title": "git rebase -i HEAD~4",
-    "description": "Starts an editor for the last 4 commits in your terminal."
+    "title": "git apply",
+    "description": "This command reads the supplied diff output and applies that patch to files."
   },
   {
+    "title": "git rebase -i HEAD~4",
+    "description": "Starts an editor for the last 4 commits in your terminal."
+  },
+  { "title": "git --help",
+    "description": "To learn more about Git Commands in Detail."
+    },
+  {
+    "title": "git checkout -b new-branch",
+  "description": "creates a new branch called 'new-branch' and then switch to the newly created branch."
+  },
+   { 
+      "title":"git log --summary",
+      "description":"Provide a more detailed description of changes occurred to the repository."
+   },   
+  {
+    "title": "git commit --amend",
+    "description": "This command is a convenient way to modify the most recent commit. It can also be used to simply edit the previous commit message without changing its snapshot"
+  },
+    {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
@@ -264,9 +289,17 @@
    { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
   },
-   { "title": "git stash",
+   { "title": "git log --follow [file]",
+    "description": "Lists version history for a file, including renames"
+  },
+   { "title": "git ls-files --other --ignored --exclude-standard",
+    "description": "Lists all ignored files in this project"
+  },
+    { "title": "git cherry",
+    "description": "Let you check whether your branch changes are present in some other branch or not"
+  },
+    { "title": "git stash",
     "description":It takes any changes to tracked files in your work tree and stashes them away for later use, leaving you with a clean work tree to start hacking on something else.."
-  }
-
+    }
 ]
 
