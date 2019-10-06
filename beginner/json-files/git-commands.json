@@ -288,6 +288,10 @@
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
   },
   {
+    "title": "git log --graph",
+    "description": "This command gives you the graphed version of each branch within your repository."
+  },
+  {
     "title": "git rm --cached [file]",
     "description": "Removes the file from version control but preserves the file locally."
   },
