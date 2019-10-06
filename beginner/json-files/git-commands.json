@@ -284,6 +284,10 @@
   },
    { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
+  },
+  {
+    "title": "git rm --cached [file]",
+    "description": "Removes the file from version control but preserves the file locally."
   }
 ]
 
