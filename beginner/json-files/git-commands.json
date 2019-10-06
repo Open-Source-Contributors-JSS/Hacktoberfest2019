@@ -286,6 +286,6 @@
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
   },
   { "title": "git commit -m '[Descriptive Message]'",
-    "description": "This command creates a message that is added to your commit.  This message should be short (less than 50 characters)"
+    "description": "This command creates a message that is added to your commit.  This message should be short ideally less than 50 characters"
   }
 ]
