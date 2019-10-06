@@ -189,7 +189,7 @@
   },
   {
   "title": "git status",
-  "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged." 
+  "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged."
   },
 {
     "title": "git diff",
@@ -242,10 +242,10 @@
     "title": "git checkout -b new-branch",
   "description": "creates a new branch called 'new-branch' and then switch to the newly created branch."
   },
-   { 
+   {
       "title":"git log --summary",
       "description":"Provide a more detailed description of changes occurred to the repository."
-   },   
+   },
   {
     "title": "git commit --amend",
     "description": "This command is a convenient way to modify the most recent commit. It can also be used to simply edit the previous commit message without changing its snapshot"
@@ -284,6 +284,8 @@
   },
    { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
+  },
+  { "title": "git commit -m '[Descriptive Message]'",
+    "description": "This command creates a message that is added to your commit.  This message should be short (less than 50 characters)"
   }
 ]
-
