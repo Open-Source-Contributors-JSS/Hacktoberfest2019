@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git stash clear",
+    "description": "This command deletes all stashed entries in the repo. It maybe impossible to revert."
   }
 ]
