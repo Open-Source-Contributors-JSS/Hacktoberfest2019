@@ -263,6 +263,9 @@
   },
    { "title": "git fetch --all --prune",
     "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
+  },
+   { "title": "git stash",
+    "description":It takes any changes to tracked files in your work tree and stashes them away for later use, leaving you with a clean work tree to start hacking on something else.."
   }
 
 ]
