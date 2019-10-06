@@ -1,11 +1,12 @@
-
 a{
   text-decoration: none;
   color: #fff !important;
 }
+
 a:hover{
   text-decoration: none !important;
 }
+
 .vl {
   border-left: 3px solid #49A3FF;
   height: 250px;
@@ -19,25 +20,31 @@ a:hover{
 .vl{
   display: none;
 }
+
 .menu-wrap {
   font-size: 20px !important;
 }
+
 .menu-wrap .toggler {
   width: 30px !important;
   height: 30px !important;
 }
+
 .menu-wrap .hamburger {
-  width: 60px !important;
+  width: 61px !important;
   height: 50px !important;
 }
+
 .social i{
   margin-top: 30px !important;
   margin-left: 10px !important;
   margin-right: 30px !important;
   }
+
 h2{
   font-size: 18px !important;
 }
+
 footer .social i{
   margin-top: 20px !important;
   margin-left: 10px !important;
@@ -52,6 +59,7 @@ footer .social i{
 .list1{
   margin: auto;
 }
+
 .social i{
 margin-top: 100px !important;
 margin-left: 40px;
@@ -79,6 +87,7 @@ color: #EC3FD2 ;
   padding: 18px;
   font-weight: 700;
 }
+
 .list1 .list2 .list3{
   list-style: none;
 }
@@ -86,6 +95,7 @@ color: #EC3FD2 ;
 .menu-head{
  color: #49A3FF !important;
 }
+
 .menu-wrap .toggler {
   position: absolute;
   top: 0;
