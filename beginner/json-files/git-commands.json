@@ -291,8 +291,9 @@
   { "title": "git cherry",
     "description": "Let you check whether your branch changes are present in some other branch or not"
   },
-    { "title": "git stash",
-    "description":It takes any changes to tracked files in your work tree and stashes them away for later use, leaving you with a clean work tree to start hacking on something else.."
-    }
+  {
+    "title": "git add .",
+    "description": "This git command adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit"
+  }
 ]
 
