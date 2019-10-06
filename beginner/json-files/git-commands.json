@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
@@ -319,6 +319,10 @@
     "description": "This git command adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit"
   },
   {
+    "title": "git add -A",
+    "description": "This git command adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit"
+  },
+  {
     "title": "git clean -n",
     "description": "Shows which files would be removed from working directory. Use the -f flag in place of the -n flag to execute the clean."
   },
@@ -333,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "cat .git/config",
+    "description": "This command displays tha present configuration file"
   }
 ]
