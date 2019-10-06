@@ -164,6 +164,10 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git cherry-pick [string]",
+    "description": "Merges a particular commit identified by [string] as a reference."
+  },
+  {
     "title": "git bundle",
     "description": "Move objects and refs by archive."
   },
