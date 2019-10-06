@@ -1,0 +1,1 @@
+document.write('<p>Hello World and hello hacktoberfest!!!!</p>');
