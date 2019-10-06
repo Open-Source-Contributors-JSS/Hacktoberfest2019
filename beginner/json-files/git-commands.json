@@ -290,6 +290,9 @@
   },
   { "title": "git cherry",
     "description": "Let you check whether your branch changes are present in some other branch or not"
-  }
+  },
+    { "title": "git stash",
+    "description":It takes any changes to tracked files in your work tree and stashes them away for later use, leaving you with a clean work tree to start hacking on something else.."
+    }
 ]
 
