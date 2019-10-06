@@ -704,3 +704,23 @@ hr {
     height: 300px;
   }
 } 
+
+.btn-light{
+  font-weight: bold !important;
+  height: 38px;
+  padding: 0 !important;
+  width: 36px;
+  overflow: hidden;
+  border: none !important;
+}
+
+.btn-light:hover {
+  background-color: #2a86e2 !important;
+  color: white !important;
+  transform: scale(1.1);
+}
+
+.btn-active{
+  background-color: #2a86e2 !important;
+  color: white !important;
+}

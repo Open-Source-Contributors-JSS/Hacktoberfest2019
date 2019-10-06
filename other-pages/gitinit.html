@@ -100,7 +100,7 @@
     <h1 class="is-2 title text-center pb-1 page-heading" style="color: #322054;">GIT COMMANDS</h1>
 
     <div class="grid-container"></div>
-
+    <div class="button-container text-center mt-4"></div>
     <br>
 
     <h4 class="title is-4 text-center"><a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="_blank">Click Here&nbsp;</a> to navigate to &nbsp;<em>git-commands.json</em>&nbsp; and add your favourite Git Command to the list</h4>
@@ -139,38 +139,7 @@
   </footer>
   <!--footer-->
 
-
-    <script>
-      let data = getcommandsData();
-      function getcommandsData(){
-        let url = '../beginner/json-files/git-commands.json';
-        return new Promise((resolve, reject) => {
-          fetch(url)
-          .then(data => data.json())
-          .then(jsondata => resolve(jsondata))
-          .catch(err => reject(err));
-        })
-      }
-      data.then(json => htmldata(json))
-      function htmldata(jsondata){
-        let output = '';
-        jsondata.forEach(item => {
-          output += `
-          <div class="">
-          <div class="card">
-              <div class="card-header">
-                <h3 class="title text-center is-4">${item.title}</h3>
-              </div>
-              <div class="card-body">
-                <p>${item.description}</p>
-              </div>
-            </div>
-      </div>`
-        })
-        document.getElementsByClassName("grid-container")[0].innerHTML = output;
-      }
-    </script>
-  
+    <script src="../js/gitinit.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
