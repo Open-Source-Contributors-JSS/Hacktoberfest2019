@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git add -A && git commit --amend --no-edit",
+    "description": "Use this command if you want to add/update a few lines in the previous commit without touching the commit message (works better with an alias)."
   }
 ]
