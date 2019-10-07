@@ -333,5 +333,13 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title":"git remote -v",
+    "description":"It shows the origin name means it shows a remote repository url from where the originally project was clone"
+  },
+  {
+    "title":"git remote add origin <url-of-repository>",
+    "description":"It can add new origin means remote repository url in local project to push"
   }
 ]
