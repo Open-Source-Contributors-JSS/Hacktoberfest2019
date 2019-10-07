@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git push origin master",
+    "description": "It will push changes from all local branches to matching branches the origin remote."
   }
 ]
