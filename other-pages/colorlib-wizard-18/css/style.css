@@ -269,7 +269,7 @@ input {
   margin-bottom: 20px; }
 
 fieldset.current {
-  padding-top: 95px; }
+  padding-top: 85px; }
 
 .form-rating {
   float: left; }
@@ -484,3 +484,7 @@ fieldset.current {
     width: 100px; } }
 
 /*# sourceMappingURL=style.css.map */
+/* adding word-wrap to deal with : https://prnt.sc/pejue4 */
+fieldset a {
+  word-wrap: break-word;
+}

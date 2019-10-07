@@ -1,11 +1,11 @@
 [
-   {
-    "title": "git reflog",
-    "description": "This command allows you to list all the commands that were executed and then recover particular commits."
-  },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
+  },
+  {
+    "title": "git clone",
+    "description": "The git clone command creates a working copy of a local repository."
   },
   {
     "title": "git add",
@@ -24,8 +24,12 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
+    "title": "git show",
+    "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
+  },
+  {
     "title": "git tag",
-    "description": "The git commit command provides Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
+    "description": "The git commit command provides Tags are ref's that point to specific points in git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
   {
     "title": "git branch",
@@ -68,6 +72,14 @@
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
   {
+    "title": "git push –all [variable name]",
+    "description": "This command pushes all branches to your remote repository."
+  },
+  {
+    "title": "git push –all",
+    "description": "This command pushes all branches to your remote repository."
+  },
+  {
     "title": "git pull",
     "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   },
@@ -96,7 +108,7 @@
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
   {
-    "title": "git reset [file]",
+    "title": "git reset",
     "description": "unstage a file while retaining the changes in working directory."
   },
   {
@@ -108,8 +120,8 @@
     "description": "The git status command lists all new or modified files to be committed."
   },
   {
-    "title" : "git clean",
-    "description" : "Removes untracked files from the working tree"
+    "title": "git clean",
+    "description": "Removes untracked files from the working tree"
   },
   {
     "title": "git stash list",
@@ -127,7 +139,7 @@
     "title": "git rebase --abort",
     "description": "This command is used to cancel an interactive rebase."
   },
-  { 
+  {
     "title": "git cherry-pick",
     "description": "This command copies the commit to the current branch."
   },
@@ -152,9 +164,13 @@
     "description": "Create an archive of files from a named tree."
   },
   {
+    "title": "git cherry-pick [string]",
+    "description": "Merges a particular commit identified by [string] as a reference."
+  },
+  {
     "title": "git bundle",
     "description": "Move objects and refs by archive."
-  }, 
+  },
   {
     "title": "git fetch",
     "description": "Downloads all history from the repository bookmark."
@@ -166,6 +182,14 @@
   {
     "title": "git fetch",
     "description": "Fetch/download changes from a remote repository to the local repository without merging them with the current branch."
+  },
+  {
+    "title": "git status",
+    "description": "The git commit command provides a status of changes made throughout time."
+  },
+  {
+    "title": "git status",
+    "description": "The git status command shows the state of your working directory and helps you see all the files which are untracked by Git, staged or unstaged."
   },
   {
     "title": "git diff",
@@ -191,12 +215,13 @@
     "title": "git fetch",
     "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
   },
-  { "title": "git gc",
+  {
+    "title": "git gc",
     "description": "Cleanup unnecessary files and optimize the local repository."
   },
   {
-      "title": "git rev-parse",
-     "description":"Shows the hash of current commit you're on."
+    "title": "git rev-parse",
+    "description": "Shows the hash of current commit you're on."
   },
   {
     "title": "git switch",
@@ -205,5 +230,112 @@
   {
     "title": "git bisect",
     "description": "Look for the commit that caused the issue using dichotomy method (binary search algorithm)."
+  },
+  {
+    "title": "git apply",
+    "description": "This command reads the supplied diff output and applies that patch to files."
+  },
+  {
+    "title": "git rebase -i HEAD~4",
+    "description": "Starts an editor for the last 4 commits in your terminal."
+  },
+  {
+    "title": "git --help",
+    "description": "To learn more about Git Commands in Detail."
+  },
+  {
+    "title": "git checkout -b new-branch",
+    "description": "creates a new branch called 'new-branch' and then switch to the newly created branch."
+  },
+  {
+    "title": "git log --summary",
+    "description": "Provide a more detailed description of changes occurred to the repository."
+  },
+  {
+    "title": "git commit --amend",
+    "description": "This command is a convenient way to modify the most recent commit. It can also be used to simply edit the previous commit message without changing its snapshot"
+  },
+  {
+    "title": "git config",
+    "description": "This command sets the author name and email address respectively to be used with your commits."
+  },
+  {
+    "title": "git commit --amend",
+    "description": "Change the message of the last commit."
+  },
+  {
+    "title": "git please",
+    "description": "This is an alias for command- $ git config --global alias.please 'push --force-with-lease' "
+  },
+  {
+    "title": "git checkout -b",
+    "description": "The git checkout command is used create a branch and s switch the working branch by pointing the HEAD to the branch you choose for."
+  },
+  {
+    "title": "git squash",
+    "description": "Squashing a commit means, to move the changes introduced in said commit into its parent so that you end up with one commit instead of two (or more)."
+  },
+  {
+    "title": "git log --graph",
+    "description": "This command can be used to show the commit log in graph format"
+  },
+  {
+    "title": "git config",
+    "description": "The git config command configures the author name and email address to be used with your commits."
+  },
+  {
+    "title": "git reflog",
+    "description": "This command allows you to list all the commands that were executed and then recover particular commits."
+  },
+  {
+    "title": "git fetch --all --prune",
+    "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
+  },
+  {
+    "title": "git log --graph",
+    "description": "This command gives you the graphed version of each branch within your repository."
+  },
+  {
+    "title": "git rm --cached [file]",
+    "description": "Removes the file from version control but preserves the file locally."
+  },
+  {
+    "title": "git log --follow [file]",
+    "description": "Lists version history for a file, including renames"
+  },
+  {
+    "title": "git cherry",
+    "description": "Let you check whether your branch changes are present in some other branch or not"
+  },
+  {
+    "title": "git show",
+    "description": "This command shows the metadata and content changes of the specified commit."
+  },
+  { "title": "git remote",
+    "description": "This command is used to connect your local repository to the remote server."
+  },
+  {
+    "title": "git blame",
+    "description": "Show what revision and author last modified each line of a file"
+  },
+  {
+    "title": "git add .",
+    "description": "This git command adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index), thus preparing them to be included in the next git commit"
+  },
+  {
+    "title": "git clean -n",
+    "description": "Shows which files would be removed from working directory. Use the -f flag in place of the -n flag to execute the clean."
+  },
+  {
+    "title": "git stash",
+    "description": "It takes any changes to tracked files in your work tree and stashes them away for later use, leaving you with a clean work tree to start hacking on something else.."
+  },
+  {
+    "title": "git commit -m [message]",
+    "description": "This command to used to commit any changes to the local repository and the -m flag is used to provide a short description of the changes that are being committed."
+  },
+  {
+    "title": "git rev-list --count master",
+    "description": "count the number of commits on a branch"
   }
 ]

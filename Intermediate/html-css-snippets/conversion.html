@@ -1,0 +1,71 @@
+
+<html>
+	<head>
+		<title>Base Conversion</title>
+		<link rel="stylesheet" href="https://bootswatch.com/3/superhero/bootstrap.min.css" />
+        <meta name='viewport' content="width=device-width, initial-scale=1.0">
+	</head>
+	<body class=container >
+		<form id='mainform' >
+			<legend class="text-center">Conversion Snippet</legend>
+			<label for='sel' >Pre-Defined Conversion:</label>
+			<select id='sel' class='form-control' >
+				<option data-fr='2' data-to='10' >Binary to Decimal</option>
+				<option data-fr='2' data-to='8' >Binary to Octal</option>
+				<option data-fr='2' data-to='16' >Binary to HexaDecimal</option>
+				<option data-fr='8' data-to='2' >Octal to Binary</option>
+				<option data-fr='8' data-to='10' >Octal to Decimal</option>
+				<option data-fr='8' data-to='16' >Octal to HexaDecimal</option>
+				<option data-fr='10' data-to='2' >Decimal to Binary</option>
+				<option data-fr='10' data-to='8' >Decimal to Octal</option>
+				<option data-fr='10' data-to='16' >Decimal to HexaDecimal</option>
+				<option data-fr='16' data-to='2' >HexaDecimal to Binary</option>
+				<option data-fr='16' data-to='8' >HexaDecimal to Octal</option>
+				<option data-fr='16' data-to='10' >HexaDecimal to Decimal</option>
+			</select>
+			<label for='fr' >From (Base)</label>
+			<input type=number id=fr class=form-control />
+			
+			<label for='to' >To (Base)</label>
+			<input type='number' id=to class=form-control />
+			
+			<label for=num >Number</label>
+			<input type=text class=form-control id=num />
+			
+			<input type=submit class='btn btn-danger' />
+			
+			<div id='result' class='alert alert-info' ></div>
+		</form>
+	</body>
+</html>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script>
+	var calc = function ( n , f , t ) {
+		
+		return parseInt(n , f).toString(t).toUpperCase();
+		
+	},
+	init = function () {
+		if(!window.$) {
+			var sc = document.createElement("script");
+			sc.onload = init;
+			sc.src = "https://code.jquery.com/jquery.min.js";
+			document.body.appendChild(sc);
+			return ;
+		}
+		
+		$("#sel").change(function (e) {
+			var t = $(this).find("option:selected");
+			
+			$("#fr").val( t.attr("data-fr") );
+			$("#to").val( t.attr("data-to") );
+		});
+		
+		$("#mainform").submit(function (e) {
+			e.preventDefault();
+			$("#result").html( calc( $("#num").val() , $("#fr").val() , $("#to").val() ) );
+		});
+	};
+	
+	init();
+</script>
