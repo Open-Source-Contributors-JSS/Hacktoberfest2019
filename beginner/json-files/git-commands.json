@@ -68,6 +68,10 @@
     "description": "Enlists the stashes made with the recent one in the top."
   },
   {
+    "title": "git stash clear",
+    "description": "Removes all git stashes that don't require pruning."
+  },
+  {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
