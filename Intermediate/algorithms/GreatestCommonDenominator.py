@@ -24,6 +24,6 @@ def gcd(a, b):
 
 
 if __name__ == '__main__':
-	a = 1
-	b = 1
-	print(gcd(a, b))
+	a = int(input("input first number: "))
+	b = int(input("input second number: "))
+	print("gcd(%d, %d) = %d" %(a, b, gcd(a, b)))
