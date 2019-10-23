@@ -1,5 +1,4 @@
-[
-  {
+[{
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
   },
@@ -307,7 +306,8 @@
     "title": "git show",
     "description": "This command shows the metadata and content changes of the specified commit."
   },
-  { "title": "git remote",
+  {
+    "title": "git remote",
     "description": "This command is used to connect your local repository to the remote server."
   },
   {
@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git add -p",
+    "description": "Visually displays the changes that were made to each tracked file, and provides the ability to interactively select what specifically will be added to staging. "
   }
 ]
