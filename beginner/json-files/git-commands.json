@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git revert",
+    "description":"This command record some new commits to reverse the effect of some earlier commits"
   }
 ]
