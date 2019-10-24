@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git ls-files --other --ignored --exclude-standard",
+    "description": "Lists all ignored files in this project"
+  }
 ]
