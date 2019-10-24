@@ -252,12 +252,12 @@
     "description": "This command is a convenient way to modify the most recent commit. It can also be used to simply edit the previous commit message without changing its snapshot"
   },
   {
-    "title": "git config",
-    "description": "This command sets the author name and email address respectively to be used with your commits."
+    "title": "git commit --amend -m [new_message]",
+    "description": "Adding the -m option to allows you to pass the new commit message for the most recent commit."
   },
   {
-    "title": "git commit --amend",
-    "description": "Change the message of the last commit."
+    "title": "git config",
+    "description": "This command sets the author name and email address respectively to be used with your commits."
   },
   {
     "title": "git please",
