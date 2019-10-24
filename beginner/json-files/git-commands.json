@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git commit --amend --no-edit",
+    "description": "This command adds any staged files onto the last commit you created, re-using your existing commit message, as long as you haven’t already pushed"
   }
 ]
