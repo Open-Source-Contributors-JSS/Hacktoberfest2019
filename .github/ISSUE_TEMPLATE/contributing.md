@@ -4,9 +4,9 @@
 <br>
 When contributing to this repository, please first discuss the changes you wish to make via issue,
 email, or any other method with the owners of this repository before making a change.
-Explore our chat community on Gitter: https://gitter.im/Open-Source-Contributors-JSS via @gitchat
+Explore our chat community on Gitter: https://gitter.im/Open-Source-Contributors-JSS via @gitchat.
 
-Please note we have a code of conduct, follow it in all your interactions with the project.
+#### Please note we have a code of conduct, follow it in all your interactions with the project.
 
 ## Pull Request Process Resources
 1. <a href="https://github.com/firstcontributions/first-contributions/blob/master/README.md">First Contributions</a>
