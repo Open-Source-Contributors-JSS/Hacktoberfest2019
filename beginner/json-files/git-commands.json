@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+   "title":"git merge ",
+   "description": "Merge two branches you were working on."
+  }
 ]
