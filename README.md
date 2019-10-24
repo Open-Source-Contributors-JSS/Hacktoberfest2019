@@ -181,6 +181,8 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ## Hurray!!! You just got closer to completing your hacktoberfest challenge. 😃
 
+## Best of luck for getting your PR initiated and one step towards your free tee.
+
 ## Happy?? Star ⭐ this Repo. 🤩
 
 ## Check your Hacktoberfest Contribution status at:
