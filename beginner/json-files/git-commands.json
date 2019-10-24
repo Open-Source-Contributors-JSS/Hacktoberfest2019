@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git rebase",
+    "description": "This command moves a sequence of commits to a new base commit."
+  },
 ]
