@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git cherry-pick <commit>",
+    "description": "This command allows you to apply a single commit to your working tree. For example, if there's a commit in another branch that you want to apply but the branch isn't ready to fully merge, you can use this command to grab that commit and drop it in to your current branch."
   }
 ]
