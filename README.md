@@ -4,12 +4,6 @@
 [![Join the chat at https://gitter.im/Open-Source-Contributors-JSS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Open-Source-Contributors-JSS)&nbsp;
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://hacktoberfest.netlify.com/)&nbsp;
 [![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/README.md)&nbsp;
-[![GitHub contributors](https://img.shields.io/github/contributors/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/graphs/contributors)&nbsp;
-[![GitHub issues](https://img.shields.io/github/issues/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/issues)&nbsp;
-
-[![GitHub issues-closed](https://img.shields.io/github/issues-closed/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/issues?q=is%3Aissue+is%3Aclosed)&nbsp;
-[![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/pull/)&nbsp;
-[![GitHub pull-requests closed](https://img.shields.io/github/issues-pr-closed/Naereen/StrapDown.js.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/pull/)&nbsp;
 [![HitCount](http://hits.dwyl.io/Naereen/badges.svg)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019)&nbsp;
 
 
