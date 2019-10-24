@@ -1,6 +1,5 @@
 '''
 Recursive Factorial
-
 This is a factorial algorithm using an easy recursive solution.
 '''
 
