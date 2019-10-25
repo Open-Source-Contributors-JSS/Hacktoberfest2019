@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  }, 
+  {
+    "title": "git push --set-upstream origin <branch>",
+    "description": "allows you to push regularly like git pull but the difference is the --set-upstream allows for not having to specify which branch that you want to pull from every single time you do git pull."
   }
 ]
