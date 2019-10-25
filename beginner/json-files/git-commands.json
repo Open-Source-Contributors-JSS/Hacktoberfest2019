@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git checkout -b 'branch-name'",
+    "description": "This command is used to create a new branch. This is my favourite command because I love how the word checkout sound. XD" 
+  }
 ]
