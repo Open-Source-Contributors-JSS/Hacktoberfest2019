@@ -232,6 +232,10 @@
     "description": "This command reads the supplied diff output and applies that patch to files."
   },
   {
+    "title": "git branch",
+    "description": "This command shows all branches and the one you currently work on."
+  },
+  {
     "title": "git rebase -i HEAD~4",
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
