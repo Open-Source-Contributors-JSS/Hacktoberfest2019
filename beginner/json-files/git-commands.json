@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git log --author [username]",
+    "description": "Will log commits by a certain author, example --author=yourNameHere"
   }
 ]
