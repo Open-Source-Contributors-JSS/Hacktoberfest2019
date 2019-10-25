@@ -1,0 +1,14 @@
+[
+{
+        "title": "git commit -a",
+        "Discription": "Commit any files you've added with git add, and also commit any files you've changed since then."
+    },
+    {
+        "title": "git status",
+        "Discription": "List the files you've changed and those you still need to add or commit"
+    },
+    {
+        "title": "git checkout -b <branchname>",
+        "Discription": "Create a new branch and switch to it"
+    },
+]
