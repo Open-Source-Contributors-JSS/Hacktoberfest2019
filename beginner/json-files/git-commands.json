@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git log",
+    "description": "This command is used to list the version history for the current branch"
   }
 ]
