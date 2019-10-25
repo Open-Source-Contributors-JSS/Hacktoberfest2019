@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git clone --recursive https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019",
+    "description": "clones the target repository + automagically runs `git submodule init + update`"
   }
 ]
