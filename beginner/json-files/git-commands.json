@@ -334,4 +334,7 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  { "title": "git remote -v",
+    "description": "This command will show you the name of the remote with their url in his side"
+  },
 ]
