@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git pull",
+    "description": "This command lets you fetch changes from a remote repository and merge it into the current branch."
   }
 ]
