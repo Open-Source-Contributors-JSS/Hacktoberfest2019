@@ -2,9 +2,9 @@ function palindrome(word) {
     word = word.toLowerCase();
     var reverseWord = word.split('').reverse().join('');
     if (word == reverseWord) {
-        console.log(true);
+        console.log("The gven word is a Palindrome");
     } else {
-        console.log(false);
+        console.log("The gven word is not a Palindrome");
     }
 }
 
