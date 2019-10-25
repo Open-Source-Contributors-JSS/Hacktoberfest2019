@@ -334,4 +334,12 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git rev-list --after",
+    "description": "count the number of commits after the specified date"
+  }
+  {
+    "title": "git rev-list --before",
+    "description": "count the number of commits before the specified date"
+  }
 ]
