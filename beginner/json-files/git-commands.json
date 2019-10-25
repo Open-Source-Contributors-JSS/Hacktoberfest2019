@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git add .",
+    "description": "prepares all changes made in current directory and sub-directories for the next git commit.
+  },
 ]
