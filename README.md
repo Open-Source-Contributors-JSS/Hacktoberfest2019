@@ -9,10 +9,10 @@
 # Hacktoberfest2019
 Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt 👕.
 
-🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
+🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our!!
 ###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
 and that counts as your first PR.
-#### CAUTION: The description must be under 60 words at max. 
+#### CAUTION: The description must be under 60 words at maximum. 
 
 Also, add your github username in the <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/contributers_list.md" target="blank">contributors_list.md</a>
 
@@ -58,7 +58,7 @@ Also, add your github username in the <a href="https://github.com/Open-Source-Co
 
 ###### When you’re on the main page for the repository, you’ll see a button to "Star" and “Fork” the repository on your upper right-hand side of the page, underneath your user icon.
 
-### 3. Clone the Repository
+### 3. Clone the Repositorys
 
 ###### To make your own local copy of the repository you would like to contribute to, let’s first open up a terminal window.
 
