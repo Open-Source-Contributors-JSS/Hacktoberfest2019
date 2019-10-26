@@ -60,6 +60,10 @@
     "description": "This command applies the changes to the local workspace in the latest stash."
   },
   {
+    "title": "git reset",
+    "description": "You know when you commit changes that are not complete, this sets your index to the latest commit that you want to work on with"
+  },
+  {
     "title": "git stash drop",
     "description": "This command remove a stash entry from the list of stash entries."
   },
