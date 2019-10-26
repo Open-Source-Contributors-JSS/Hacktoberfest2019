@@ -68,6 +68,10 @@
     "description": "Enlists the stashes made with the recent one in the top."
   },
   {
+    "title": "git add .",
+    "description": "Simple yet very useful."
+  },
+  {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
