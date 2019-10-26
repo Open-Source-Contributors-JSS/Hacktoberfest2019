@@ -20,6 +20,10 @@
     "description": "The git commit command joins two or more development histories together."
   },
   {
+    "title": "git diff [first-branch]...[second-branch]",
+    "description":"Shows content difference between two branches"
+  },
+  {
     "title": "git log",
     "description": "The git commit command provides a log of changes made throughout time."
   },
