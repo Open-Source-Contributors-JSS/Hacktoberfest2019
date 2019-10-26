@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git submodule",
+    "description": "This command Inspects, updates and manages submodules. Without argument, this command shows the status of existing submodules"
   }
 ]
