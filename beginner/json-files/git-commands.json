@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git branch --set-upstream <remote_branch>",
+    "description": "This command with the --set-upstream flag sets the remote tracking branch for the current local branch."
   }
 ]
