@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git push origin --delete [branch name]",
+    "description": "This command deletes a remote branch"
+  }
 ]
