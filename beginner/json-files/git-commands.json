@@ -48,6 +48,10 @@
     "description": "A remote in Git is a common repository that all team members use to exchange their changes. In most cases, it is stored on a code hosting service like GitHub or on an internal server."
   },
   {
+    "title": "git commit -a -m "#addyourcomment" ",
+    "description": "This git command captures your changes to the changed file and then it is ready to be pushed in the repository"
+  },
+  {
     "title": "git stash",
     "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
   },
