@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git revert [Use your previous commit hash]" ,
+    "description": "The git revert command can be considered an 'undo' type command"
+  }
 ]
