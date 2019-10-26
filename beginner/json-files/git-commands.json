@@ -68,6 +68,10 @@
     "description": "Enlists the stashes made with the recent one in the top."
   },
   {
+    "title": "git stash clear",
+    "description": "This command deletes all the stashes made in the repo. It maybe impossible to revert."
+  },
+  {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
   },
