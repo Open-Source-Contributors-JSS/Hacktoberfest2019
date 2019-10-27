@@ -334,4 +334,10 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "GIT_TRACE_PERFORMANCE",
+    "description": "Enables performance related trace messages, e.g. total execution time of each Git command"
+  }
+
+
 ]
