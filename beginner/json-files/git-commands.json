@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title":"git clone",
+    "description":"The git clone command copies or downloads a local copy of the github repository."
   }
 ]
