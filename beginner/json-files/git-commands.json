@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git log --pretty[=<format>]",
+    "description": "Pretty-print the contents of the logs in a given format"
   }
 ]
