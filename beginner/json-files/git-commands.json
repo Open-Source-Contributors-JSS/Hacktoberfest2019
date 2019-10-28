@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  { 
+    "title": "git remote set-url origin ssh://git@github.com/[username]/[repository-name].git", 
+    "description ": "Set a repository's origin branch to SSH "
   }
 ]
