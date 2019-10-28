@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git instaweb",
+    "description": "Allows the user to browse their local repository in the git-web interface."
   }
 ]
