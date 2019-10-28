@@ -109,11 +109,15 @@
   },
   {
     "title": "git reset",
-    "description": "unstage a file while retaining the changes in working directory."
+    "description": "If a reset mode(hard, soft) is not specified, defaults to --mixed, which undoes the commit and unstages the file."
   },
   {
     "title": "git reset --hard",
-    "description": "unstage all files while retaining the changes in working directory."
+    "description": "Undoes the commit, unstages all files, and resets all changes to the last commit."
+  },
+  {
+    "title": "git reset --soft",
+    "description": "Undoes the commit, but keeps the file staged."
   },
   {
     "title": "git status",
