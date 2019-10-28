@@ -333,5 +333,13 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git remote update origin --prune",
+    "description": "Git update remote branches in Visual Studio"
+  },
+  {
+    "title": "git clean -f -d",
+    "description": "You have to use above command to get rid of untracked files and directories in your working copy."
   }
 ]
