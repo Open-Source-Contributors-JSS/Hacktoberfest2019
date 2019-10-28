@@ -334,4 +334,9 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
-]
+ { "title": "git remote",
+    "description": "This command is used to connect your local repository to the remote server."
+  },
+ { "title": "git remote",
+    "description": "This command is used to connect your local repository to the remote server."
+  },
