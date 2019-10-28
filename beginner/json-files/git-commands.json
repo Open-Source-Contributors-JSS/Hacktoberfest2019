@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+  	"title": "gst",
+  	"description": "gst stands for git status, ideal for lazy and cool devs, it shows the state of the working directory"
   }
 ]
