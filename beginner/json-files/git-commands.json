@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git config --global user.name 'FIRST_NAME LAST_NAME'",
+    "description": "This git command sets the global username."
   }
 ]
