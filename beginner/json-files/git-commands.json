@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git log --log-size",
+    "description": "Includes the length of the log message in bytes in the output for each commit to allow applications that read log message to allocate memory in advance."
   }
 ]
