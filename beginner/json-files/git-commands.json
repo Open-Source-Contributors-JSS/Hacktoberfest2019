@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git describe",
+    "description": "Give an object a human readable name based on an available ref"
   }
 ]
