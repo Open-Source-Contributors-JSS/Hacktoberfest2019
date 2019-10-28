@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git symbolic-ref",
+    "description": "Given one argument, reads which branch head the given symbolic ref refers to and outputs its path, relative to the .git/ directory."
   }
 ]
