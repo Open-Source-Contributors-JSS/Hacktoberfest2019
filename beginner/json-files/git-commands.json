@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
-]
+ {
+    "title": "git please",
+    "description": "This is an alias for command- $ git config --global alias.please 'push --force-with-lease' "
+  },
+
