@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git reset --soft",
+    "description": "The Commit History ref pointers are updated to the specified commit ,but the Staging Index and the Working Directory are left untouched"
   }
 ]
