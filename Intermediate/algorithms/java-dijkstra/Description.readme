@@ -1,0 +1,50 @@
+Dijkstra’s shortest path algorithm in Java - Tutorial
+
+Lars Vogel (c) 2009, 2016 vogella GmbH
+Version 1.2,
+29.09.2016
+
+Dijkstra’s Shortest Path Algorithm in Java. Dijkstra’s Algorithms describes how to find the shortest path from one node to another node in a directed weighted graph. This article presents a Java implementation of this algorithm.
+
+1. The shortest path problem
+1.1. Shortest path
+Finding the shortest path in a network is a commonly encountered problem. For example you want to reach a target in the real world via the shortest path or in a computer network a network package should be efficiently routed through the network.
+
+This tutorial describes the problem modeled as a graph and the Dijkstra algorithm is used to solve the problem.
+
+1.2. Graph
+A graph is made out of nodes and directed edges which define a connection from one node to another node.
+
+A node (or vertex) is a discrete position in a graph. Edges can be directed an undirected. Edges have an associated distance (also called costs or weight). The distance between two nodes a and b is labeled as [a,b].
+
+The mathematical description for graphs is G= {V,E}, meaning that a graph is defined by a set of vertexes (V) and a collection of edges.
+
+The order of a graph is the number of nodes. The size of a graph is the number of edges.
+
+1.3. Typical graph problems
+Typical graph problems are described in the following list.
+
+finding the shortest path from a specific node to another node
+
+finding the maximum possible flow through a network where each edges has a pre-defined maximum capacity (maximum-flow minimum-cut problem)
+
+The following will focus on finding the shortest path from one node to another node in a graph.
+
+2. Dijkstra’s algorithm
+2.1. High level description
+The Dijkstra Algorithm finds the shortest path from a source to all destinations in a directed graph (single source shortest path problem). During this process it will also determine a spanning tree for the graph.
+
+2.2. Algorithms Description
+The idea of Dijkstra is simple.
+
+Dijkstra partitions all nodes into two distinct sets: unsettled and settled. Initially all nodes are in the unsettled sets, e.g. they must be still evaluated. A node is moved to the settled set if a shortest path from the source to this node has been found.
+
+Initially the distance of each node to the source is set to a very high value.
+
+First only the source is in the set of unsettledNodes. The algorithms runs until the unsettledNodes are empty. In each iteration it selects the node with the lowest distance from the source out of the unsettled nodes. It reads all edges which are outgoing from the source and evaluates for each destination node, in the edges which are not yet settled, if the known distance from the source to this node can be reduced while using the selected edge. If this can be done then the distance is updated and the node is added to the nodes which need evaluation.
+
+In pseudocode the algorithm can be described as follows. Please note that Dijkstra also determines the pre-successor of each node on its way to the source. I leave that out of the pseudo code to simplify it.
+
+
+
+REF: https://www.vogella.com/tutorials/JavaAlgorithmsDijkstra/article.html
