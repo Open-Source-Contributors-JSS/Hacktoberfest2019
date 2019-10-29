@@ -104,6 +104,10 @@
     "description": "This command lets you push changes from your local repository to the remote repository."
   },
   {
+    "title": "git push -f",
+    "description": "This flag disables checks, and can cause the remote repository to lose commits; use it with care.."
+  },
+  {
     "title": "git rebase",
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
