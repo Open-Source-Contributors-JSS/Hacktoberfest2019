@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git branch",
+    "description": "A git branch commands let you create a new branch and add or commit your changes to that new branch so that the work in other branches is not affected which in tun guarantees mutual exclusiveness."
+  },
 ]
