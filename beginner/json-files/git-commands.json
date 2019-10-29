@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git diff –staged",
+    "description": "displays the differences between files in staging and the most recent versions"
+  }  
 ]
