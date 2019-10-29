@@ -334,4 +334,12 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git config",
+    "description": "It is a convenience function that is used to set Git configuration values on a global or local project level.Common configuration settings like email, username, and editor."
+  }
+  {
+    "title": "git config --global",
+    "description": "Global level configuration is user-specific, meaning it is applied to an operating system user. Global configuration values are stored in a file that is located in a user's home directory. ~ /.gitconfig on unix systems and C:\\Users\\<username>\\.gitconfig on windows"
+  }
 ]
