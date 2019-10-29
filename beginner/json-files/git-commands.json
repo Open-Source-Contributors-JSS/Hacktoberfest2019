@@ -1,5 +1,9 @@
 [
   {
+    "title": "git branch",
+    "description": "The git branch command is used to make a new branch. It can also be used to delete or list the existing branches of your repository."
+  },
+  {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
   },
@@ -35,6 +39,7 @@
     "title": "git branch",
     "description": "The git branch command is used to make a new branch. It can also be used to delete or list the existing branches of your repository."
   },
+  
   {
     "title": "git checkout",
     "description": "The git checkout command is used to switch the working branch by pointing the HEAD to the branch you choose for."
