@@ -1,4 +1,4 @@
-[
+﻿[
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
@@ -333,5 +333,8 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  }
+  "title": "git mv",
+    "description": "Move or rename a file, a directory, or a symlink."
   }
 ]
