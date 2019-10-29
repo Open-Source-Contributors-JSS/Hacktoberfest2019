@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git bisect",
+    "description": "Useful for finding the commit that introduced a bug into the codebase"
   }
 ]
