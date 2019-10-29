@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git checkout -b <new-branch-name>"
+    "description": "creates a new git branch and switches you to that branch"
   }
 ]
