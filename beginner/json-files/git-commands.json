@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git-write-tree",
+    "description": "Create a tree object from the current index"
+  },
 ]
