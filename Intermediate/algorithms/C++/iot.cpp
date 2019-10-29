@@ -1,4 +1,4 @@
-# This code is part of an IoT project which is getting values from a distance sensor device.
+// This code is part of an IoT project which is getting values from a distance sensor device.
 #include <Wire.h>
 #include "Adafruit_VCNL4010.h"
 
