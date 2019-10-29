@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git config --list",
+    "description": "This commands is used to see all the current configuration of clients."
   }
 ]
