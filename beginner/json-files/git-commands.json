@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git config --global",
+    "description": "In "git config -l" it shows credentials like user.name , user.email and it may be different to the user's github credentials ,so as to make these gitbash credentials similar to github credentials we use this git command."
+  },  
 ]
