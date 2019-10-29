@@ -724,3 +724,18 @@ hr {
   background-color: #2a86e2 !important;
   color: white !important;
 }
+
+/* custom scroll bar (supports chrome and safari) */
+body::-webkit-scrollbar {
+  width: 0.7em;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #4f1a60;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  outline: 1px solid rgb(110, 110, 110);
+}
