@@ -1,4 +1,10 @@
-
+def number(arr):
+    n= len(arr)-1
+    num=0
+    for i in range(len(arr)):
+        num+=arr[i]*(10**n)
+        n-=1
+    return num
 
 def divisible(num, d): 
     
