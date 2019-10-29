@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "get push -f origin master",
+    "description": "This command makes people mad at you :("
   }
 ]
