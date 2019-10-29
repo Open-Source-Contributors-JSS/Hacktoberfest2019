@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git branch -d branch-name",
+    "description": "Deletes a branch named branch-name."
   }
 ]
