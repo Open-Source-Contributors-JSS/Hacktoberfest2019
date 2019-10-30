@@ -310,6 +310,9 @@
   { "title": "git remote",
     "description": "This command is used to connect your local repository to the remote server."
   },
+  { "title": "git remote -v",
+    "description": "Display a list of all remotes of current repository."
+  },
   {
     "title": "git blame",
     "description": "Show what revision and author last modified each line of a file"
