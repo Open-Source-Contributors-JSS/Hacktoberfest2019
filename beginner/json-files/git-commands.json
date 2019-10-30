@@ -333,5 +333,10 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git clone",
+    "description": "This command is used to obtain a repository from an existing URL."
+  },
+  
 ]
