@@ -1,0 +1,26 @@
+.cell {
+    background-color: white;
+    height: 25px;
+    width: 25px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 0px;
+}
+
+.gameBoard {
+    display: inline-block;
+    border: 25px solid #30466a;
+    border-radius: 14%;
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.black {
+    background-color: gray;
+}
