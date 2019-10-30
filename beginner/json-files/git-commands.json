@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+     "title": "git push",
+     "description": "The git push command is used to upload local repository content to a remote repository."
+   },
 ]
