@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git fire",
+    "description": "Commit and push all local changes to an emergency branch, see more here https://github.com/qw3rtman/git-fire"
   }
 ]
