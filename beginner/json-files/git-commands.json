@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git log --oneline",
+    "description": "prints each commit on a single line"
   }
 ]
