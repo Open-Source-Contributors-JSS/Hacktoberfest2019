@@ -307,7 +307,8 @@
     "title": "git show",
     "description": "This command shows the metadata and content changes of the specified commit."
   },
-  { "title": "git remote",
+  {
+    "title": "git remote",
     "description": "This command is used to connect your local repository to the remote server."
   },
   {
@@ -333,5 +334,17 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git config --list",
+    "description": "Will list all configurations currently visible (in the current directory)"
+  },
+  {
+    "title": "git-secret",
+    "description": "This command encrypts files and stores them inside the git repository, so you will have all the changes for every commit."
+  },
+  {
+    "title": "git add -A .",
+    "description": "add all files in current directory and subdirectories to local repository"
   }
 ]
