@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git stash apply stash@{0}"
+    "description":"To apply a specific stash use the stash number while using git stash apply"
   }
 ]
