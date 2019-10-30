@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git commit --amend",
+    "description": "This command is to edit already committed messages"
   }
 ]
