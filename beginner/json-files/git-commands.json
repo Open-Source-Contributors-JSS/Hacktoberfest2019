@@ -40,6 +40,10 @@
     "description": "The git checkout command is used to switch the working branch by pointing the HEAD to the branch you choose for."
   },
   {
+    "title": "git checkout -",
+    "description": "This command takes you back to the previous branch your were on."
+  },
+  {
     "title": "git clone",
     "description": "The git clone is used to make a clone or copy of the repo in a new directory,or at another location. The original repository can be located on the local filesystem or on remote."
   },
