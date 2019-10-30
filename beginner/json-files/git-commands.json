@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git verify-commit <commit>...",
+    "description": "Validates the GPG signature created by git commit -S."
+  }
 ]
