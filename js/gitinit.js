@@ -34,8 +34,8 @@ let pageList = [];
 let numberPerPage = 9;
 
 const makeButtons = (numberOfPages) => {
-  var buttons = '<button id="-1" class="btn btn-light"><</button>';
-  for(var i = 1; i<=numberOfPages; i++){
+  let buttons = '<button id="-1" class="btn btn-light"><</button>';
+  for(let i = 1; i<=numberOfPages; i++){
     buttons += `
       <button id="${i}" class="btn btn-light">${i}</button>
     `
@@ -47,9 +47,9 @@ const makeButtons = (numberOfPages) => {
 
 const addEvent = () => {
   let totalButtons = document.querySelectorAll(".button-container")[0].querySelectorAll("button").length;
-  for(var i=0; i < totalButtons; i++){
+  for(let i=0; i < totalButtons; i++){
     document.querySelectorAll(".button-container")[0].querySelectorAll("button")[i].onclick = function(e){
-      var button_no = parseInt(this.id);
+      let button_no = parseInt(this.id);
       console.log(button_no);
       getCurrentPage(button_no);
     }
@@ -79,7 +79,7 @@ const firstPage = () => {
 }
 
 const getCurrentPage = (e) => {
-  if(e == -1 || e == +1){
+  if(e == -1 || e == 1){
     if(e == -1) previousPage();
     else nextPage();
   }
@@ -93,7 +93,7 @@ const getCurrentPage = (e) => {
 }
 
 const showButton = () =>{
-  var i;
+  let i;
   if(current_page == 1 || current_page == 2 || current_page == 3){
     for(i = 1; i<=numberOfPages; i++){
       if(i <= 3) {
