@@ -67,6 +67,10 @@
     "title": "git stash list",
     "description": "Enlists the stashes made with the recent one in the top."
   },
+   {
+    "title": "git stash clear",
+    "description": "This command removes all stashed entries."
+  },
   {
     "title": "git config",
     "description": "This command sets the author name and email address respectively to be used with your commits."
