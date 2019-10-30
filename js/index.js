@@ -67,10 +67,10 @@ let countDown = new Date('Oct 31, 2019 00:00:00').getTime(),
       let now = new Date().getTime(),
           distance = countDown - now;
 
-      document.getElementById('days').innerText = padWith(Math.floor(distance / (day)).toFixed(0)) + ' : ';
-      document.getElementById('hours').innerText = padWith((Math.floor((distance % (day))) / (hour)).toFixed(0))+' : ';
-      document.getElementById('minutes').innerText = padWith((Math.floor((distance % (hour))) / (minute)).toFixed(0))+' : ';
-      document.getElementById('seconds').innerText = padWith((Math.floor((distance % (minute))) / second).toFixed(0));
+      document.getElementById('days').innerText = /*padWith(Math.floor(distance / (day)).toFixed(0))*/ + '0 : ';
+      document.getElementById('hours').innerText = /*padWith((Math.floor((distance % (day))) / (hour)).toFixed(0))*/ + '0 : ';
+      document.getElementById('minutes').innerText = /*padWith((Math.floor((distance % (hour))) / (minute)).toFixed(0))*/ + '0 : ';
+      document.getElementById('seconds').innerText = /*padWith((Math.floor((distance % (minute))) / second).toFixed(0))*/ '0';
 
       if (distance < 0) {
       clearInterval(x);
