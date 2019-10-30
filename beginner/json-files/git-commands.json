@@ -307,9 +307,6 @@
     "title": "git show",
     "description": "This command shows the metadata and content changes of the specified commit."
   },
-  { "title": "git remote",
-    "description": "This command is used to connect your local repository to the remote server."
-  },
   {
     "title": "git blame",
     "description": "Show what revision and author last modified each line of a file"
