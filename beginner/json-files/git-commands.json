@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git remote",
+    "description": "This command will add a connection to a remote server to your git repository. You can give this connection an alias."
   }
 ]
