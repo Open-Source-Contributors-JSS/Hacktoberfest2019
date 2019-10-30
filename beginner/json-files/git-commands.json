@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git rev-parse master",
+    "description": "returns the hash of the commit pointed to by the master branch"
   }
 ]
