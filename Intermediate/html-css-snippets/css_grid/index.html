@@ -1,0 +1,44 @@
+<html>
+<head>
+<style>
+#gallery {
+    padding: 0px;
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    #gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #gallery {
+        grid-template-columns: 1fr;
+    }
+}
+
+img {
+    width: 100%;
+}
+</style>
+</head>
+<body>
+    <ul id="gallery">
+        <li><img src="/img/eleph.jpg" alt=""></li>
+        <li><img src="/img/Elephone-logo.jpg" alt=""></li>
+        <li><img src="/img/elephone-p20-1.jpg" alt=""></li>
+        <li><img src="/img/s8-07-bg.jpg" alt=""></li>
+        <li><img src="/img/s8-11-bg3.jpg" alt=""></li>
+        <li><img src="/img/eleph.jpg" alt=""></li>
+        <li><img src="/img/Elephone-logo.jpg" alt=""></li>
+        <li><img src="/img/s8-11-bg3.jpg" alt=""></li>
+        <li><img src="/img/eleph.jpg" alt=""></li>
+    </ul>
+</body>
+
+</html>
