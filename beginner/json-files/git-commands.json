@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git config --global alias.c clone",
+    "description": "Use aliases to write less! Just use git c <repo> with this alias"
   }
 ]
