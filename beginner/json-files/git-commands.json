@@ -1,4 +1,4 @@
-  [
+﻿  [
     {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
@@ -297,6 +297,10 @@
   {
     "title": "git-secret",
     "description": "This command encrypts files and stores them inside the git repository, so you will have all the changes for every commit."
+  },
+ {
+    "title": "git branch -d[branch-name]",
+    "description": "Deletes the specified branch"
   }
 ]
 
