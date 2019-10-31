@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git stash clear",
+    "description": "Remove all elements in stash stack of local repository"
+  }
 ]
