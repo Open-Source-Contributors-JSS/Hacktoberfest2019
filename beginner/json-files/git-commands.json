@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git rev-parse --short HEAD",
+    "description": "Gits ;) the short hash of this commit. Useful for cache busting."
   }
 ]
