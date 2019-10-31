@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git cherry-pick <commit-id>",
+    "description": "commit the diff of the commit to another branch"
   }
 ]
