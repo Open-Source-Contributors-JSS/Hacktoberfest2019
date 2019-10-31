@@ -334,4 +334,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git commit -m 'WIP'",
+    "description": "Rather than a favourite, this is one of the least favourite git commands as it does not provide valuable context regarding changes made. Always try to write useful commit messages."
+  }
 ]
