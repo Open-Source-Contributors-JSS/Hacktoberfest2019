@@ -333,5 +333,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git restore",
+    "description": "Restore specified paths in the working tree with some contents from a restore source."
   }
 ]
