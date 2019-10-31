@@ -337,5 +337,9 @@
   {
     "title": "git push --force",
     "description": "force git push even if it results in a non-fast-forward merge"
+  },
+  {
+    "title": "git push --force-with-lease",
+    "description": "same as --force but it will halt the push operation if someone has pushed to the same branch while you were working on it (and haven’t pulled any changes)."
   }
 ]
