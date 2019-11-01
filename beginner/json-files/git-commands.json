@@ -333,5 +333,11 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  
+    {
+    "title": "git status",
+    "description": "This command lets you know what files have been changed or added. This is really useful when working with a group of people. It help keeps the project running smoothly."
   }
+  
 ]
