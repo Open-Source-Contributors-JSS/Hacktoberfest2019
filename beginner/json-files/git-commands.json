@@ -204,6 +204,10 @@
     "description": "Provides a summary/log of changes made in the repository in oneline."
   },
   {
+    "title": "git --help",
+    "description": " provides us all the help we require."
+  },
+  {
     "title": "git bisect",
     "description": "Use a binary search algorithm to find the commit that introduced a defect."
   },
