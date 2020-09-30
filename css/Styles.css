@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #ffff;
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-size: 4.5rem;
+  line-height: 1.6;
+  font-weight: 560;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* Navigation-bar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: "Ubantu";
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0.00001px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light"
+}
+
+/* download-button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* iphone-img */
+.iphone-img {
+  width: 60%;
+  transform: rotate(23deg);
+position: relative;
+top: 30px;
+left: 35px;
+border-radius: 10%;
+
+
+}
+
+/* Features */
+#features {
+  padding: 7% 15% 1% 15%;
+  background-color: #fff;
+  position: relative;
+  bottom: 135px;
+  z-index: 1;
+}
+
+.features-row {
+  text-align: center;
+}
+
+.features-row-h3 {
+  font-style: montserrat-bold;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef9172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef9172;
+  color: #fff;
+}
+
+.testimonials-h2 {
+  font-style: montserrat-bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-image {
+  width: 15%;
+  margin: 30px;
+  border-radius: 100%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-indicators {
+  margin-bottom: 50px;
+}
+
+/* press */
+#press {
+  background-color: #ef9172;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 20px 50px;
+}
+
+/* pricing */
+#pricing{
+  padding: 120px;
+  text-align: center;
+}
+.pricing-cards{
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+padding: 30px 0;
+}
+.cta-h3{
+  color: #fff;
+  font-size:3.5rem;
+  font-family: Montserrat-Black;
+
+}
+
+/* footer */
+
+#footer{
+  text-align: center;
+}
+.footer-icon{
+  margin: 20px;
+}
+.footer-icon:hover{
+  color: #ff4c68;
+}
+
+
+@media (max-width: 1028px) {
+
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position: static;
+    transform: rotate(0deg);
+    height: 80%;
+    width: 60%;
+    margin-bottom: 120px;
+
+
+  }
+}
