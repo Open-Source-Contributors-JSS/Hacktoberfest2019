@@ -1,14 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148947040-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-148947040-1');
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>GIT-INIT</title>
+
+  <!--meta tags-->
+<!-- COMMON TAGS -->
+<meta charset="utf-8">
+<title>Hacktoberfest 2019</title>
+<!-- Search Engine -->
+<meta name="description" content="Happy Hacktober! This is a beginner friendly website made specifically for Hacktoberfest that helps you get your first PR.">
+<meta name="image" content="https://hacktoberfest.netlify.com/assets/img/hactoberfest.png">
+<!-- Schema.org for Google -->
+<meta itemprop="name" content="Hacktoberfest 2019">
+<meta itemprop="description" content="Happy Hacktober! This is a beginner friendly website made specifically for Hacktoberfest that helps you get your first PR.">
+<meta itemprop="image" content="https://hacktoberfest.netlify.com/assets/img/hactoberfest.png">
+<!-- Open Graph general (Facebook, Pinterest & Google+) -->
+<meta name="og:title" content="Hacktoberfest 2019">
+<meta name="og:description" content="Happy Hacktober! This is a beginner friendly website made specifically for Hacktoberfest that helps you get your first PR.">
+<meta name="og:image" content="https://hacktoberfest.netlify.com/assets/img/hactoberfest.png">
+<meta name="og:url" content="https://hacktoberfest.netlify.com/">
+<meta name="og:site_name" content="Hacktoberfest2019">
+<meta name="og:type" content="website">
+
+<meta name="twitter:title" content="Hacktoberfest 2019 ">
+<meta name="twitter:description" content="Happy Hacktober! This is a beginner friendly website made specifically for Hacktoberfest that helps you get your first PR.">
+<meta name="twitter:image" content="https://hacktoberfest.netlify.com/assets/img/hactoberfest.png">
+<meta name="twitter:card" content="https://hacktoberfest.netlify.com/assets/img/hactoberfest.png">
+  <!--meta tags-->
+
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/img/hactoberfest.png" type="image/x-icon">
-  <!-- font-awesome -->
-  <link rel="stylesheet" href="./libraries/fontawesome-free-5.11.1-web/fontawesome-free-5.11.1-web/css/all.css">
   <!-- bulma -->
   <link rel="stylesheet" href="./libraries/bulma-0.7.5/bulma-0.7.5/css/bulma.min.css">
   <link rel="stylesheet" href="./css/style.css">
@@ -37,20 +70,22 @@
           <div class="list1 col-md-4">
             <ul style="list-style: none;">
               <h2 class="menu-head">What we do??</h2>
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Team</a></li>
-              <li><a href="#">Instructions</a></li>
-              <li><a href="#">Git CheatSheet</a></li>
-              <li><a href="#">Contributors list</a></li>
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="https://digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="_blank">Learn about Git and GitHub</a></li>
+              <li><a href="https://github.com/Open-Source-Contributors-JSS" target="_blank">Organisation</a></li>
+              <li><a href="./other-pages/colorlib-wizard-18/instruction.html" target="_blank">Instructions to Contribute</a></li>
+
+              <li><a href="./other-pages/gitinit.html">Git CheatSheet</a></li>
+              <li><a href="./other-pages/contributors.html">Contributors list</a></li>
             </ul>
           </div>
               </div>
 
               <div class="row">
                 <div class="social">
-                  <a href="mailto:pragati.edcjss@gmail.com?Subject=Hacktoberfest%202019"><i class="fas fa-envelope-open-text fa-2x"></i></a>
-                  <a href="https://github.com/Open-Source-Contributors-JSS"><i class="fab fa-github fa-2x"></i></a>
-                  <a href="https://gitter.im/Open-Source-Contributors-JSS"><i class="fab fa-gitter fa-2x"></i></a>
+                  <a href="mailto:jssosc@gmail.com?Subject=Hacktoberfest%202019" target="_blank"><i class="fas fa-envelope-open-text fa-2x"></i></a>
+                  <a href="https://github.com/Open-Source-Contributors-JSS" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                  <a href="https://gitter.im/Open-Source-Contributors-JSS" target="_blank"><i class="fab fa-gitter fa-2x"></i></a>
                 </div>
               </div>
 
@@ -66,7 +101,12 @@
       <div class="block header-content">
           <img src="./assets/img/hactoberfest.png" alt="">
           <br>
-          <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019"><button class="button is-outlined is-medium is-rounded">GO TO REPOSITORY&nbsp;<i class="fab fa-github"></i></button></a>
+          <h3 class="title is-3" style="color: rgb(255, 228, 73) !important;">Happy Hacktober!! Contribute and win an exclusive t-shirt and cool swags.</h3>
+          <div>
+            <a href="https://digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="_blank"><button class="button is-outlined is-medium is-rounded">Learn about Open Source</button></a>
+            <a href="./other-pages/colorlib-wizard-18/instruction.html" target="_blank"><button class="button is-outlined is-medium is-rounded">Instructions To Contribute</button></a>
+
+          </div>
       </div>
   
     </div>
@@ -74,16 +114,16 @@
 </div>
   
   <div class="">
-    <div class="">
-      <div class="columns about-hacktoberfest">
+    <div class="about-hacktoberfest">
+      <div class="columns">
           <div class="column is-1"></div>
         <div class="column about-event">
           <h3 class="title">What is Hacktoberfest?</h3>
           <p class="subtitle ptb is-4">Hacktoberfest is a month-long celebration of open source software hosted by DigitalOcean, in partnership with Github and Twilio. It is all about encouraging meaningful contributions to the open source ecosystem, for beginners and veterans alike. It provides scope for personal growth, professional opportunities, as well as community building. The best part of it all is, your contributions have a long term impact on the community, so it leads to a great sense of accomplishment!</p>
         </div>
-        <div class="column">
-          <div class="block">
-              <img src="assets/img/hacktoberfest_logo.png" type="png" class="logo-2018">
+        <div class="column"> 
+          <div class="block has-image-centered">
+              <img src="assets/img/hacktoberfest_logo.jpg" type="png" class="logo-2018">
         </div>
       </div>
         <div class="column is-1"></div>
@@ -93,7 +133,7 @@
 
 
   <div class="container countdown">
-      <h1 id="head" class="title is-2">Countdown For Hack To End!!!</h1>
+      <h1 id="head" class="title is-1 font-weight-bold">Countdown For The Hack To End!!!</h1>
       <ul>
         <li><span id="days"></span>days</li>
         <li><span id="hours"></span>Hours</li>
@@ -102,24 +142,45 @@
       </ul>
     </div>
 
+  <div class="about-repo-contributions">
+      <div class="columns">
 
-<div class="contribute">
+        <div class="column is-1"></div>
+
+        <div class="column">
+          <div class="block">
+              <img src="./assets/img/goodies.jpg" class="goodies">
+          </div>
+        </div>
+
+        <div class="column about-event">
+          <h3 class="title">How to Contribute?</h3>
+          <p class="subtitle ptb is-4" style="margin-bottom: 0px;">If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our <strong>git-commands.json</strong> and that counts as your first PR.In case you are an <strong>intermediate</strong> or <strong>advanced</strong> level programmer or developer, we have got you covered too!! Step to our <strong>intermediate folder</strong> and make contributions as per as your interests.</p>
+          <a href="./other-pages/contributors.html"><button class="button is-outlined is-medium is-rounded">Contributors List</button></a>
+        </div>
+
+        <div class="column is-1"></div>
+
+      </div>
+  </div>
+
+<div class="contribute" style="margin: 13px 0; padding: 2rem 0.3rem;">
 <div class="container">
     <div class="columns">
       <div class="column is-8 join-event">
         <div class="block">
-          <h1 class="title">Become A Part Of Open Source Community</h1>
+          <h1 class="title">Become A Part Of The Open Source Community</h1>
           <p class="subtitle is-6">The best thing about open source is that there are no failures. Being a part of the community, you gain the required knowledge and experience for collaborating with people to build amazing things.</p>
           <div class="block">
-            <a href="https://hacktoberfest.digitalocean.com/"><button class="button is-outlined is-medium is-rounded">Register Here</button></a>
-            <a href="https://gitter.im/Open-Source-Contributors-JSS/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link"><button class="button is-outlined is-medium is-rounded">Discuss on Gitter</button></a>
-            <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019"><button class="button is-outlined is-medium is-rounded">Contribute Here</button></a>
+            <a href="https://hacktoberfest.digitalocean.com/" target="_blank"><button class="button is-outlined is-medium is-rounded">Register Here</button></a>
+            <a href="https://gitter.im/Open-Source-Contributors-JSS/community?utm_source=share-link&utm_medium=link&utm_campaign=share-link" target="_blank"><button class="button is-outlined is-medium is-rounded">Discuss on Gitter</button></a>
+            <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019" target="_blank"><button class="button is-outlined is-medium is-rounded">Contribute Here</button></a>
           </div>
         </div>
       </div>
 
       <div class="column is-4">
-        <img src="https://www.jing.fm/clipimg/full/251-2511689_merci-pour-votre-attention-octocat-birthday.png" alt="octacat" >
+        <img src="./assets/img/octacat-celebrating.png" alt="octacat" >
       </div>
     </div>
 </div>
@@ -152,7 +213,7 @@
 			<div class="col-lg-3 stats">
           <i class="fas fa-folder-open fa-2x"></i>
 				<div class="counting" data-count="12090">0</div>
-				<h5>Repo with most PRs</h5>
+        <h5>Repo with most PRs - <a href="https://github.com/freeCodeCamp/freeCodeCamp" target="_blank">Freecodecamp</a></h5>
 			</div>
 
 
@@ -165,26 +226,28 @@
 
 <!-- end cont stats -->
 <div class="text-center is-centered"  style="margin: auto;">
-<a href=""><button class="button is-outlined is-medium is-rounded">START CONTRIBUTING&nbsp;<i class="fab fa-github"></i></button></a>
+
+  <a href="/other-pages/gitinit.html" target="_blank" rel="noopener noreferrer"><button class="button is-outlined is-medium is-rounded">Contribute to the Git CheatSheet <span class="code-logo">&nbsp;<i class="fa fa-code"></i></span></button></a>
+
 </div>
 
 <!--footer-->
 <footer>
 
-<div class="container">
+<div class="container" id="about-us">
   <div class="block">
     <div class="columns footer-container">
       <div class="column is-5">
          <h3 class="ptb">About Us</h3>
-         <p class="subtitle text-white">We are the open source enthusiasts' of JSS Academy Of Technical Education,Noida. This event is a small gesture of thanks to the entire open source community and a warm welcome to the beginners and contributors who are there to help it to grow.</p>
+         <p class="subtitle text-white">We are the open source enthusiasts of JSS Academy Of Technical Education, Noida. This event is a small gesture of thanks to the entire open source community and a warm welcome to the beginners and contributors who are there to help it grow.</p>
       </div>
       <div class="column is-4 text-center">
         <div class="block">
           <h3>Contact Us</h3>
           <ul class="d-flex">
-            <li><a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019"><i class="fab fa-github fa-2x">  </i><p>  Star Us on GitHub</p></a></li>
-            <li><a href="mailto:pragati.edcjss@gmail.com?Subject=Hacktoberfest%202019"><i class="fas fa-envelope-open-text fa-2x">  </i><p>  Email Us</p></a></li>
-            <li><a href="https://gitter.im/Open-Source-Contributors-JSS"><i class="fab fa-gitter fa-2x"></i><p>  Chat on Gitter</p></a></li>
+            <li><a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019" target="_blank"><i class="fab fa-github fa-2x">  </i><p>  Star Us on GitHub</p></a></li>
+            <li><a href="mailto:jssosc@gmail.com?Subject=Hacktoberfest%202019" target="_blank"><i class="fas fa-envelope-open-text fa-2x">  </i><p>  Email Us</p></a></li>
+            <li><a href="https://gitter.im/Open-Source-Contributors-JSS" target="_blank"><i class="fab fa-gitter fa-2x"></i><p>  Chat on Gitter</p></a></li>
           </ul>
           </div>
       </div>

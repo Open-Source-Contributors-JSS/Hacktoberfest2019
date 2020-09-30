@@ -1,0 +1,245 @@
+.signup-form {
+    padding: 0px 110px 0px 85px;
+    position: relative;
+}
+
+fieldset {
+    border: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form-label {
+    font-size: 22px;
+    color: $black-color;
+    font-weight: bold;
+    margin: 0px;
+    padding-bottom: 15px;
+    display: block;
+    width: 100%;
+}
+input {
+    height: 50px;
+}
+textarea,
+input {
+    width: 100%;
+    display: block;
+    border: 1px solid $border-color;
+    @include border-radius(5px);
+    font-size: 14px;
+    color: $black-color;
+    font-weight: bold;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    box-sizing: border-box;
+    &::-webkit-input-placeholder {
+        color: #999;
+        font-weight: 500;
+    }
+    &::-moz-placeholder {
+        color: #999;
+        font-weight: 500;
+    }
+    &:-ms-input-placeholder {
+        color: #999;
+        font-weight: 500;
+    }
+    &:-moz-placeholder {
+        color: #999;
+        font-weight: 500;
+    }
+
+    &:focus {
+        border: 1px solid $green-bold;
+    }
+
+}
+textarea {
+    height: 178px;
+
+}
+.form-row {
+    @extend display-flex;
+    margin: 0 -10px;
+    .form-group {
+        width: 50%;
+        padding: 0 10px;
+    }
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+fieldset.current {
+    padding-top: 95px;
+}
+
+.form-rating {
+    float: left;
+}
+
+.step-current {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: -30px;
+    right: -35px;
+    // z-index: 99;
+    .step-current-content {
+        width: 100%;
+        height: 100%;
+        @include border-radius(50%);
+        background: $green-light;
+        color: #fff;
+        font-family: 'Montserrat';
+        font-weight: 900;
+        font-size: 17px;
+        @extend display-flex;
+        @include align-items(center);
+        @include justify-content(center);
+        position: relative;
+        &:after {
+            
+
+            // z-index: 9;
+        }
+        .step-inner {
+            position: absolute;
+            content: '';
+            width: 100%;
+            height: 100%;
+            @include border-radius(50%);
+            bottom: 0px;
+            left: 0;
+        }
+        .step-inner-0 {
+            background-image: linear-gradient(180deg, $green-light 70%, $green-bold 30%);
+        }
+        .step-inner-1 {
+            background-image: linear-gradient(180deg, $green-light 50%, $green-bold 50%);
+        }
+        .step-number {
+            position: relative;
+            z-index: 99;
+            span {
+                font-size: 33px;
+                margin-top: -8px;
+            }
+        }
+    }
+}
+
+
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t 
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+
+.form-rating:not(:checked)>input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0);
+}
+
+.form-rating:not(:checked)>label {
+    float: right;
+    width: 1em;
+    padding: 0 .1em;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 20px;
+    color: $border-color;
+}
+
+.form-rating:not(:checked)>label:before {
+    content: '\f27d';
+    font-family: 'Material-Design-Iconic-Font';
+}
+
+.form-rating>input:checked~label {
+    color: #fbd91b;
+}
+
+.form-rating:not(:checked)>label:hover,
+.form-rating:not(:checked)>label:hover~label {
+    color: #fbd91b;
+}
+
+.form-rating>input:checked+label:hover,
+.form-rating>input:checked+label:hover~label,
+.form-rating>input:checked~label:hover,
+.form-rating>input:checked~label:hover~label,
+.form-rating>label:hover~input:checked~label {
+    color: #fbd91b;
+}
+
+.form-rating>label:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.steps {
+    display: none;
+}
+
+.fieldset-flex {
+    @extend display-flex;
+    @include align-items(center);
+    @include justify-content(space-between);
+}
+
+.form-flex {
+    @extend display-flex;
+    @include align-items(center);
+    @include justify-content(space-between);
+}
+.fieldset-content {
+    width: 443px;
+}
+
+.content {
+    height: 410px;
+}
+
+.actions {
+    padding-bottom: 110px;
+    ul {
+        @extend list-type-ulli;
+        width: 100%;
+        @extend display-flex;
+        @include justify-content(flex-end);
+        .disabled {
+            display: none;
+        }
+        li {
+            margin-left: 10px;
+            &:first-child {
+                a {
+                    background: $grey-light;
+                    color: $grey-color;
+                    &:hover {
+                        background-color: darken($grey-light, 10%)
+                    }
+                }
+            }
+            a {
+                font-family: 'Montserrat';
+                width: 140px;
+                height: 50px;
+                color: #fff;
+                background: $green-bold;
+                @extend display-flex;
+                @include align-items(center);
+                @include justify-content(center);
+                text-decoration: none;
+                @include border-radius(5px);
+                font-weight: 900;
+                &:hover {
+                    background-color: darken($green-bold, 10%)
+                }
+            }
+        }
+    }
+}
