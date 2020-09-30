@@ -335,6 +335,10 @@
     "description": "This command to used to commit any changes to the local repository and the -m flag is used to provide a short description of the changes that are being committed."
   },
   {
+    "title": "git log --stat -M",
+    "description": "It show all commit logs with indication of any paths that moved"
+  },
+  {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
