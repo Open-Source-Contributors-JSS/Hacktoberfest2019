@@ -10,4 +10,4 @@ function alternateCase(text) {
     console.log(newText);
 }
 
-alternateCase('hello world');
+alternateCase('alternate case');
