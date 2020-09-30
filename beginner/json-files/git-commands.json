@@ -338,4 +338,12 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git describe",
+    "description": "give an object a human readable name based on an available ref"
+  }
+  {
+    "title": "git gui",
+    "description": "A portable graphical interface to Git"
+  }
 ]
