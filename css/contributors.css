@@ -43,14 +43,14 @@
 
 .contributors-pagination button.active {
 	background-color: #3297d8;
-	color: white;
+	color: grey;
     border: 1px solid #3297d8;
     font-weight: bold;
 }
 
 .contributors-pagination button:hover:not(.active) {
     background-color: #3297d8;
-    color: white;
+    color: grey;
 }
 
 .contributors-pagination button:hover {
