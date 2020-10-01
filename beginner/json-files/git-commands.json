@@ -297,6 +297,10 @@
   {
     "title": "git-secret",
     "description": "This command encrypts files and stores them inside the git repository, so you will have all the changes for every commit."
+  },
+  {
+    "title": "git commend",
+    "description": "Ever commit and then immediately realize you’d forgotten to stage a file? Fret no more! git commend quietly tacks any staged files onto the last commit you created, re-using your existing commit message. So as long as you haven’t pushed yet, no-one will be the wiser."
   }
 ]
 
