@@ -1,0 +1,59 @@
+.contributor-btn button{
+    width: 8rem;
+    color: #fff;
+    background-color: unset;
+    background: linear-gradient(#152347, #5b1965);
+    border-color: #fff;
+}
+
+.contributor-btn button:focus{
+    box-shadow: unset;
+}
+
+.contributor-btn button.selected,
+.contributor-btn button:hover,
+.contributor-btn button:active {
+    color: #5b1965;
+    border: 1px solid #f8f9fa;
+    background: unset;
+    background-color: #f8f9fa;
+}
+
+.contributors-pagination{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contributors-pagination button {
+    width: 2.4rem;
+    height: 2.4rem;
+    cursor: pointer;
+	color: black;
+	padding: 0.5em 0.75rem;
+	text-decoration: none;
+	transition: background-color .3s;
+    border: 1px solid #f3f3f3;
+    border-radius: 4px;
+    margin: 0 4px;
+    background-color: #f3f3f3;
+    transition: transform 50ms ease-out;
+}
+
+.contributors-pagination button.active {
+	background-color: #3297d8;
+	color: white;
+    border: 1px solid #3297d8;
+    font-weight: italic;
+}
+
+.contributors-pagination button:hover:not(.active) {
+    background-color: #3297d8;
+    color: grey;
+}
+
+.contributors-pagination button:hover {
+  transform: scale(1.4);
+  font-weight: bold;
+}
