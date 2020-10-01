@@ -35,7 +35,7 @@ and that counts as your first PR.
 
 ![website](https://user-images.githubusercontent.com/42115530/65821073-6f0d9b80-e24e-11e9-883e-262588bdef7f.JPG)
 
-#### Move to Instructions by clicking on the <pre>START CONTRIBUTING</pre> button 
+#### Move to Instructions by clicking on the <pre>START CONTRIBUTING</pre> button \
 
 ![start](https://user-images.githubusercontent.com/42115530/65821081-7fbe1180-e24e-11e9-8e98-756ce51d6431.JPG)
 
