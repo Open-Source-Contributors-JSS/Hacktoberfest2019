@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+   {
+    "title": "git merge",
+    "description": "The git commit command joins two or more development together."
   }
 ]
