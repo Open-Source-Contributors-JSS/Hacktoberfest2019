@@ -125,21 +125,16 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ###### The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way. Thus, you must ensure that you write a meaningful commit message. If in a confusion, refer to the good contribution guidelines included in the ##### ` contributing.md `
 
-
 ###### If you have a very short message, you can record that with the -m flag and the message in quotes:
 
 ###### ` Example: ` 
 ##### ` git commit -m "Updated Readme.md" `
-
-
 
 ###### At this point you can use the git push command to push the changes to the current branch of your forked repository:
 ###### ` Example:`
 ##### ` git push --set-upstream origin new-branch `
 
 ![git 7](https://user-images.githubusercontent.com/42115530/65821278-14c20a00-e251-11e9-922b-b8f0df45486b.JPG)
-
-
 
 ### 5. Update Local Repository
 
@@ -152,9 +147,6 @@ https://github.com/your-username/Hacktoberfest2019.git
 ###### Next, you’ll have to specify a new remote upstream repository for us to sync with the fork. This will be the original repository that you forked from. you’ll have to do this with the git remote add command.
 
 ##### ` git remote add upstream https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019 `
-
-
-
 
 ###### In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
 
