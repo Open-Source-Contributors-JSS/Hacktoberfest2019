@@ -4,6 +4,11 @@
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
   },
   {
+    "title":"git commit",
+    "description":"The git commit command is used to commit any changes in the staging area to local repository"
+  },
+  
+  {
     "title": "git clone",
     "description": "The git clone command creates a working copy of a local repository."
   },
