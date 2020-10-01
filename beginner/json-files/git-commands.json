@@ -40,6 +40,10 @@
     "description": "The git checkout command is used to switch the working branch by pointing the HEAD to the branch you choose for."
   },
   {
+    "title": "git commit -m"
+    "description":"The git commit -m is easiest way to commit files through git bash and -m is used to add comments quickly."
+  }, 
+  {
     "title": "git clone",
     "description": "The git clone is used to make a clone or copy of the repo in a new directory,or at another location. The original repository can be located on the local filesystem or on remote."
   },
