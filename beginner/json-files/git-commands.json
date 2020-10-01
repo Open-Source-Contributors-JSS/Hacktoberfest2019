@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git describe",
+    "description": "The `git describe` command finds the most recent tag that is reachable from a commit. If the tag is on the current commit, then only the tag is shown. Otherwise, it shows the tag name appended with the number of additional commits and the abbreviated SHA of the current commit"
   }
 ]
