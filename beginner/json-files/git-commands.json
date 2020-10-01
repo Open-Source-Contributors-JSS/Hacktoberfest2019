@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git clone",
+    "description": "creates a copy of a local repository."
+  },
 ]
