@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+  "title": "git status",
+  "description": "get an overview about the status of your repository"
+  }
 ]
