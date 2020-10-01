@@ -229,7 +229,7 @@
   },
   {
     "title": "git switch",
-    "description": "Switch to branch."
+    "description": "Switch to another branch."
   },
   {
     "title": "git apply",
