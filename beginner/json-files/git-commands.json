@@ -1,4 +1,7 @@
-[
+[ {
+    "title": "git clone",
+    "description": "The git clone is the most helpful git command.It basically helps us to make the identical copy of the project we want.We just need to click on the green button (clone or download), copy the URL in the box and paste it after the git clone command"
+  },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
