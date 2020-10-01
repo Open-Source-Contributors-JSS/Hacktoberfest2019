@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title":"git push -f repo-link",
+    "description":"this command is used to push your locally made changes to your github repositary forcibly. It is a double edged sword but really helpful when you know what you are doing."
   }
 ]
