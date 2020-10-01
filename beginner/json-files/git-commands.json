@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git add .",
+    "description": "The git add . command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
+  },
 ]
