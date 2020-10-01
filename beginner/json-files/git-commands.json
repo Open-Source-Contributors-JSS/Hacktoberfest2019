@@ -116,6 +116,10 @@
     "description": "unstage all files while retaining the changes in working directory."
   },
   {
+    "title": "git reset --soft",
+    "description": "This command will unstage the most recent commit, so that no work is lost."
+  },
+  {
     "title": "git status",
     "description": "The git status command lists all new or modified files to be committed."
   },
