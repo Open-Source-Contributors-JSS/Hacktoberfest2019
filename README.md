@@ -22,7 +22,7 @@ and that counts as your first PR.
 ### Check our Website: <a href="https://hacktoberfest.netlify.com/" target="blank"> https://hacktoberfest.netlify.com/ </a>
 
 # Hacktoberfest2019
-#### Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="blank">  https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide </a> for more.
+#### Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="blank">  https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide </a> for more and win goodies from hactober.
 
 # Instructions :
 ### 1. Register yourself for Hacktoberfest 2019
