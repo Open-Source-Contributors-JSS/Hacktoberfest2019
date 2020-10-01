@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title" : "git push --force",
+    "description" : "This git command helps you to forcefully push the local history into your remote history.Whenever we change our history or whenever we want to push changes that are in consists with the remote branch we should use push --force."
   }
 ]
