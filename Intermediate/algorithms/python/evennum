@@ -1,0 +1,16 @@
+#!usr/bin/env python3
+
+"""
+Even Numbers Functional
+
+This is a simple example of using functions in Python without using
+while or for loops to solve a simple problem of finding even numbers.
+"""
+
+def even_numbers(list_of_num):
+    return list(filter(lambda x: x % 2 is 0, list_of_num))
+
+
+test_list = [6, 34, 77, 66, 875643, 67890236, 2, 41]
+result = even_numbers(test_list)
+print(result) # [6, 34, 66, 67890236, 2]
