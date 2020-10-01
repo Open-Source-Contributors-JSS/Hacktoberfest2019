@@ -337,5 +337,10 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+   "title": "git checkout <branch_name>",
+    "description": "To start working in a different branch, use git checkout to switch branches"
+    
   }
 ]
