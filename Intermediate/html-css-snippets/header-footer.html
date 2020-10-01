@@ -1,0 +1,186 @@
+<html>
+    <head>
+        <style>
+            
+    .footer{
+    background: #303036;
+    color: #d3d3d3;
+    height: 300px;
+    position: relative;
+    margin-top: 450px;
+}
+.footer .footer-content{
+    display: flex;
+    height: 300px;
+}
+
+.footer .footer-content .footer-section{
+   flex: 1;
+   padding: 25px;
+}
+
+.footer .footer-content h1, .footer .footer-content h2{
+    color: white;
+}
+
+.footer .footer-content .about h1 span{
+    color: rgb(0, 255, 157);
+}
+
+.footer .footer-content .about .contact span{
+    display: block;
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+.footer .footer-content .about .socials a{
+    border: 2px solid white;
+    color: white;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline;
+    font-size: 1.1em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.footer .footer-content .about .socials a:hover{
+    transition: all .3s;
+}
+
+
+.footer .footer-content .links ul a{
+    display: block;
+    color: rgb(212, 203, 203);
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    transition: all .3s;
+}
+
+.footer .footer-content .links ul a:hover{
+    color: white;
+    margin-left: 15px;
+    transition: all .3s;
+}
+
+.footer .footer-content .contact-form .contact-input{
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .7rem 1.3rem;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-input:focus{
+    background: #1a1a1a;
+}
+
+.footer .footer-content .contact-form .text-input{
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 10px;
+    line-height: 1.5rem;
+    padding: .7rem 1.2rem;
+    border: none;
+}
+
+.footer .footer-content .contact-form .contact-btn{
+     position: relative;
+     padding: .5rem 1rem;
+     background: white;
+     border: 1px solid transparent;
+     border-radius: .25rem;
+     padding: 0 10px;
+}
+
+</style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-lg bg-dark">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link .text-white" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </div>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0 bg-light bg-white" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+      
+<div class="footer">
+    <div class="footer-content">
+       <div class="footer-section about">
+           <h1 class="logo-text"><span>Web</span>Age</h1>
+           <p>
+               On motive to make your development life easier.
+           </p>
+           <div class="contact">
+               <span><i class="fa fa-phone"></i> &nbsp; 123-456-789</span>
+               <span><i class="fa fa-envelope"></i> &nbsp; webage@email.com</span>
+
+           </div>
+           <br>
+           <div class="socials">
+               <a href="#"><i class="fa fa-facebook"></i></a>
+               <a href="#"><i class="fa fa-twitter"></i></a>
+               <a href="#"><i class="fa fa-linkedin"></i></a>
+               <a href="#"><i class="fa fa-google-plus"></i></a>
+           
+             </div>
+      </div>
+       <div class="footer-section links">
+           <h2>Quick Links</h2>
+           <br>
+           <ul>
+               <a href="#"><li>Events</li></a>
+               <a href="#"><li>Services</li></a>
+               <a href="#"><li>Team</li></a>
+               <a href="#"><li>Gallery</li></a>
+           </ul>
+       </div>
+     
+       <div class="footer-section contact-form">
+           <h2>Any Query, Contact Us</h2>
+           <br>
+           <form action="index.html" method="post">
+               <input type="email" name="email" class="text-input" placeholder="Your email address..."><br>
+               <textarea name="message" class="text-input contact-input" placeholder="Your message..."></textarea>
+               <br>
+               <button type="submit" class="btn btn-big contact-btn">
+                   <i class="fa fa-envelope"></i>
+                   Send
+               </button>
+             </form>
+       </div>
+    </div>
+</div> 
+    </body>
+</html>
