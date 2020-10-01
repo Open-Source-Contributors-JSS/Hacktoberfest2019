@@ -8,7 +8,7 @@
 
 [![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/0)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/0)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/1)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/1)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/2)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/2)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/3)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/3)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/4)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/4)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/5)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/5)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/6)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/6)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/7)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/7)
 
-# Hacktoberfest2019
+# Hacktoberfest2020
 Happy Hacktober! :octocat: This is a beginner friendly repository made specifically for Hacktoberfest that helps you get your first PR and takes you a step closer to earning your Hacktoberfest T-shirt 👕.
 
 🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
@@ -21,7 +21,7 @@ and that counts as your first PR.
 #### 💻 Also, our website is open to contributions from both frontend and designer fellows who want to help us in making it bigger and better. 
 ### Check our Website: <a href="https://hacktoberfest.netlify.com/" target="blank"> https://hacktoberfest.netlify.com/ </a>
 
-# Hacktoberfest2019
+# Hacktoberfest2020
 #### Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="blank">  https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide </a> for more.
 
 # Instructions :
