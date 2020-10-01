@@ -78,7 +78,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 ![git 1](https://user-images.githubusercontent.com/42115530/65821267-f22ff100-e250-11e9-9f1e-813227cdd890.JPG)
 
 
-### 4. Create a New Branch
+#### 4. Create a New Branch
 
 ###### To create your branch, from your terminal window, change your directory so that you are working in the directory of the repository. Be sure to use the actual name of the repository (i.e. Hacktoberfest2019) to change into that directory.
 
@@ -193,6 +193,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 > Made By Open Source Contributors JSS with ❤️
 > Open Source Contributors JSS &copy; 2019
+fork and edit 1
 <br><br>
 [![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/Open-Source-Contributors-JSS)
 [![ForTheBadge built-by-developers](http://ForTheBadge.com/images/badges/built-by-developers.svg)](https://github.com/Open-Source-Contributors-JSS)
