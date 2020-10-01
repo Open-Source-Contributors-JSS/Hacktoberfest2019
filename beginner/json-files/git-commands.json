@@ -337,5 +337,10 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+   {
+    "title": "git rm",
+    "description": "Itr remove the directories/files working index. Using git rm, we have 2 options: force and cached. Running the git rm with force deletes the file & if with cached then command removes the file from working index."
   }
+  
 ]
