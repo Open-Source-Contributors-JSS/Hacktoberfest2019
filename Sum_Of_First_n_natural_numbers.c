@@ -1,5 +1,5 @@
-//This program will tell how to evaluate sum of n natural numbers in 0(1) time.
-
+//This program will show you how to evaluate sum of n natural numbers in 0(1) time.
+// It's an amazing and simple program
 #include <stdio.h>
 
 int main() {
