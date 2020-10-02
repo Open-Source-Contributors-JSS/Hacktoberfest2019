@@ -341,4 +341,5 @@
   {
     "title": "git status"
     "description": "This command returns the current state of the repository. It lists the files you've changed and those you still need to add or commit."
+  }
 ]
