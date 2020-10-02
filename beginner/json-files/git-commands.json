@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git cherry-pick",
+    "description": "This command enables the user to pick an individual commit from one branch and apply it to another branch. The user needs to keep in mind that he/she has to stay on the branch in which the changes have to be applied. It's very handy incase the user makes commit bymistake in a wrong branch"
   }
 ]
