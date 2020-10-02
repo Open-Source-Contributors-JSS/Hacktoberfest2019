@@ -196,6 +196,10 @@
     "description": "This command shows the file differences which are not yet staged."
   },
   {
+    "title": "git clone",
+    "description": "This command creates a working copy of a local repository."
+  },
+  {
     "title": "git mv",
     "description": "Move or rename a file, a directory, or a symlink."
   },
