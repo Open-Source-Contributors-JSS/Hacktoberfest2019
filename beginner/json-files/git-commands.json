@@ -337,5 +337,13 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git commit --addfile",
+    "description": "This command is a convenient way to modify the most recent commit."
+  },
+  {
+  "title": "git branch new-branch",
+    "description": "Now that our new branch is created, we can switch to make sure that we are working on that branch by using the git checkout command"
   }
-]
+]  
