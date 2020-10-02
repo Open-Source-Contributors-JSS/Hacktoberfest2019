@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+  	"title": "git add -p",
+    "description": "Commits only a section of a file or hunks and not the entire thing.It allows for a more concise commit."
+  }
 ]
