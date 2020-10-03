@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git checkout",
+    "description": "Updates files in the working tree to match the version in the index or the specified tree. If no pathspec was given, git checkout will also update to set the specified branch as the current branch."
   }
 ]
