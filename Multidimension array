@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>Operators in JScript</title>
+<style>
+h2{font-family:script;border-bottom:3px dashed blue;color:blue;font-size:32px;}
+div{padding-left:50px;font-family:courier new;font-size:22px;line-height:30px;}
+</style>
+</head>
+<body>
+<script>
+c = [[1,'Rajesh',[75,85,78,47,68,95]],[2,'Anil',[66,48,59,57,87,89]],[3,'Kavitha',[88,75,95,87,89,46]],[4,'David',[12,21,10,15,13,14]],[5,'Tina',[12,14,10,21,15,16]],[6,'ramu',[67,89,30,82,94,50]]];
+
+document.write("<table width='70%' align='center' border='1' cellpadding='1' cellspacing='0'>");
+
+document.write("<tr><th colspan='11'>List of Student Marks Sheet</th></tr>");
+document.write("<tr><td rowspan='2'>Roll No</td><td rowspan='2'>Student Name</td><th colspan='6'>Student Marks</th><td rowspan='2'>Total</td><td rowspan='2'>Perc</td><td rowspan='2'>PASS/FAIL</td></tr>  ");
+document.write("<tr><td>Eng</td><td>Hin</td><td>It</td><td>Math</td><td>Sci</td><td>Soc</td></tr>");
+    
+for(i=0;i<c.length;i++)
+{
+	document.write("<tr>");
+	for(j=0;j<2;j++) 
+	{
+		document.write("<td>"+c[i][j]+"</td>");
+	}
+	for(k=0;k<c[i][j].length;k++)
+	{
+		document.write("<td>"+c[i][j][k]+"</td>");
+	}
+	
+	tot = eval(c[i][j].join('+'));
+	document.write("<td>"+tot+"</td>");
+	
+	perc = tot/6;
+	document.write("<td>"+Math.round(perc)+"</td>");
+	
+	status = (perc>=45)?"<b>PASS</b>":"<b style='color:red;'>FAIL</b>";
+	
+	document.write("<td>"+status+"</td>");
+	document.write("</tr>");
+}
+
+document.write("</table>");
+</script>
+
+
+</body>
+</html>
