@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git citool",
+    "description": "Graphical alternative to git-commit"
   }
 ]
