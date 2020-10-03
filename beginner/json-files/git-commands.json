@@ -338,8 +338,4 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
-  {
-    "title": "git config --global user.email "[email address]"",
-    "description": "set global email address for git"
-  }
 ]
