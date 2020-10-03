@@ -36,6 +36,10 @@
     "description": "The git branch command is used to make a new branch. It can also be used to delete or list the existing branches of your repository."
   },
   {
+    "title": "git clone",
+    "description": "The git clone command is used to clone any repository on your local machine. It is the one of the fundamental commands."
+  },
+  {
     "title": "git checkout",
     "description": "The git checkout command is used to switch the working branch by pointing the HEAD to the branch you choose for."
   },
