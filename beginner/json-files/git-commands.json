@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git add -u",
+    "description": "Only adds modifications to currently tracked files. Any untracked files are left unstaged."
   }
 ]
