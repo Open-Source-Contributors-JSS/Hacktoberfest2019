@@ -1,0 +1,84 @@
+
+.box-img{
+	height:100px;
+	width:100px;
+}
+
+
+.pblock{
+	size:120px;
+	padding:10px;
+	margin:10px;
+	background-color:#DCDCDC;
+	text-align:center;
+	font:arial;
+	color:black
+}
+
+.phead{
+	
+	color: black;
+	width:100%;
+	text-align:center;
+	padding:5px;
+	
+}
+/*.fpage{
+	background-color:black;
+	height:100%;
+}
+*/
+.block1{
+	padding:50px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}
+
+.button{
+	
+	size:25px;
+	background-color:#DCDCDC;
+	
+	border:solid red 2px;
+	width:200px;
+	height:50px;
+	cursor:pointer;
+}	
+
+.block2{
+	padding:50px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+	background-color:rgb(5, 3, 32);
+	border:solid rgb(255, 255, 255) 7px;
+	border-radius: 4px;
+}
+.button1{
+	
+	size:30px;
+	
+	background-color:rgb(70, 69, 73);
+	color:white;
+	font-family: sans-serif;
+	border:solid rgb(255, 255, 255) 2px;
+	width:100px;
+	height:50px;
+	border-radius: 4px;
+	
+	cursor:pointer;
+	
+}	
+
+body {
+	background-image: url('../img/wall.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+    
