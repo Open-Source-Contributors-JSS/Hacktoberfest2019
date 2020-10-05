@@ -1,4 +1,9 @@
 [
+
+   {
+    "title": "git commend",
+    "description": "The git tacks any staged file onto the last commit you created, re-using your exiting commit message"
+  },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
