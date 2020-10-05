@@ -1,5 +1,12 @@
 [
   {
+    "title": "git clone",
+    "description": "O Git clone é usado para clonar um repositorio a sua maquina, e assim voce poder colaborar com projetos."
+  },{
+    "title": "git init",
+    "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
+  },
+  {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
   },
