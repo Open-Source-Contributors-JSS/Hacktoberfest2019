@@ -338,4 +338,7 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+  "title":"git stash -u",
+  "description":"To save changes made when they’re not in a state to commit them to a repository. Git stash store the work and give a clean working directory. For instance, when working on a new feature that’s not complete, but an urgent bug needs attention."
 ]
