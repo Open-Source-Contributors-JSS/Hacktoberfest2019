@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git stash",
+    "description": "It is used to save the recent changes made without commiting them. It is useful when going to a previous commit without loosing lates changes"
   }
 ]
