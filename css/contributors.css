@@ -1,9 +1,10 @@
 .contributor-btn button{
     width: 8rem;
     color: #fff;
-    background-color: unset;
+    background-color:#5c2076e;
     background: linear-gradient(#152347, #5b1965);
     border-color: #fff;
+	
 }
 
 .contributor-btn button:focus{
