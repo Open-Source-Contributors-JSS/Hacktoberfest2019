@@ -1,5 +1,9 @@
 [
   {
+    "title": "git diff -staged",
+    "description": "This git command shows the difference between the files in the staging area and the latest version present."
+  }
+  {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
   },
