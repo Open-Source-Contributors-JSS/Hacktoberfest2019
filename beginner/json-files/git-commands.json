@@ -28,6 +28,10 @@
     "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
   },
   {
+    "title": "git branch",
+    "description": "To determine what branch the local repository is on, add a new branch(git branch -a), or delete a branch(git branch -d)."
+  },
+  {
     "title": "git tag",
     "description": "The git commit command provides Tags are ref's that point to specific points in git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
