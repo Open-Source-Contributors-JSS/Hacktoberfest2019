@@ -337,5 +337,10 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git notes",
+    "description": "It adds, removes, or reads notes attached to objects, without touching the objects themselves."
   }
+  
 ]
