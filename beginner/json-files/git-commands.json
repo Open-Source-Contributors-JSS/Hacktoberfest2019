@@ -28,6 +28,10 @@
     "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
   },
   {
+    "title": "git edit",
+    "description": "The git commit command helps edit description."
+  },
+  {
     "title": "git tag",
     "description": "The git commit command provides Tags are ref's that point to specific points in git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
   },
