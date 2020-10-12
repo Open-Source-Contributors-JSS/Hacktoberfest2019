@@ -338,4 +338,29 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git stash save  ",
+    "description": "temporarily stores all the modified tracked files"
+  },
+{
+    "title": "git stash pop  ",
+    "description":"restores the most recently stashed files"
+  },
+{
+    "title": "git stash list  ",
+    "description":"lists all stashed changesets"
+  },
+{
+    "title": "git stash drop  ",
+    "description":"discards the most recently stashed changeset"
+  },
+{
+    "title": "git checkout [branch name] ",
+    "description":"creates a new branch"
+  },
+{
+    "title": "git checkout –b [branch name] ",
+    "description":"creates a new branch and also switches to it"
+  }
+
 ]
