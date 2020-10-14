@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git branch -m old new",
+    "description": "Changes the Branch Name"
+  }
 ]
