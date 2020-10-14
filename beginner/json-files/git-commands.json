@@ -1,4 +1,6 @@
 [
+  {"title": "git pull",
+   "description": "This command fetches and merges changes on the remote server to your working directory"},
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
