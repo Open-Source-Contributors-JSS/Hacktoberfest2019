@@ -1,8 +1,8 @@
 [
   
   {
-    "title":"git add all ."
-    "description":"this command git add . adds all the changed files to the stagged area. this is the simplest way to add all files in stagged area at once."
+    "title": "git add all ."
+    "description": "this command git add . adds all the changed files to the stagged area. this is the simplest way to add all files in stagged area at once."
   }
   {
     "title": "git init",
