@@ -1,4 +1,9 @@
 [
+  
+  {
+    "title":"git add all ."
+    "description":"this command git add . adds all the changed files to the stagged area. this is the simplest way to add all files in stagged area at once."
+  }
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
