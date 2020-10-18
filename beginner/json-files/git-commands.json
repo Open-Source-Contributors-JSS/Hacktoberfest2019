@@ -24,6 +24,10 @@
     "description": "The git commit command provides a log of changes made throughout time."
   },
   {
+    "title": " git branch branchname",
+    "description": "The git branch branchname creates a new branch."
+  },
+  {
     "title": "git show",
     "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
   },
