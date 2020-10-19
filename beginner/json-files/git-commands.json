@@ -311,7 +311,8 @@
     "title": "git show",
     "description": "This command shows the metadata and content changes of the specified commit."
   },
-  { "title": "git remote",
+  {
+    "title": "git remote",
     "description": "This command is used to connect your local repository to the remote server."
   },
   {
@@ -337,5 +338,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git fetch",
+    "description": "check what is the latest update from the branch so you can pull the new code from the parent branch"
   }
 ]
