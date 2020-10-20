@@ -216,6 +216,10 @@
     "description": "This command manages the information recorded in the reflogs."
   },
   {
+    "title": "git stash",
+    "description": "It is used to record the current state of the working directory and the index, but want to go back to a clean working directory, so it amends a dirty working directory."
+  },
+  {
     "title": "git fetch",
     "description": "Gathers any commits from the target branch that do not exist in your current branch but does not merge them with your current branch."
   },
@@ -239,6 +243,10 @@
     "title": "git rebase -i HEAD~4",
     "description": "Starts an editor for the last 4 commits in your terminal."
   },
+  {
+    "title": "git it",
+    "description": "git it both initializes your repository and creates an empty root commit in one quick step."
+  }
   {
     "title": "git --help",
     "description": "To learn more about Git Commands in Detail."
