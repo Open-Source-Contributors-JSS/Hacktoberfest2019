@@ -12,7 +12,7 @@ typedef vector<int> vi;
 vi visit;
 vi predecessor;
 vector<vii> AdjList(100);
-vector<int> topologia;
+vector<int> topology;
 
 void dfs(int v){
     visit[v] = visited;
@@ -22,7 +22,7 @@ void dfs(int v){
             dfs(AdjList[v][i].first);
         }
     }
-    topologia.pb(v);
+    topology.pb(v);
 }
 
 int main(){
@@ -43,8 +43,8 @@ int main(){
         if (visit[i] != visited)
             dfs(i);
     }
-    for (int i = topologia.size() - 1; i >= 0; i--){
-        printf("%d ", topologia[i]);
+    for (int i = topology.size() - 1; i >= 0; i--){
+        printf("%d ", topology[i]);
     }
     printf("\n");
     return 0;
