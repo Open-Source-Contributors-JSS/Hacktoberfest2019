@@ -176,6 +176,10 @@
     "description": "Downloads all history from the repository bookmark."
   },
   {
+    "title": "git clone",
+    "description": "create a local working copy of an existing remote repository, use git clone to copy and download the repository to a computer."
+  },
+  {
     "title": "git merge",
     "description": "Git merge will combine multiple sequences of commits into one unified history. In the most frequent use cases, git merge is used to combine two branches."
   },
