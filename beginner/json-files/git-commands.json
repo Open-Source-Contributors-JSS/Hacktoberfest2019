@@ -337,5 +337,13 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git remote prune origin",
+    "description": "Remove branches that have been deleted on remote repo"
+  },
+  {
+    "title": "git branch --merged master | grep -v master | xargs -n 1 git branch -d",
+    "description": "Remove branches that have been merged with master"
+  } 
 ]
