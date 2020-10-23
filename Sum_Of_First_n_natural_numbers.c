@@ -7,10 +7,7 @@ int num, sum = 0;
 printf ("Enter the last natural number you want the sum of: ");
 //Sum = 1+2+3.....n
 scanf("%d", &num);
-for (int i = 0; i<=num; i++)
-{
-    sum +=i;
-}
+sum = num*(num+1)/2;
 printf ("Sum of first %d natural numbers is : %d\n", num, sum);
 return 0;
 }
