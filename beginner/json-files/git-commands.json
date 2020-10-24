@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git add",
+    "description": "Adds files in the to the staging area for Git. Before a file is available to commit to a repository, the file needs to be added to the Git index (staging area). There are a few different ways to use git add, by adding entire directories, specific files, or all unstaged files."
   }
 ]
