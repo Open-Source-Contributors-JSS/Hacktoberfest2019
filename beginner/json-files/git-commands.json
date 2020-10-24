@@ -337,5 +337,10 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title":"git fetch --all --prune",
+    "description": "This command is use to delete the ourdated branches."
   }
+
 ]
