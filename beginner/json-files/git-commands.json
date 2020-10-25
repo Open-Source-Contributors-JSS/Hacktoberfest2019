@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git fetch",
+    "description": "Download objects and refs from another repository"
   }
 ]
