@@ -12,6 +12,10 @@
     "description": "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
   },
   {
+    "title": "git push",
+    "description": "This command push changes from our local repository to the remote repository."
+  },
+  {
     "title": "git commit",
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
   },
