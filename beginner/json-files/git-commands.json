@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  { 
+    "title": "git log branchB..branchA",
+    "description": "This git command shows the commits on branchA that are not on branchB."
   }
 ]
