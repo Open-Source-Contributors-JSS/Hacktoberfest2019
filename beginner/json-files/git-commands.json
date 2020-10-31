@@ -27,6 +27,14 @@
     "title": "git show",
     "description": "The git commit command shows one or more objects (blobs, trees, tags and commits)."
   },
+    {
+    "title": "git commit",
+    "description": "The git commit command captures a snapshot of the project's currently staged changes."
+  },
+  {
+    "title": "git merge",
+    "description": "The git commit command joins two or more development histories together."
+  },
   {
     "title": "git tag",
     "description": "The git commit command provides Tags are ref's that point to specific points in git history. Tagging is generally used to capture a point in history that is used for a marked version release ."
