@@ -332,10 +332,15 @@
   },
   {
     "title": "git commit -m [message]",
-    "description": "This command to used to commit any changes to the local repository and the -m flag is used to provide a short description of the changes that are being committed."
+    "description": "This command to used adds all modified and new (untracked) files in the current directory and all subdirectories to the staging area (a.k.a. the index) and to commit any changes to the local repository and the -m flag is used to provide a short description of the changes that are being committed."
   },
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title" : "git commit -a -m [message]",
+    "description": "This command to used to commit any changes to the local repository and the -m flag is used to provide a short description of the changes that are being committed."
+  }
+
 ]
