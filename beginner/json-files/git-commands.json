@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  {
+    "title": "git commit -a -m [message]",
+    "description": "Automatically commits a tracked file with commit message [message] without any staging area"
+  },
 ]
