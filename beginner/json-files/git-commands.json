@@ -338,4 +338,9 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git rm --cached <file-name>",
+    "description": "stagging files"
+  }
+ 
 ]
