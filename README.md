@@ -4,7 +4,7 @@
 [![Join the chat at https://gitter.im/Open-Source-Contributors-JSS](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Open-Source-Contributors-JSS)&nbsp;
 [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://hacktoberfest.netlify.com/)&nbsp;
 [![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://hacktoberfest.netlify.com/)&nbsp;
-[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/README.md)&nbsp;
+[![Documentation Status](https://readthedocs.org/projects/ansicolortags/badge/?version=latest)](https://github.com/Open-Source-Contributors------JSS/Hacktoberfest2019/blob/master/README.md)&nbsp;
 
 [![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/0)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/0)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/1)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/1)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/2)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/2)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/3)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/3)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/4)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/4)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/5)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/5)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/6)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/6)[![](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/images/7)](https://sourcerer.io/fame/PragatiVerma18/Open-Source-Contributors-JSS/Hacktoberfest2019/links/7)
 
@@ -14,7 +14,7 @@ Happy Hacktober! :octocat: This is a beginner friendly repository made specifica
 🎯 If you are a beginner, and looking for your first contribution, we are here to help. Just append your favorite git command and its short description in our 
 ###### <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json" target="blank">https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/blob/master/beginner/json-files/git-commands.json</a> 
 and that counts as your first PR.
-#### CAUTION: The description must be under 60 words at max. 
+#### CAUTION: The description must be under 60 Words at max. 
 
 🎯 In case you are an intermediate or advanced level programmer or developer, we have got you covered too!! Step to our <a href="https://github.com/Open-Source-Contributors-JSS/Hacktoberfest2019/tree/master/Intermediate" target="blank"> intermediate folder</a> and make contributions as per as your interests.
 
@@ -181,7 +181,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ## Hurray!!! You just got closer to completing your hacktoberfest challenge. 😃
 
-## Happy?? Star ⭐ this Repo. 🤩
+## Happy?? Star ⭐ this Repo.
 
 ## Check your Hacktoberfest Contribution status at:
 <a href="https://hacktoberfest.digitalocean.com/profile" target="blank">https://hacktoberfest.digitalocean.com/profile</a>
