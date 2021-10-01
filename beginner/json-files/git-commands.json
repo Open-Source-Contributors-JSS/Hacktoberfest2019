@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+   {
+    "title": "git status",
+    "description": "Displays the state of the working directory and the staged snapshot"
   }
 ]
