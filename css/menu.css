@@ -8,6 +8,8 @@ a:hover{
 }
 
 
+
+
 .vl {
   border-left: 3px solid #49A3FF;
   height: 250px;
@@ -226,7 +228,7 @@ color: #EC3FD2 ;
   padding: 1rem;
 }
 
-.menu-wrap .menu > div > div > ul > li > a {
+.menu-wrap .menu>div>div>ul>li>a {
   color: white;
   text-decoration: none;
   transition: color 0.6s ease;
