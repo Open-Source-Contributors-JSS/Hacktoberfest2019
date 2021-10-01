@@ -7,6 +7,7 @@ a:hover{
   text-decoration: none !important;
 }
 
+
 .vl {
   border-left: 3px solid #49A3FF;
   height: 250px;
@@ -16,6 +17,7 @@ a:hover{
   top: 0;
 }
 
+
 @media screen and (max-width: 480px) {
 .vl{
   display: none;
@@ -24,6 +26,7 @@ a:hover{
 .menu-wrap {
   font-size: 20px !important;
 }
+  
 
 .menu-wrap .toggler {
   width: 30px !important;
@@ -238,3 +241,5 @@ color: #EC3FD2 ;
     margin-top: 50px !important;
   }
 }
+
+
