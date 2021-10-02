@@ -336,6 +336,6 @@
   },
   {
     "title": "git rev-list --count master",
-    "description": "count the number of commits on a branch"
+    "description": "count the number of commits on a branch"  
   }
 ]
