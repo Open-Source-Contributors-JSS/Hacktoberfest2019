@@ -173,7 +173,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ##### ` git merge upstream/master `
 
-### 8. Create Pull Request
+### 8. Create Pull Request.
 
 ###### At this point, you are ready to make a pull request to the original repository.
 
