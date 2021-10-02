@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git reset --soft HEAD~1",
+    "description": "will remove the last commit from the current branch, but the file changes will stay in your working tree. Also the changes will stay on your index, so following with a git commit will create a commit with the exact same changes as the commit you 'removed' before"
   }
 ]
