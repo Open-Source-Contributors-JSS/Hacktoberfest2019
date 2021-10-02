@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git remote add [name] [url]",
+    "description": "Adds connection to the [url] of remote repository with name as [name]"
   }
 ]
