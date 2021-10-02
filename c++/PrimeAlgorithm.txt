@@ -1,0 +1,16 @@
+
+def prime(i):
+    for j in range(2,i):
+        if i%j == 0:
+            return 0
+    return 1
+    
+n = int(input('Enter the range: \n'))
+primes = []
+for i in range(2,n):
+    a = prime(i)
+    if a == 1:
+        primes.append(i)
+        
+for i in primes:
+    print(i,end=" ")

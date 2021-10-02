@@ -1,0 +1,21 @@
+n = int(input('Enter the number of elements\n'))
+
+l = []
+for i in range(n):
+    l.append(int(input()))
+    
+
+x = int(input('Enter the value to be searched for\n'))
+flag = 0
+
+
+for i in l:
+    if i == x:
+        flag = 1
+        break
+    
+if flag == 0:
+    print("Element not found")
+    
+else:
+    print('Element found')

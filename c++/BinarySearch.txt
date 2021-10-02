@@ -1,0 +1,38 @@
+
+def binarySearch(List,low,high,n):
+    length = len(List)
+    
+    if high >= low:
+        
+        mid = (low+high)//2
+        
+        if List[mid] == n :
+            return mid
+            
+        elif List[mid]>x:
+            return binarySearch(List,low,mid -1,n)
+            
+        else:
+            return binarySearch(List,mid+1,high,n)
+            
+    else:
+        return -1
+            
+    
+n = int(input('Enter the number of elements\n'))
+
+l = []
+for i in range(n):
+    l.append(int(input()))
+    
+
+x = int(input('Enter the value to be searched for\n'))
+    
+result = binarySearch(l,0,len(l)-1,x)
+
+if result != -1:
+    print('Element found at index:',result)
+else:
+    print('Element not found')
+
+    

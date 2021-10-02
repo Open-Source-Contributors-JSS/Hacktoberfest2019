@@ -1,0 +1,22 @@
+
+#find primes in a given range
+
+non_primes = []
+primes = []
+def comp(i,b,c):
+    p  = int(i**2)
+    for j in range(b):
+        if j>=p and j%i == 0:
+            c.append(j)
+            
+    return c
+n = int(input('Enter the range : \n'))
+
+for i in range(2,n+1):
+    
+    non_primes = comp(i,n+1,primes)
+    
+primes = set(range(2,n+1))
+non_primes = set(non_primes)
+
+print(primes - non_primes)

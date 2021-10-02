@@ -1,0 +1,19 @@
+#selection sort code
+def selectonSort(A):
+    for i in range(len(A)):
+        min_idx = i
+        for j in range(i+1, len(A)):
+            if A[min_idx] > A[j]:
+                min_idx = j
+              
+        A[i], A[min_idx] = A[min_idx], A[i]
+        
+    return A
+
+A = [942, 25, 12, 456, 123,546]
+
+# Driver code to test above
+B = selectonSort(A)
+print ("Sorted array")
+for i in range(len(B)):
+    print("%d" %B[i]), 
