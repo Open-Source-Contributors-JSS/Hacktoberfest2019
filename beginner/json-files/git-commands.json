@@ -8,6 +8,10 @@
     "description": "The git clone command creates a working copy of a local repository."
   },
   {
+    "title": "git init",
+    "description": "git init is one way to start a new project with Git.To start a repository, use either git init or git clone - not both. To initialize a repository, Git creates a hidden directory called . git"
+  },
+  {
     "title": "git add",
     "description": "The git add command adds a change in the working directory to the staging area. It tells Git that you want to include updates to a particular file in the next commit."
   },
