@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <input id="heightInput" placeholder="height (centimeters)" type="number">  </input>
+    <input id="weightInput" placeholder="weight (kilograms)" type="number">  </input>
+    <button onclick="calculate()">Calculate</button>
+    <div id="result" 
+        style="
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            margin-left: 40%;
+            margin-right: 40%; 
+            background-color: azure;
+            border-radius: 3;"> </div>
+    <script>
+        function calculate() {
+            h = document.getElementById("heightInput").value  
+            w = document.getElementById("weightInput").value
+            r = (w/(h**2))*10000
+            document.getElementById("result").innerText = r
+            
+            if( r < 18.5){
+                console.log("underweight")
+                document.body.style.backgroundColor = "yellow";
+                document.getElementById("result").innerText += " underweight" 
+            }else if (r >= 18.5 && r < 25) {
+                console.log("normal")
+                document.body.style.backgroundColor = "green";
+
+                document.getElementById("result").innerText += " normal" 
+            }else if (r >= 25 && r < 30) {
+                console.log("overwight")
+                document.body.style.backgroundColor = "orange";
+                document.getElementById("result").innerText += " overwight" 
+                
+            }else if (r >= 30) {
+                console.log("obese")
+                document.body.style.backgroundColor = "red";
+                document.getElementById("result").innerText += " obese" 
+            }
+                 
+            
+        }
+        
+        
+    </script>
+</body>
+</html>
