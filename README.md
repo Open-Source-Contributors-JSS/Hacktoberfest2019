@@ -158,7 +158,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ###### In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
 
-### 7. Sync the Fork
+### 7. Sync the Fork -
 
 ###### Once you have configured a remote that references the upstream and original repository on GitHub, you are ready to sync your fork of the repository to keep it up-to-date.
 ###### To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
@@ -173,7 +173,7 @@ https://github.com/your-username/Hacktoberfest2019.git
 
 ##### ` git merge upstream/master `
 
-### 8. Create Pull Request
+### 8. Create Pull Request -
 
 ###### At this point, you are ready to make a pull request to the original repository.
 
