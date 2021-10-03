@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+    {
+    "title": "git commit -am",
+    "description": "The git commit -am command allows you to add all your files and add a commit message all in one line so you do not have to type twice."
+  },
 ]
