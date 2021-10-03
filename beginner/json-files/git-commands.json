@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git status",
+    "description": "it tells what folder/files are ready to be commited and which are not to be"
   }
 ]
