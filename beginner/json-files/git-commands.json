@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  }, 
+  { "title": "git cat-file –p",
+    "description": "This command is used to view the type and size information of a repository object and the -p along with the SHA-1 objects value, views the information of a specific object."
   }
 ]
+
