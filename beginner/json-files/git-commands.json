@@ -337,5 +337,7 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
-]
+  },
+  {
+    "title": "git diff [source branch] [target branch]",
+    "description": "review changes before merging"
