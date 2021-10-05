@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title":"git stash drop",
+    "description":"discard  the changes from top of stash stack"
   }
 ]
