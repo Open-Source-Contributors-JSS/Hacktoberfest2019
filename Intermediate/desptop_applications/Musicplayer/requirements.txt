@@ -1,0 +1,9 @@
+certifi==2021.5.30
+charset-normalizer==2.0.4
+easygui==0.98.2
+idna==3.2
+mutagen==1.45.1
+Pillow==8.3.1
+pygame==2.0.1
+requests==2.26.0
+urllib3==1.26.6
