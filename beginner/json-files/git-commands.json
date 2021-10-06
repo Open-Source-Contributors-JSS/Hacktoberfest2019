@@ -237,66 +237,6 @@
   },
   { "title": "git --help",
     "description": "To learn more about Git Commands in Detail."
-    },
-  {
-    "title": "git checkout -b new-branch",
-    "description": "creates a new branch called 'new-branch' and then switch to the newly created branch."
-  },
-   { 
-      "title":"git log --summary",
-      "description":"Provide a more detailed description of changes occurred to the repository."
-   },   
-  {
-    "title": "git commit --amend",
-    "description": "This command is a convenient way to modify the most recent commit. It can also be used to simply edit the previous commit message without changing its snapshot"
-  },
-    {
-    "title": "git config",
-    "description": "This command sets the author name and email address respectively to be used with your commits."
-  },
-    {
-     "title": "git commit --amend",
-     "description": "Change the message of the last commit."
-  },
-    {
-  	"title": "git please",
-  	"description": "This is an alias for command- $ git config --global alias.please 'push --force-with-lease' "
-  },
-    {
-    "title": "git checkout -b",
-    "description": "The git checkout command is used create a branch and s switch the working branch by pointing the HEAD to the branch you choose for."
-  },
-  {
-    "title": "git squash",
-    "description": "Squashing a commit means, to move the changes introduced in said commit into its parent so that you end up with one commit instead of two (or more)."
-  },
-  {
-    "title": "git log --graph",
-    "description": "This command can be used to show the commit log in graph format"
-  },
-  {
-    "title": "git config",
-    "description": "The git config command configures the author name and email address to be used with your commits."
-  },
-  {
-    "title": "git reflog",
-    "description": "This command allows you to list all the commands that were executed and then recover particular commits."
-  },
-  { "title": "git fetch --all --prune",
-    "description": "Removes any remote-tracking references that no longer exist on the remote and fetches all remotes."
-  },
-  { "title": "git log --follow [file]",
-    "description": "Lists version history for a file, including renames"
-  },
-  { "title": "git cherry",
-    "description": "Let you check whether your branch changes are present in some other branch or not"
-  },
-  { "title": "git config --list",
-    "description": "Will list all configurations currently visible (in the current directory)"
-    },
-  {
-    "title": "git-secret",
-    "description": "This command encrypts files and stores them inside the git repository, so you will have all the changes for every commit."
-  }
+    }
 ]
 
