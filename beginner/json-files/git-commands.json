@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title":"git log --<limit>",
+    "description":"Limit number of commits by <limit>. E.g. git log --3 will limit to 3 commits. "
   }
 ]
