@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git shortlog",
+    "description": "shows you a summary from the Git log command, and is helpful if you are just interested in the short summary" 
   }
 ]
