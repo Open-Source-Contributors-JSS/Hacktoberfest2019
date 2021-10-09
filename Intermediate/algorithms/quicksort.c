@@ -48,11 +48,11 @@ void printArray(int array[], int size)
 int main() 
 { 
 	int array[10],n=10;
-	printf("Enter elements:");
+	printf("Enter elements: /n ");
 	for( int i=0;i<10;i++)
 	scanf("%d",&array[i]);
 	quickSort(array, 0, n-1); 
 	printf("Sorted array: n"); 
-	printArray(array, n); 
+printArray(array, n); 
 	return 0; 
 } 
