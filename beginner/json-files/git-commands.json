@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+{
+    "title": "git log --summary",
+    "description": "Provide a more detailed description of changes occurred to the repository."
+  }
 ]
