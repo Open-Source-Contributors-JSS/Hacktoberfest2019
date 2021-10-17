@@ -337,5 +337,7 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
-  }
+  },
+  "title": "git checkout",
+  "description": "ou can use the checkout command to switch the branch that you are currently working on."
 ]
