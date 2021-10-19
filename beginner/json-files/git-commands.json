@@ -2,7 +2,7 @@
   {
     "title": "git stash list",
     "description": "The git stash list command lists all the stash you've hidden in your basement. Jk, this command lists all stashed changesets."
-  }.
+  },
   {
     "title": "git init",
     "description": "The git init command creates a new Git repository. It can be used to convert an existing, unversioned project to a Git repository or initialize a new, empty repository."
