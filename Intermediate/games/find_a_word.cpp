@@ -1,3 +1,4 @@
+//This code is for "find a word" using c++
 #include<stdio.h>
 
 #include<conio.h>
