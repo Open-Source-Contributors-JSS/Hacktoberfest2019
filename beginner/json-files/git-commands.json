@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git config --global alias [your preferred text]'commit -m' ",
+    "description": "Allows you to change the commit command to your preferred text"
+  }
 ]
