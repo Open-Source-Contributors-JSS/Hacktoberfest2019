@@ -337,5 +337,17 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git commit —amend",
+    "description": "There is a command out there that allows for us to fix that typo or mislabeled commit message."
+  },
+  {
+    "title": "git reset —soft HEAD~1",
+    "description": "Remove the last commit from the current branch, but keep the changes!"
+  },
+  {
+    "title": "git cherry-pick",
+    "description": "Bring an entire commit from one branch into another."
   }
 ]
