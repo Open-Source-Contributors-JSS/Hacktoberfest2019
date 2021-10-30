@@ -5,7 +5,7 @@
 int main() {
 int num, sum = 0;
 printf ("Enter the last natural number you want the sum of: ");
-//Sum = 1+2+3.....n
+//Sum = 1+2+3.....n sum can also be evaluated as n * (n+1)/2
 scanf("%d", &num);
 for (int i = 0; i<=num; i++)
 {
