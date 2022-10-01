@@ -108,6 +108,10 @@
     "description": "This command moves or combines a sequence of commits to a new base commit"
   },
   {
+    "title": "git rebase -i",
+    "description": "This command lets you use all the benefits of rebase and also lets you add, edit or delete commits along the way."
+  },
+  {
     "title": "git reset",
     "description": "unstage a file while retaining the changes in working directory."
   },
