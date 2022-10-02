@@ -4,6 +4,7 @@
 :root {
   --primary-color: #005e9b;;
   --secondary-color: #5bcbf0;
+  --back-color: #ffffff;
   --shadow-box: rgba(65, 75, 84 , .35);
   --text-color: white;
 }
@@ -78,6 +79,7 @@ span {
 
 .navbar {
   background: none;
+  color: var(--back-color);
 }
 
 .navbar a {
