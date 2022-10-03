@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "git rename branch",
+    "description": "This command allows you to rename your branch to fit its proper usecase, incase it was not named properly before."
   }
 ]
