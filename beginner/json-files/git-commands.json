@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git clone [git repo address["
+    "description": "This command clones a repository unto your machine"    
+  }
 ]
