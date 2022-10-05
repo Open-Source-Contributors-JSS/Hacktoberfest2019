@@ -16,6 +16,10 @@
     "description": "The git commit command captures a snapshot of the project's currently staged changes."
   },
   {
+    "title ": "git fetch",
+     "description": "Fetching downloads a branch from another repository, along with all of its associated commits and files. But, it doesn't try to integrate anything into your local repository. ."
+  },
+  {
     "title": "git merge",
     "description": "The git commit command joins two or more development histories together."
   },
