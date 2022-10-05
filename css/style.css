@@ -51,7 +51,7 @@ span {
 }
 
 .header img {
-  height: 420px;
+  height: 400px;
 }
 
 .header-content {
@@ -133,7 +133,7 @@ a.navbar-item:hover {
 }
 
 .logo-2018 {
-  height: 500px;
+  height: 490px;
 }
 
 .about-hacktoberfest,
@@ -168,7 +168,7 @@ a.navbar-item:hover {
 }
 
 footer li {
-  color: white;
+  color: rgb(214, 214, 214);
 }
 
 footer p {
