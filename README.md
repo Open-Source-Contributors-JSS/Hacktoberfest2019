@@ -25,7 +25,7 @@ and that counts as your first PR.
 #### Read Here or Refer to <a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide" target="blank">  https://www.digitalocean.com/community/tutorials/how-to-use-git-a-reference-guide </a> for more.
 
 # Instructions :
-### 1. Register yourself for Hacktoberfest 2019
+### 1. Register yourself for Hacktoberfest 2019 !!
 ###### Link to register: https://hacktoberfest.digitalocean.com/
 
 ![register](https://user-images.githubusercontent.com/42115530/65821155-7f724600-e24f-11e9-90ed-8a956b0a854a.JPG)
