@@ -337,5 +337,9 @@
   {
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
+  },
+  {
+    "title": "pwd",
+    "description" : "This tells you the entire path and your current folder location. It acts like a compass at times when you get stuck."
   }
 ]
