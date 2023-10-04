@@ -4,6 +4,7 @@
 
 int main() {
 int num, sum = 0;
+print("Sum of Number");
 printf ("Enter the last natural number you want the sum of: ");
 //Sum = 1+2+3.....n
 scanf("%d", &num);
