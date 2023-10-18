@@ -338,4 +338,8 @@
     "title": "git rev-list --count master",
     "description": "count the number of commits on a branch"
   }
+  {
+    "title": "git branch",
+    "description": "The git branch command is used to make a new branch. It can also be used to delete or list the existing branches of your repository."
+  },
 ]
