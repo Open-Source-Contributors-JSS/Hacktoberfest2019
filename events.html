@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>
+doc</title>
+</head>
+<body>
+<p id="demo">hello</p>
+<p id="pro">hii</p>
+<button id="btn">click</button>
+<script>
+function fun(){
+document.getElementById("demo").innerHTML="hello pes";
+document.getElementById("demo").style.color="blue";
+}
+function fun1(){
+document.getElementById("pro").style.color="blue";
+}
+var btn=document.getElementById("btn");
+btn.addEventListener("click",fun);
+btn.addEventListener("click",fun1);
+</script>
+</body>
+</html>
